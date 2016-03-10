@@ -1,20 +1,20 @@
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    1
 
        1                    ;******************************************************************************
-       2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.5 *
-       3                    ;* Date/Time created: Thu Mar 10 14:11:46 2016                                *
+       2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
+       3                    ;* Date/Time created: Thu Mar 10 16:19:13 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
        7                    
        8                    $C$DW$CU        .dwtag  DW_TAG_compile_unit
        9                            .dwattr $C$DW$CU, DW_AT_name("../Tasks/Task_Blinky.c")
-      10                            .dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v5.2.5 Copyright (c) 1996-2015 Te
+      10                            .dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v5.2.2 Copyright (c) 1996-2015 Te
       11                            .dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\FreeRTOS823_3
+      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proje
       13                    
       14                    $C$DW$1 .dwtag  DW_TAG_subprogram, DW_AT_name("SysCtlPeripheralEnable")
       15                            .dwattr $C$DW$1, DW_AT_TI_symbol_name("SysCtlPeripheralEnable")
@@ -58,7 +58,7 @@ Task_Blinky.asm                                                      PAGE    1
       53                            .dwattr $C$DW$9, DW_AT_type(*$C$DW$T$24)
       54                    $C$DW$10        .dwtag  DW_TAG_formal_parameter
       55                            .dwattr $C$DW$10, DW_AT_type(*$C$DW$T$19)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    2
@@ -87,7 +87,7 @@ Task_Blinky.asm                                                      PAGE    2
       77                            .dwattr $C$DW$15, DW_AT_declaration
       78                            .dwattr $C$DW$15, DW_AT_external
       79                            .dwattr $C$DW$15, DW_AT_decl_file("C:/TI_CodeComposer/TivaWare/driverlib/gpio.h")
-      80                            .dwattr $C$DW$15, DW_AT_decl_line(0xa9)
+      80                            .dwattr $C$DW$15, DW_AT_decl_line(0xa7)
       81                            .dwattr $C$DW$15, DW_AT_decl_column(0x0d)
       82                    $C$DW$16        .dwtag  DW_TAG_formal_parameter
       83                            .dwattr $C$DW$16, DW_AT_type(*$C$DW$T$24)
@@ -100,14 +100,14 @@ Task_Blinky.asm                                                      PAGE    2
       90                            .dwattr $C$DW$18, DW_AT_TI_symbol_name("vTaskDelay")
       91                            .dwattr $C$DW$18, DW_AT_declaration
       92                            .dwattr $C$DW$18, DW_AT_external
-      93                            .dwattr $C$DW$18, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+      93                            .dwattr $C$DW$18, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
       94                            .dwattr $C$DW$18, DW_AT_decl_line(0x22b)
       95                            .dwattr $C$DW$18, DW_AT_decl_column(0x06)
       96                    $C$DW$19        .dwtag  DW_TAG_formal_parameter
       97                            .dwattr $C$DW$19, DW_AT_type(*$C$DW$T$68)
       98                            .dwendtag $C$DW$18
       99                    
-     100                    ;       C:\TI_CodeComposer\ccsv6\tools\compiler\ti-cgt-arm_5.2.5\bin\armacpia.exe -@C:\\Users\\gminden
+     100                    ;       C:\TI_CodeComposer\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armacpia.exe -@C:\\Users\\PDODDA~
      101 00000000                   .sect   ".text"
      102                            .clink
      103                            .thumbfunc Task_Blink_LED_D1
@@ -118,7 +118,7 @@ Task_Blinky.asm                                                      PAGE    2
      108                            .dwattr $C$DW$20, DW_AT_low_pc(Task_Blink_LED_D1)
      109                            .dwattr $C$DW$20, DW_AT_high_pc(0x00)
      110                            .dwattr $C$DW$20, DW_AT_TI_symbol_name("Task_Blink_LED_D1")
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    3
@@ -178,7 +178,7 @@ Task_Blinky.asm                                                      PAGE    3
      163                            ; CALL OCCURS {SysCtlPeripheralEnable }  ; [] |35| 
      164                            .dwpsn  file "../Tasks/Task_Blinky.c",line 40,column 5,is_stmt,isa 1
      165 0000000a 480F              LDR       A1, $C$CON2           ; [DPU_3_PIPE] |40|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    4
@@ -238,7 +238,7 @@ Task_Blinky.asm                                                      PAGE    4
      218                            ; CALL OCCURS {GPIOPinWrite }    ; [] |50| 
      219                            .dwpsn  file "../Tasks/Task_Blinky.c",line 52,column 3,is_stmt,isa 1
      220 0000003c 2032              MOVS      A1, #50               ; [DPU_3_PIPE] |52|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    5
@@ -298,104 +298,104 @@ Task_Blinky.asm                                                      PAGE    5
      273                    $C$DW$T$49      .dwtag  DW_TAG_enumeration_type
      274                            .dwattr $C$DW$T$49, DW_AT_byte_size(0x01)
      275                    $C$DW$30        .dwtag  DW_TAG_enumerator, DW_AT_name("eRunning"), DW_AT_const_value(0x00)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    6
 
-     276                            .dwattr $C$DW$30, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     276                            .dwattr $C$DW$30, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      277                            .dwattr $C$DW$30, DW_AT_decl_line(0x72)
      278                            .dwattr $C$DW$30, DW_AT_decl_column(0x02)
      279                    $C$DW$31        .dwtag  DW_TAG_enumerator, DW_AT_name("eReady"), DW_AT_const_value(0x01)
-     280                            .dwattr $C$DW$31, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     280                            .dwattr $C$DW$31, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      281                            .dwattr $C$DW$31, DW_AT_decl_line(0x73)
      282                            .dwattr $C$DW$31, DW_AT_decl_column(0x02)
      283                    $C$DW$32        .dwtag  DW_TAG_enumerator, DW_AT_name("eBlocked"), DW_AT_const_value(0x02)
-     284                            .dwattr $C$DW$32, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     284                            .dwattr $C$DW$32, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      285                            .dwattr $C$DW$32, DW_AT_decl_line(0x74)
      286                            .dwattr $C$DW$32, DW_AT_decl_column(0x02)
      287                    $C$DW$33        .dwtag  DW_TAG_enumerator, DW_AT_name("eSuspended"), DW_AT_const_value(0x03)
-     288                            .dwattr $C$DW$33, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     288                            .dwattr $C$DW$33, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      289                            .dwattr $C$DW$33, DW_AT_decl_line(0x75)
      290                            .dwattr $C$DW$33, DW_AT_decl_column(0x02)
      291                    $C$DW$34        .dwtag  DW_TAG_enumerator, DW_AT_name("eDeleted"), DW_AT_const_value(0x04)
-     292                            .dwattr $C$DW$34, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     292                            .dwattr $C$DW$34, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      293                            .dwattr $C$DW$34, DW_AT_decl_line(0x76)
      294                            .dwattr $C$DW$34, DW_AT_decl_column(0x02)
      295                            .dwendtag $C$DW$T$49
      296                    
-     297                            .dwattr $C$DW$T$49, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     297                            .dwattr $C$DW$T$49, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      298                            .dwattr $C$DW$T$49, DW_AT_decl_line(0x71)
      299                            .dwattr $C$DW$T$49, DW_AT_decl_column(0x01)
      300                    $C$DW$T$50      .dwtag  DW_TAG_typedef, DW_AT_name("eTaskState")
      301                            .dwattr $C$DW$T$50, DW_AT_type(*$C$DW$T$49)
      302                            .dwattr $C$DW$T$50, DW_AT_language(DW_LANG_C)
-     303                            .dwattr $C$DW$T$50, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     303                            .dwattr $C$DW$T$50, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      304                            .dwattr $C$DW$T$50, DW_AT_decl_line(0x77)
      305                            .dwattr $C$DW$T$50, DW_AT_decl_column(0x03)
      306                    
      307                    $C$DW$T$55      .dwtag  DW_TAG_enumeration_type
      308                            .dwattr $C$DW$T$55, DW_AT_byte_size(0x01)
      309                    $C$DW$35        .dwtag  DW_TAG_enumerator, DW_AT_name("eNoAction"), DW_AT_const_value(0x00)
-     310                            .dwattr $C$DW$35, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     310                            .dwattr $C$DW$35, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      311                            .dwattr $C$DW$35, DW_AT_decl_line(0x7c)
      312                            .dwattr $C$DW$35, DW_AT_decl_column(0x02)
      313                    $C$DW$36        .dwtag  DW_TAG_enumerator, DW_AT_name("eSetBits"), DW_AT_const_value(0x01)
-     314                            .dwattr $C$DW$36, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     314                            .dwattr $C$DW$36, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      315                            .dwattr $C$DW$36, DW_AT_decl_line(0x7d)
      316                            .dwattr $C$DW$36, DW_AT_decl_column(0x02)
      317                    $C$DW$37        .dwtag  DW_TAG_enumerator, DW_AT_name("eIncrement"), DW_AT_const_value(0x02)
-     318                            .dwattr $C$DW$37, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     318                            .dwattr $C$DW$37, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      319                            .dwattr $C$DW$37, DW_AT_decl_line(0x7e)
      320                            .dwattr $C$DW$37, DW_AT_decl_column(0x02)
      321                    $C$DW$38        .dwtag  DW_TAG_enumerator, DW_AT_name("eSetValueWithOverwrite"), DW_AT_const_value(0x0
-     322                            .dwattr $C$DW$38, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     322                            .dwattr $C$DW$38, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      323                            .dwattr $C$DW$38, DW_AT_decl_line(0x7f)
      324                            .dwattr $C$DW$38, DW_AT_decl_column(0x02)
      325                    $C$DW$39        .dwtag  DW_TAG_enumerator, DW_AT_name("eSetValueWithoutOverwrite"), DW_AT_const_value(
-     326                            .dwattr $C$DW$39, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     326                            .dwattr $C$DW$39, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      327                            .dwattr $C$DW$39, DW_AT_decl_line(0x80)
      328                            .dwattr $C$DW$39, DW_AT_decl_column(0x02)
      329                            .dwendtag $C$DW$T$55
      330                    
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    7
 
-     331                            .dwattr $C$DW$T$55, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     331                            .dwattr $C$DW$T$55, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      332                            .dwattr $C$DW$T$55, DW_AT_decl_line(0x7b)
      333                            .dwattr $C$DW$T$55, DW_AT_decl_column(0x01)
      334                    $C$DW$T$56      .dwtag  DW_TAG_typedef, DW_AT_name("eNotifyAction")
      335                            .dwattr $C$DW$T$56, DW_AT_type(*$C$DW$T$55)
      336                            .dwattr $C$DW$T$56, DW_AT_language(DW_LANG_C)
-     337                            .dwattr $C$DW$T$56, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     337                            .dwattr $C$DW$T$56, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      338                            .dwattr $C$DW$T$56, DW_AT_decl_line(0x81)
      339                            .dwattr $C$DW$T$56, DW_AT_decl_column(0x03)
      340                    
      341                    $C$DW$T$57      .dwtag  DW_TAG_enumeration_type
      342                            .dwattr $C$DW$T$57, DW_AT_byte_size(0x01)
      343                    $C$DW$40        .dwtag  DW_TAG_enumerator, DW_AT_name("eAbortSleep"), DW_AT_const_value(0x00)
-     344                            .dwattr $C$DW$40, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     344                            .dwattr $C$DW$40, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      345                            .dwattr $C$DW$40, DW_AT_decl_line(0xb5)
      346                            .dwattr $C$DW$40, DW_AT_decl_column(0x02)
      347                    $C$DW$41        .dwtag  DW_TAG_enumerator, DW_AT_name("eStandardSleep"), DW_AT_const_value(0x01)
-     348                            .dwattr $C$DW$41, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     348                            .dwattr $C$DW$41, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      349                            .dwattr $C$DW$41, DW_AT_decl_line(0xb6)
      350                            .dwattr $C$DW$41, DW_AT_decl_column(0x02)
      351                    $C$DW$42        .dwtag  DW_TAG_enumerator, DW_AT_name("eNoTasksWaitingTimeout"), DW_AT_const_value(0x0
-     352                            .dwattr $C$DW$42, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     352                            .dwattr $C$DW$42, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      353                            .dwattr $C$DW$42, DW_AT_decl_line(0xb7)
      354                            .dwattr $C$DW$42, DW_AT_decl_column(0x02)
      355                            .dwendtag $C$DW$T$57
      356                    
-     357                            .dwattr $C$DW$T$57, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     357                            .dwattr $C$DW$T$57, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      358                            .dwattr $C$DW$T$57, DW_AT_decl_line(0xb4)
      359                            .dwattr $C$DW$T$57, DW_AT_decl_column(0x01)
      360                    $C$DW$T$58      .dwtag  DW_TAG_typedef, DW_AT_name("eSleepModeStatus")
      361                            .dwattr $C$DW$T$58, DW_AT_type(*$C$DW$T$57)
      362                            .dwattr $C$DW$T$58, DW_AT_language(DW_LANG_C)
-     363                            .dwattr $C$DW$T$58, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     363                            .dwattr $C$DW$T$58, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      364                            .dwattr $C$DW$T$58, DW_AT_decl_line(0xb8)
      365                            .dwattr $C$DW$T$58, DW_AT_decl_column(0x03)
      366                    
@@ -408,7 +408,7 @@ Task_Blinky.asm                                                      PAGE    7
      373                            .dwattr $C$DW$43, DW_AT_TI_symbol_name("pucStartAddress")
      374                            .dwattr $C$DW$43, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      375                            .dwattr $C$DW$43, DW_AT_accessibility(DW_ACCESS_public)
-     376                            .dwattr $C$DW$43, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     376                            .dwattr $C$DW$43, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      377                            .dwattr $C$DW$43, DW_AT_decl_line(0x96)
      378                            .dwattr $C$DW$43, DW_AT_decl_column(0x0b)
      379                    $C$DW$44        .dwtag  DW_TAG_member
@@ -417,8 +417,8 @@ Task_Blinky.asm                                                      PAGE    7
      382                            .dwattr $C$DW$44, DW_AT_TI_symbol_name("xSizeInBytes")
      383                            .dwattr $C$DW$44, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
      384                            .dwattr $C$DW$44, DW_AT_accessibility(DW_ACCESS_public)
-     385                            .dwattr $C$DW$44, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+     385                            .dwattr $C$DW$44, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    8
@@ -427,13 +427,13 @@ Task_Blinky.asm                                                      PAGE    8
      387                            .dwattr $C$DW$44, DW_AT_decl_column(0x09)
      388                            .dwendtag $C$DW$T$22
      389                    
-     390                            .dwattr $C$DW$T$22, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+     390                            .dwattr $C$DW$T$22, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
      391                            .dwattr $C$DW$T$22, DW_AT_decl_line(0x94)
      392                            .dwattr $C$DW$T$22, DW_AT_decl_column(0x10)
      393                    $C$DW$T$59      .dwtag  DW_TAG_typedef, DW_AT_name("HeapRegion_t")
      394                            .dwattr $C$DW$T$59, DW_AT_type(*$C$DW$T$22)
      395                            .dwattr $C$DW$T$59, DW_AT_language(DW_LANG_C)
-     396                            .dwattr $C$DW$T$59, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+     396                            .dwattr $C$DW$T$59, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
      397                            .dwattr $C$DW$T$59, DW_AT_decl_line(0x98)
      398                            .dwattr $C$DW$T$59, DW_AT_decl_column(0x03)
      399                    $C$DW$T$2       .dwtag  DW_TAG_unspecified_type
@@ -444,7 +444,7 @@ Task_Blinky.asm                                                      PAGE    8
      404                    $C$DW$T$48      .dwtag  DW_TAG_typedef, DW_AT_name("TaskHandle_t")
      405                            .dwattr $C$DW$T$48, DW_AT_type(*$C$DW$T$3)
      406                            .dwattr $C$DW$T$48, DW_AT_language(DW_LANG_C)
-     407                            .dwattr $C$DW$T$48, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     407                            .dwattr $C$DW$T$48, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      408                            .dwattr $C$DW$T$48, DW_AT_decl_line(0x67)
      409                            .dwattr $C$DW$T$48, DW_AT_decl_column(0x10)
      410                    
@@ -460,7 +460,7 @@ Task_Blinky.asm                                                      PAGE    8
      420                    $C$DW$T$37      .dwtag  DW_TAG_typedef, DW_AT_name("TaskFunction_t")
      421                            .dwattr $C$DW$T$37, DW_AT_type(*$C$DW$T$36)
      422                            .dwattr $C$DW$T$37, DW_AT_language(DW_LANG_C)
-     423                            .dwattr $C$DW$T$37, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+     423                            .dwattr $C$DW$T$37, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
      424                            .dwattr $C$DW$T$37, DW_AT_decl_line(0x4d)
      425                            .dwattr $C$DW$T$37, DW_AT_decl_column(0x10)
      426                    $C$DW$T$4       .dwtag  DW_TAG_base_type
@@ -474,18 +474,18 @@ Task_Blinky.asm                                                      PAGE    8
      434                    $C$DW$T$71      .dwtag  DW_TAG_typedef, DW_AT_name("int8_t")
      435                            .dwattr $C$DW$T$71, DW_AT_type(*$C$DW$T$5)
      436                            .dwattr $C$DW$T$71, DW_AT_language(DW_LANG_C)
-     437                            .dwattr $C$DW$T$71, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     437                            .dwattr $C$DW$T$71, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      438                            .dwattr $C$DW$T$71, DW_AT_decl_line(0x2a)
      439                            .dwattr $C$DW$T$71, DW_AT_decl_column(0x1d)
      440                    $C$DW$T$72      .dwtag  DW_TAG_typedef, DW_AT_name("int_least8_t")
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE    9
 
      441                            .dwattr $C$DW$T$72, DW_AT_type(*$C$DW$T$71)
      442                            .dwattr $C$DW$T$72, DW_AT_language(DW_LANG_C)
-     443                            .dwattr $C$DW$T$72, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     443                            .dwattr $C$DW$T$72, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      444                            .dwattr $C$DW$T$72, DW_AT_decl_line(0x37)
      445                            .dwattr $C$DW$T$72, DW_AT_decl_column(0x17)
      446                    $C$DW$T$6       .dwtag  DW_TAG_base_type
@@ -495,7 +495,7 @@ Task_Blinky.asm                                                      PAGE    9
      450                    $C$DW$T$19      .dwtag  DW_TAG_typedef, DW_AT_name("uint8_t")
      451                            .dwattr $C$DW$T$19, DW_AT_type(*$C$DW$T$6)
      452                            .dwattr $C$DW$T$19, DW_AT_language(DW_LANG_C)
-     453                            .dwattr $C$DW$T$19, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     453                            .dwattr $C$DW$T$19, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      454                            .dwattr $C$DW$T$19, DW_AT_decl_line(0x2b)
      455                            .dwattr $C$DW$T$19, DW_AT_decl_column(0x1c)
      456                    $C$DW$T$20      .dwtag  DW_TAG_pointer_type
@@ -504,13 +504,13 @@ Task_Blinky.asm                                                      PAGE    9
      459                    $C$DW$T$73      .dwtag  DW_TAG_typedef, DW_AT_name("portCHAR")
      460                            .dwattr $C$DW$T$73, DW_AT_type(*$C$DW$T$19)
      461                            .dwattr $C$DW$T$73, DW_AT_language(DW_LANG_C)
-     462                            .dwattr $C$DW$T$73, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
+     462                            .dwattr $C$DW$T$73, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      463                            .dwattr $C$DW$T$73, DW_AT_decl_line(0x60)
      464                            .dwattr $C$DW$T$73, DW_AT_decl_column(0x12)
      465                    $C$DW$T$74      .dwtag  DW_TAG_typedef, DW_AT_name("uint_least8_t")
      466                            .dwattr $C$DW$T$74, DW_AT_type(*$C$DW$T$19)
      467                            .dwattr $C$DW$T$74, DW_AT_language(DW_LANG_C)
-     468                            .dwattr $C$DW$T$74, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     468                            .dwattr $C$DW$T$74, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      469                            .dwattr $C$DW$T$74, DW_AT_decl_line(0x38)
      470                            .dwattr $C$DW$T$74, DW_AT_decl_column(0x16)
      471                    $C$DW$T$7       .dwtag  DW_TAG_base_type
@@ -524,21 +524,21 @@ Task_Blinky.asm                                                      PAGE    9
      479                    $C$DW$T$75      .dwtag  DW_TAG_typedef, DW_AT_name("int16_t")
      480                            .dwattr $C$DW$T$75, DW_AT_type(*$C$DW$T$8)
      481                            .dwattr $C$DW$T$75, DW_AT_language(DW_LANG_C)
-     482                            .dwattr $C$DW$T$75, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     482                            .dwattr $C$DW$T$75, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      483                            .dwattr $C$DW$T$75, DW_AT_decl_line(0x2c)
      484                            .dwattr $C$DW$T$75, DW_AT_decl_column(0x1d)
      485                    $C$DW$T$76      .dwtag  DW_TAG_typedef, DW_AT_name("int_least16_t")
      486                            .dwattr $C$DW$T$76, DW_AT_type(*$C$DW$T$75)
      487                            .dwattr $C$DW$T$76, DW_AT_language(DW_LANG_C)
-     488                            .dwattr $C$DW$T$76, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     488                            .dwattr $C$DW$T$76, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      489                            .dwattr $C$DW$T$76, DW_AT_decl_line(0x3a)
      490                            .dwattr $C$DW$T$76, DW_AT_decl_column(0x17)
      491                    $C$DW$T$77      .dwtag  DW_TAG_typedef, DW_AT_name("portSHORT")
      492                            .dwattr $C$DW$T$77, DW_AT_type(*$C$DW$T$75)
      493                            .dwattr $C$DW$T$77, DW_AT_language(DW_LANG_C)
-     494                            .dwattr $C$DW$T$77, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
+     494                            .dwattr $C$DW$T$77, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      495                            .dwattr $C$DW$T$77, DW_AT_decl_line(0x64)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   10
@@ -551,31 +551,31 @@ Task_Blinky.asm                                                      PAGE   10
      501                    $C$DW$T$78      .dwtag  DW_TAG_typedef, DW_AT_name("_Wchart")
      502                            .dwattr $C$DW$T$78, DW_AT_type(*$C$DW$T$9)
      503                            .dwattr $C$DW$T$78, DW_AT_language(DW_LANG_C)
-     504                            .dwattr $C$DW$T$78, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     504                            .dwattr $C$DW$T$78, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      505                            .dwattr $C$DW$T$78, DW_AT_decl_line(0x1e5)
      506                            .dwattr $C$DW$T$78, DW_AT_decl_column(0x21)
      507                    $C$DW$T$79      .dwtag  DW_TAG_typedef, DW_AT_name("_Wintt")
      508                            .dwattr $C$DW$T$79, DW_AT_type(*$C$DW$T$9)
      509                            .dwattr $C$DW$T$79, DW_AT_language(DW_LANG_C)
-     510                            .dwattr $C$DW$T$79, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     510                            .dwattr $C$DW$T$79, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      511                            .dwattr $C$DW$T$79, DW_AT_decl_line(0x1e6)
      512                            .dwattr $C$DW$T$79, DW_AT_decl_column(0x21)
      513                    $C$DW$T$42      .dwtag  DW_TAG_typedef, DW_AT_name("uint16_t")
      514                            .dwattr $C$DW$T$42, DW_AT_type(*$C$DW$T$9)
      515                            .dwattr $C$DW$T$42, DW_AT_language(DW_LANG_C)
-     516                            .dwattr $C$DW$T$42, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     516                            .dwattr $C$DW$T$42, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      517                            .dwattr $C$DW$T$42, DW_AT_decl_line(0x2d)
      518                            .dwattr $C$DW$T$42, DW_AT_decl_column(0x1c)
      519                    $C$DW$T$80      .dwtag  DW_TAG_typedef, DW_AT_name("uint_least16_t")
      520                            .dwattr $C$DW$T$80, DW_AT_type(*$C$DW$T$42)
      521                            .dwattr $C$DW$T$80, DW_AT_language(DW_LANG_C)
-     522                            .dwattr $C$DW$T$80, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     522                            .dwattr $C$DW$T$80, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      523                            .dwattr $C$DW$T$80, DW_AT_decl_line(0x3b)
      524                            .dwattr $C$DW$T$80, DW_AT_decl_column(0x16)
      525                    $C$DW$T$81      .dwtag  DW_TAG_typedef, DW_AT_name("wchar_t")
      526                            .dwattr $C$DW$T$81, DW_AT_type(*$C$DW$T$9)
      527                            .dwattr $C$DW$T$81, DW_AT_language(DW_LANG_C)
-     528                            .dwattr $C$DW$T$81, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     528                            .dwattr $C$DW$T$81, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      529                            .dwattr $C$DW$T$81, DW_AT_decl_line(0x41)
      530                            .dwattr $C$DW$T$81, DW_AT_decl_column(0x1a)
      531                    $C$DW$T$10      .dwtag  DW_TAG_base_type
@@ -585,20 +585,20 @@ Task_Blinky.asm                                                      PAGE   10
      535                    $C$DW$T$82      .dwtag  DW_TAG_typedef, DW_AT_name("_Ptrdifft")
      536                            .dwattr $C$DW$T$82, DW_AT_type(*$C$DW$T$10)
      537                            .dwattr $C$DW$T$82, DW_AT_language(DW_LANG_C)
-     538                            .dwattr $C$DW$T$82, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     538                            .dwattr $C$DW$T$82, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      539                            .dwattr $C$DW$T$82, DW_AT_decl_line(0xa9)
      540                            .dwattr $C$DW$T$82, DW_AT_decl_column(0x1e)
      541                    $C$DW$T$52      .dwtag  DW_TAG_typedef, DW_AT_name("int32_t")
      542                            .dwattr $C$DW$T$52, DW_AT_type(*$C$DW$T$10)
      543                            .dwattr $C$DW$T$52, DW_AT_language(DW_LANG_C)
-     544                            .dwattr $C$DW$T$52, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     544                            .dwattr $C$DW$T$52, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      545                            .dwattr $C$DW$T$52, DW_AT_decl_line(0x2e)
      546                            .dwattr $C$DW$T$52, DW_AT_decl_column(0x1d)
      547                    $C$DW$T$53      .dwtag  DW_TAG_typedef, DW_AT_name("BaseType_t")
      548                            .dwattr $C$DW$T$53, DW_AT_type(*$C$DW$T$52)
      549                            .dwattr $C$DW$T$53, DW_AT_language(DW_LANG_C)
-     550                            .dwattr $C$DW$T$53, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+     550                            .dwattr $C$DW$T$53, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   11
@@ -619,46 +619,46 @@ Task_Blinky.asm                                                      PAGE   11
      564                    $C$DW$T$85      .dwtag  DW_TAG_typedef, DW_AT_name("TaskHookFunction_t")
      565                            .dwattr $C$DW$T$85, DW_AT_type(*$C$DW$T$84)
      566                            .dwattr $C$DW$T$85, DW_AT_language(DW_LANG_C)
-     567                            .dwattr $C$DW$T$85, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+     567                            .dwattr $C$DW$T$85, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      568                            .dwattr $C$DW$T$85, DW_AT_decl_line(0x6d)
      569                            .dwattr $C$DW$T$85, DW_AT_decl_column(0x16)
      570                    $C$DW$T$88      .dwtag  DW_TAG_typedef, DW_AT_name("int_fast16_t")
      571                            .dwattr $C$DW$T$88, DW_AT_type(*$C$DW$T$52)
      572                            .dwattr $C$DW$T$88, DW_AT_language(DW_LANG_C)
-     573                            .dwattr $C$DW$T$88, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     573                            .dwattr $C$DW$T$88, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      574                            .dwattr $C$DW$T$88, DW_AT_decl_line(0x47)
      575                            .dwattr $C$DW$T$88, DW_AT_decl_column(0x17)
      576                    $C$DW$T$89      .dwtag  DW_TAG_typedef, DW_AT_name("int_fast32_t")
      577                            .dwattr $C$DW$T$89, DW_AT_type(*$C$DW$T$52)
      578                            .dwattr $C$DW$T$89, DW_AT_language(DW_LANG_C)
-     579                            .dwattr $C$DW$T$89, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     579                            .dwattr $C$DW$T$89, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      580                            .dwattr $C$DW$T$89, DW_AT_decl_line(0x4a)
      581                            .dwattr $C$DW$T$89, DW_AT_decl_column(0x17)
      582                    $C$DW$T$90      .dwtag  DW_TAG_typedef, DW_AT_name("int_fast8_t")
      583                            .dwattr $C$DW$T$90, DW_AT_type(*$C$DW$T$52)
      584                            .dwattr $C$DW$T$90, DW_AT_language(DW_LANG_C)
-     585                            .dwattr $C$DW$T$90, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     585                            .dwattr $C$DW$T$90, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      586                            .dwattr $C$DW$T$90, DW_AT_decl_line(0x45)
      587                            .dwattr $C$DW$T$90, DW_AT_decl_column(0x17)
      588                    $C$DW$T$91      .dwtag  DW_TAG_typedef, DW_AT_name("int_least32_t")
      589                            .dwattr $C$DW$T$91, DW_AT_type(*$C$DW$T$52)
      590                            .dwattr $C$DW$T$91, DW_AT_language(DW_LANG_C)
-     591                            .dwattr $C$DW$T$91, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     591                            .dwattr $C$DW$T$91, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      592                            .dwattr $C$DW$T$91, DW_AT_decl_line(0x3c)
      593                            .dwattr $C$DW$T$91, DW_AT_decl_column(0x17)
      594                    $C$DW$T$92      .dwtag  DW_TAG_typedef, DW_AT_name("portBASE_TYPE")
      595                            .dwattr $C$DW$T$92, DW_AT_type(*$C$DW$T$52)
      596                            .dwattr $C$DW$T$92, DW_AT_language(DW_LANG_C)
-     597                            .dwattr $C$DW$T$92, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
+     597                            .dwattr $C$DW$T$92, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      598                            .dwattr $C$DW$T$92, DW_AT_decl_line(0x66)
      599                            .dwattr $C$DW$T$92, DW_AT_decl_column(0x12)
      600                    $C$DW$T$93      .dwtag  DW_TAG_typedef, DW_AT_name("portLONG")
      601                            .dwattr $C$DW$T$93, DW_AT_type(*$C$DW$T$52)
      602                            .dwattr $C$DW$T$93, DW_AT_language(DW_LANG_C)
-     603                            .dwattr $C$DW$T$93, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
+     603                            .dwattr $C$DW$T$93, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      604                            .dwattr $C$DW$T$93, DW_AT_decl_line(0x63)
      605                            .dwattr $C$DW$T$93, DW_AT_decl_column(0x12)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   12
@@ -666,13 +666,13 @@ Task_Blinky.asm                                                      PAGE   12
      606                    $C$DW$T$94      .dwtag  DW_TAG_typedef, DW_AT_name("intptr_t")
      607                            .dwattr $C$DW$T$94, DW_AT_type(*$C$DW$T$10)
      608                            .dwattr $C$DW$T$94, DW_AT_language(DW_LANG_C)
-     609                            .dwattr $C$DW$T$94, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     609                            .dwattr $C$DW$T$94, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      610                            .dwattr $C$DW$T$94, DW_AT_decl_line(0x52)
      611                            .dwattr $C$DW$T$94, DW_AT_decl_column(0x1a)
      612                    $C$DW$T$95      .dwtag  DW_TAG_typedef, DW_AT_name("ptrdiff_t")
      613                            .dwattr $C$DW$T$95, DW_AT_type(*$C$DW$T$10)
      614                            .dwattr $C$DW$T$95, DW_AT_language(DW_LANG_C)
-     615                            .dwattr $C$DW$T$95, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     615                            .dwattr $C$DW$T$95, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      616                            .dwattr $C$DW$T$95, DW_AT_decl_line(0x36)
      617                            .dwattr $C$DW$T$95, DW_AT_decl_column(0x1c)
      618                    $C$DW$T$11      .dwtag  DW_TAG_base_type
@@ -682,25 +682,25 @@ Task_Blinky.asm                                                      PAGE   12
      622                    $C$DW$T$96      .dwtag  DW_TAG_typedef, DW_AT_name("_Sizet")
      623                            .dwattr $C$DW$T$96, DW_AT_type(*$C$DW$T$11)
      624                            .dwattr $C$DW$T$96, DW_AT_language(DW_LANG_C)
-     625                            .dwattr $C$DW$T$96, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     625                            .dwattr $C$DW$T$96, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      626                            .dwattr $C$DW$T$96, DW_AT_decl_line(0xab)
      627                            .dwattr $C$DW$T$96, DW_AT_decl_column(0x1a)
      628                    $C$DW$T$21      .dwtag  DW_TAG_typedef, DW_AT_name("size_t")
      629                            .dwattr $C$DW$T$21, DW_AT_type(*$C$DW$T$11)
      630                            .dwattr $C$DW$T$21, DW_AT_language(DW_LANG_C)
-     631                            .dwattr $C$DW$T$21, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     631                            .dwattr $C$DW$T$21, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      632                            .dwattr $C$DW$T$21, DW_AT_decl_line(0x3a)
      633                            .dwattr $C$DW$T$21, DW_AT_decl_column(0x19)
      634                    $C$DW$T$24      .dwtag  DW_TAG_typedef, DW_AT_name("uint32_t")
      635                            .dwattr $C$DW$T$24, DW_AT_type(*$C$DW$T$11)
      636                            .dwattr $C$DW$T$24, DW_AT_language(DW_LANG_C)
-     637                            .dwattr $C$DW$T$24, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     637                            .dwattr $C$DW$T$24, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      638                            .dwattr $C$DW$T$24, DW_AT_decl_line(0x2f)
      639                            .dwattr $C$DW$T$24, DW_AT_decl_column(0x1c)
      640                    $C$DW$T$43      .dwtag  DW_TAG_typedef, DW_AT_name("StackType_t")
      641                            .dwattr $C$DW$T$43, DW_AT_type(*$C$DW$T$24)
      642                            .dwattr $C$DW$T$43, DW_AT_language(DW_LANG_C)
-     643                            .dwattr $C$DW$T$43, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
+     643                            .dwattr $C$DW$T$43, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      644                            .dwattr $C$DW$T$43, DW_AT_decl_line(0x68)
      645                            .dwattr $C$DW$T$43, DW_AT_decl_column(0x12)
      646                    $C$DW$T$44      .dwtag  DW_TAG_pointer_type
@@ -709,7 +709,7 @@ Task_Blinky.asm                                                      PAGE   12
      649                    $C$DW$T$30      .dwtag  DW_TAG_typedef, DW_AT_name("TickType_t")
      650                            .dwattr $C$DW$T$30, DW_AT_type(*$C$DW$T$24)
      651                            .dwattr $C$DW$T$30, DW_AT_language(DW_LANG_C)
-     652                            .dwattr $C$DW$T$30, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
+     652                            .dwattr $C$DW$T$30, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      653                            .dwattr $C$DW$T$30, DW_AT_decl_line(0x70)
      654                            .dwattr $C$DW$T$30, DW_AT_decl_column(0x13)
      655                    $C$DW$T$68      .dwtag  DW_TAG_const_type
@@ -717,8 +717,8 @@ Task_Blinky.asm                                                      PAGE   12
      657                    $C$DW$T$25      .dwtag  DW_TAG_typedef, DW_AT_name("UBaseType_t")
      658                            .dwattr $C$DW$T$25, DW_AT_type(*$C$DW$T$24)
      659                            .dwattr $C$DW$T$25, DW_AT_language(DW_LANG_C)
-     660                            .dwattr $C$DW$T$25, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+     660                            .dwattr $C$DW$T$25, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   13
@@ -728,37 +728,37 @@ Task_Blinky.asm                                                      PAGE   13
      663                    $C$DW$T$97      .dwtag  DW_TAG_typedef, DW_AT_name("portSTACK_TYPE")
      664                            .dwattr $C$DW$T$97, DW_AT_type(*$C$DW$T$24)
      665                            .dwattr $C$DW$T$97, DW_AT_language(DW_LANG_C)
-     666                            .dwattr $C$DW$T$97, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/por
+     666                            .dwattr $C$DW$T$97, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
      667                            .dwattr $C$DW$T$97, DW_AT_decl_line(0x65)
      668                            .dwattr $C$DW$T$97, DW_AT_decl_column(0x12)
      669                    $C$DW$T$98      .dwtag  DW_TAG_typedef, DW_AT_name("uint_fast16_t")
      670                            .dwattr $C$DW$T$98, DW_AT_type(*$C$DW$T$24)
      671                            .dwattr $C$DW$T$98, DW_AT_language(DW_LANG_C)
-     672                            .dwattr $C$DW$T$98, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     672                            .dwattr $C$DW$T$98, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      673                            .dwattr $C$DW$T$98, DW_AT_decl_line(0x48)
      674                            .dwattr $C$DW$T$98, DW_AT_decl_column(0x16)
      675                    $C$DW$T$99      .dwtag  DW_TAG_typedef, DW_AT_name("uint_fast32_t")
      676                            .dwattr $C$DW$T$99, DW_AT_type(*$C$DW$T$24)
      677                            .dwattr $C$DW$T$99, DW_AT_language(DW_LANG_C)
-     678                            .dwattr $C$DW$T$99, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     678                            .dwattr $C$DW$T$99, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      679                            .dwattr $C$DW$T$99, DW_AT_decl_line(0x4b)
      680                            .dwattr $C$DW$T$99, DW_AT_decl_column(0x16)
      681                    $C$DW$T$100     .dwtag  DW_TAG_typedef, DW_AT_name("uint_fast8_t")
      682                            .dwattr $C$DW$T$100, DW_AT_type(*$C$DW$T$24)
      683                            .dwattr $C$DW$T$100, DW_AT_language(DW_LANG_C)
-     684                            .dwattr $C$DW$T$100, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     684                            .dwattr $C$DW$T$100, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      685                            .dwattr $C$DW$T$100, DW_AT_decl_line(0x46)
      686                            .dwattr $C$DW$T$100, DW_AT_decl_column(0x16)
      687                    $C$DW$T$101     .dwtag  DW_TAG_typedef, DW_AT_name("uint_least32_t")
      688                            .dwattr $C$DW$T$101, DW_AT_type(*$C$DW$T$24)
      689                            .dwattr $C$DW$T$101, DW_AT_language(DW_LANG_C)
-     690                            .dwattr $C$DW$T$101, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     690                            .dwattr $C$DW$T$101, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      691                            .dwattr $C$DW$T$101, DW_AT_decl_line(0x3d)
      692                            .dwattr $C$DW$T$101, DW_AT_decl_column(0x16)
      693                    $C$DW$T$102     .dwtag  DW_TAG_typedef, DW_AT_name("uintptr_t")
      694                            .dwattr $C$DW$T$102, DW_AT_type(*$C$DW$T$11)
      695                            .dwattr $C$DW$T$102, DW_AT_language(DW_LANG_C)
-     696                            .dwattr $C$DW$T$102, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     696                            .dwattr $C$DW$T$102, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      697                            .dwattr $C$DW$T$102, DW_AT_decl_line(0x53)
      698                            .dwattr $C$DW$T$102, DW_AT_decl_column(0x1a)
      699                    $C$DW$T$12      .dwtag  DW_TAG_base_type
@@ -768,7 +768,7 @@ Task_Blinky.asm                                                      PAGE   13
      703                    $C$DW$T$103     .dwtag  DW_TAG_typedef, DW_AT_name("_Int32t")
      704                            .dwattr $C$DW$T$103, DW_AT_type(*$C$DW$T$12)
      705                            .dwattr $C$DW$T$103, DW_AT_language(DW_LANG_C)
-     706                            .dwattr $C$DW$T$103, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     706                            .dwattr $C$DW$T$103, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      707                            .dwattr $C$DW$T$103, DW_AT_decl_line(0xa6)
      708                            .dwattr $C$DW$T$103, DW_AT_decl_column(0x0e)
      709                    $C$DW$T$13      .dwtag  DW_TAG_base_type
@@ -778,12 +778,12 @@ Task_Blinky.asm                                                      PAGE   13
      713                    $C$DW$T$104     .dwtag  DW_TAG_typedef, DW_AT_name("_Uint32t")
      714                            .dwattr $C$DW$T$104, DW_AT_type(*$C$DW$T$13)
      715                            .dwattr $C$DW$T$104, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   14
 
-     716                            .dwattr $C$DW$T$104, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     716                            .dwattr $C$DW$T$104, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      717                            .dwattr $C$DW$T$104, DW_AT_decl_line(0xa7)
      718                            .dwattr $C$DW$T$104, DW_AT_decl_column(0x17)
      719                    $C$DW$T$14      .dwtag  DW_TAG_base_type
@@ -793,37 +793,37 @@ Task_Blinky.asm                                                      PAGE   14
      723                    $C$DW$T$105     .dwtag  DW_TAG_typedef, DW_AT_name("_Longlong")
      724                            .dwattr $C$DW$T$105, DW_AT_type(*$C$DW$T$14)
      725                            .dwattr $C$DW$T$105, DW_AT_language(DW_LANG_C)
-     726                            .dwattr $C$DW$T$105, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     726                            .dwattr $C$DW$T$105, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      727                            .dwattr $C$DW$T$105, DW_AT_decl_line(0x1b5)
      728                            .dwattr $C$DW$T$105, DW_AT_decl_column(0x13)
      729                    $C$DW$T$106     .dwtag  DW_TAG_typedef, DW_AT_name("int64_t")
      730                            .dwattr $C$DW$T$106, DW_AT_type(*$C$DW$T$14)
      731                            .dwattr $C$DW$T$106, DW_AT_language(DW_LANG_C)
-     732                            .dwattr $C$DW$T$106, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     732                            .dwattr $C$DW$T$106, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      733                            .dwattr $C$DW$T$106, DW_AT_decl_line(0x32)
      734                            .dwattr $C$DW$T$106, DW_AT_decl_column(0x21)
      735                    $C$DW$T$107     .dwtag  DW_TAG_typedef, DW_AT_name("int_fast64_t")
      736                            .dwattr $C$DW$T$107, DW_AT_type(*$C$DW$T$106)
      737                            .dwattr $C$DW$T$107, DW_AT_language(DW_LANG_C)
-     738                            .dwattr $C$DW$T$107, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     738                            .dwattr $C$DW$T$107, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      739                            .dwattr $C$DW$T$107, DW_AT_decl_line(0x4e)
      740                            .dwattr $C$DW$T$107, DW_AT_decl_column(0x17)
      741                    $C$DW$T$108     .dwtag  DW_TAG_typedef, DW_AT_name("int_least64_t")
      742                            .dwattr $C$DW$T$108, DW_AT_type(*$C$DW$T$106)
      743                            .dwattr $C$DW$T$108, DW_AT_language(DW_LANG_C)
-     744                            .dwattr $C$DW$T$108, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     744                            .dwattr $C$DW$T$108, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      745                            .dwattr $C$DW$T$108, DW_AT_decl_line(0x40)
      746                            .dwattr $C$DW$T$108, DW_AT_decl_column(0x17)
      747                    $C$DW$T$109     .dwtag  DW_TAG_typedef, DW_AT_name("portDOUBLE")
      748                            .dwattr $C$DW$T$109, DW_AT_type(*$C$DW$T$106)
      749                            .dwattr $C$DW$T$109, DW_AT_language(DW_LANG_C)
-     750                            .dwattr $C$DW$T$109, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/po
+     750                            .dwattr $C$DW$T$109, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
      751                            .dwattr $C$DW$T$109, DW_AT_decl_line(0x62)
      752                            .dwattr $C$DW$T$109, DW_AT_decl_column(0x12)
      753                    $C$DW$T$110     .dwtag  DW_TAG_typedef, DW_AT_name("intmax_t")
      754                            .dwattr $C$DW$T$110, DW_AT_type(*$C$DW$T$14)
      755                            .dwattr $C$DW$T$110, DW_AT_language(DW_LANG_C)
-     756                            .dwattr $C$DW$T$110, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     756                            .dwattr $C$DW$T$110, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      757                            .dwattr $C$DW$T$110, DW_AT_decl_line(0x56)
      758                            .dwattr $C$DW$T$110, DW_AT_decl_column(0x20)
      759                    $C$DW$T$15      .dwtag  DW_TAG_base_type
@@ -833,36 +833,36 @@ Task_Blinky.asm                                                      PAGE   14
      763                    $C$DW$T$111     .dwtag  DW_TAG_typedef, DW_AT_name("_ULonglong")
      764                            .dwattr $C$DW$T$111, DW_AT_type(*$C$DW$T$15)
      765                            .dwattr $C$DW$T$111, DW_AT_language(DW_LANG_C)
-     766                            .dwattr $C$DW$T$111, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     766                            .dwattr $C$DW$T$111, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      767                            .dwattr $C$DW$T$111, DW_AT_decl_line(0x1b6)
      768                            .dwattr $C$DW$T$111, DW_AT_decl_column(0x14)
      769                    $C$DW$T$112     .dwtag  DW_TAG_typedef, DW_AT_name("uint64_t")
      770                            .dwattr $C$DW$T$112, DW_AT_type(*$C$DW$T$15)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   15
 
      771                            .dwattr $C$DW$T$112, DW_AT_language(DW_LANG_C)
-     772                            .dwattr $C$DW$T$112, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     772                            .dwattr $C$DW$T$112, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      773                            .dwattr $C$DW$T$112, DW_AT_decl_line(0x33)
      774                            .dwattr $C$DW$T$112, DW_AT_decl_column(0x20)
      775                    $C$DW$T$113     .dwtag  DW_TAG_typedef, DW_AT_name("uint_fast64_t")
      776                            .dwattr $C$DW$T$113, DW_AT_type(*$C$DW$T$112)
      777                            .dwattr $C$DW$T$113, DW_AT_language(DW_LANG_C)
-     778                            .dwattr $C$DW$T$113, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     778                            .dwattr $C$DW$T$113, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      779                            .dwattr $C$DW$T$113, DW_AT_decl_line(0x4f)
      780                            .dwattr $C$DW$T$113, DW_AT_decl_column(0x16)
      781                    $C$DW$T$114     .dwtag  DW_TAG_typedef, DW_AT_name("uint_least64_t")
      782                            .dwattr $C$DW$T$114, DW_AT_type(*$C$DW$T$112)
      783                            .dwattr $C$DW$T$114, DW_AT_language(DW_LANG_C)
-     784                            .dwattr $C$DW$T$114, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     784                            .dwattr $C$DW$T$114, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      785                            .dwattr $C$DW$T$114, DW_AT_decl_line(0x41)
      786                            .dwattr $C$DW$T$114, DW_AT_decl_column(0x16)
      787                    $C$DW$T$115     .dwtag  DW_TAG_typedef, DW_AT_name("uintmax_t")
      788                            .dwattr $C$DW$T$115, DW_AT_type(*$C$DW$T$15)
      789                            .dwattr $C$DW$T$115, DW_AT_language(DW_LANG_C)
-     790                            .dwattr $C$DW$T$115, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     790                            .dwattr $C$DW$T$115, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      791                            .dwattr $C$DW$T$115, DW_AT_decl_line(0x57)
      792                            .dwattr $C$DW$T$115, DW_AT_decl_column(0x20)
      793                    $C$DW$T$16      .dwtag  DW_TAG_base_type
@@ -872,7 +872,7 @@ Task_Blinky.asm                                                      PAGE   15
      797                    $C$DW$T$116     .dwtag  DW_TAG_typedef, DW_AT_name("portFLOAT")
      798                            .dwattr $C$DW$T$116, DW_AT_type(*$C$DW$T$16)
      799                            .dwattr $C$DW$T$116, DW_AT_language(DW_LANG_C)
-     800                            .dwattr $C$DW$T$116, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/po
+     800                            .dwattr $C$DW$T$116, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
      801                            .dwattr $C$DW$T$116, DW_AT_decl_line(0x61)
      802                            .dwattr $C$DW$T$116, DW_AT_decl_column(0x10)
      803                    $C$DW$T$17      .dwtag  DW_TAG_base_type
@@ -886,7 +886,7 @@ Task_Blinky.asm                                                      PAGE   15
      811                    $C$DW$T$117     .dwtag  DW_TAG_typedef, DW_AT_name("_Sysch_t")
      812                            .dwattr $C$DW$T$117, DW_AT_type(*$C$DW$T$6)
      813                            .dwattr $C$DW$T$117, DW_AT_language(DW_LANG_C)
-     814                            .dwattr $C$DW$T$117, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     814                            .dwattr $C$DW$T$117, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      815                            .dwattr $C$DW$T$117, DW_AT_decl_line(0x218)
      816                            .dwattr $C$DW$T$117, DW_AT_decl_column(0x0e)
      817                    $C$DW$T$39      .dwtag  DW_TAG_const_type
@@ -898,7 +898,7 @@ Task_Blinky.asm                                                      PAGE   15
      823                            .dwattr $C$DW$T$41, DW_AT_type(*$C$DW$T$40)
      824                    $C$DW$T$118     .dwtag  DW_TAG_pointer_type
      825                            .dwattr $C$DW$T$118, DW_AT_type(*$C$DW$T$6)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   16
@@ -920,24 +920,24 @@ Task_Blinky.asm                                                      PAGE   16
      840                            .dwattr $C$DW$47, DW_AT_TI_symbol_name("__ap")
      841                            .dwattr $C$DW$47, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      842                            .dwattr $C$DW$47, DW_AT_accessibility(DW_ACCESS_public)
-     843                            .dwattr $C$DW$47, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/in
+     843                            .dwattr $C$DW$47, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/in
      844                            .dwattr $C$DW$47, DW_AT_decl_line(0x36)
      845                            .dwattr $C$DW$47, DW_AT_decl_column(0x0c)
      846                            .dwendtag $C$DW$T$23
      847                    
-     848                            .dwattr $C$DW$T$23, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/
+     848                            .dwattr $C$DW$T$23, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      849                            .dwattr $C$DW$T$23, DW_AT_decl_line(0x35)
      850                            .dwattr $C$DW$T$23, DW_AT_decl_column(0x10)
      851                    $C$DW$T$120     .dwtag  DW_TAG_typedef, DW_AT_name("va_list")
      852                            .dwattr $C$DW$T$120, DW_AT_type(*$C$DW$T$23)
      853                            .dwattr $C$DW$T$120, DW_AT_language(DW_LANG_C)
-     854                            .dwattr $C$DW$T$120, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     854                            .dwattr $C$DW$T$120, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      855                            .dwattr $C$DW$T$120, DW_AT_decl_line(0x37)
      856                            .dwattr $C$DW$T$120, DW_AT_decl_column(0x03)
      857                    $C$DW$T$121     .dwtag  DW_TAG_typedef, DW_AT_name("_Va_list")
      858                            .dwattr $C$DW$T$121, DW_AT_type(*$C$DW$T$120)
      859                            .dwattr $C$DW$T$121, DW_AT_language(DW_LANG_C)
-     860                            .dwattr $C$DW$T$121, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+     860                            .dwattr $C$DW$T$121, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      861                            .dwattr $C$DW$T$121, DW_AT_decl_line(0x1f6)
      862                            .dwattr $C$DW$T$121, DW_AT_decl_column(0x17)
      863                    
@@ -950,7 +950,7 @@ Task_Blinky.asm                                                      PAGE   16
      870                            .dwattr $C$DW$48, DW_AT_TI_symbol_name("uxNumberOfItems")
      871                            .dwattr $C$DW$48, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      872                            .dwattr $C$DW$48, DW_AT_accessibility(DW_ACCESS_public)
-     873                            .dwattr $C$DW$48, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     873                            .dwattr $C$DW$48, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      874                            .dwattr $C$DW$48, DW_AT_decl_line(0xd0)
      875                            .dwattr $C$DW$48, DW_AT_decl_column(0x22)
      876                    $C$DW$49        .dwtag  DW_TAG_member
@@ -958,13 +958,13 @@ Task_Blinky.asm                                                      PAGE   16
      878                            .dwattr $C$DW$49, DW_AT_name("pxIndex")
      879                            .dwattr $C$DW$49, DW_AT_TI_symbol_name("pxIndex")
      880                            .dwattr $C$DW$49, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   17
 
      881                            .dwattr $C$DW$49, DW_AT_accessibility(DW_ACCESS_public)
-     882                            .dwattr $C$DW$49, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     882                            .dwattr $C$DW$49, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      883                            .dwattr $C$DW$49, DW_AT_decl_line(0xd1)
      884                            .dwattr $C$DW$49, DW_AT_decl_column(0x23)
      885                    $C$DW$50        .dwtag  DW_TAG_member
@@ -973,18 +973,18 @@ Task_Blinky.asm                                                      PAGE   17
      888                            .dwattr $C$DW$50, DW_AT_TI_symbol_name("xListEnd")
      889                            .dwattr $C$DW$50, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
      890                            .dwattr $C$DW$50, DW_AT_accessibility(DW_ACCESS_public)
-     891                            .dwattr $C$DW$50, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     891                            .dwattr $C$DW$50, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      892                            .dwattr $C$DW$50, DW_AT_decl_line(0xd2)
      893                            .dwattr $C$DW$50, DW_AT_decl_column(0x11)
      894                            .dwendtag $C$DW$T$29
      895                    
-     896                            .dwattr $C$DW$T$29, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+     896                            .dwattr $C$DW$T$29, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
      897                            .dwattr $C$DW$T$29, DW_AT_decl_line(0xcd)
      898                            .dwattr $C$DW$T$29, DW_AT_decl_column(0x10)
      899                    $C$DW$T$122     .dwtag  DW_TAG_typedef, DW_AT_name("List_t")
      900                            .dwattr $C$DW$T$122, DW_AT_type(*$C$DW$T$29)
      901                            .dwattr $C$DW$T$122, DW_AT_language(DW_LANG_C)
-     902                            .dwattr $C$DW$T$122, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\in
+     902                            .dwattr $C$DW$T$122, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_P
      903                            .dwattr $C$DW$T$122, DW_AT_decl_line(0xd4)
      904                            .dwattr $C$DW$T$122, DW_AT_decl_column(0x03)
      905                    
@@ -997,7 +997,7 @@ Task_Blinky.asm                                                      PAGE   17
      912                            .dwattr $C$DW$51, DW_AT_TI_symbol_name("xItemValue")
      913                            .dwattr $C$DW$51, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      914                            .dwattr $C$DW$51, DW_AT_accessibility(DW_ACCESS_public)
-     915                            .dwattr $C$DW$51, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     915                            .dwattr $C$DW$51, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      916                            .dwattr $C$DW$51, DW_AT_decl_line(0xb8)
      917                            .dwattr $C$DW$51, DW_AT_decl_column(0x21)
      918                    $C$DW$52        .dwtag  DW_TAG_member
@@ -1006,7 +1006,7 @@ Task_Blinky.asm                                                      PAGE   17
      921                            .dwattr $C$DW$52, DW_AT_TI_symbol_name("pxNext")
      922                            .dwattr $C$DW$52, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
      923                            .dwattr $C$DW$52, DW_AT_accessibility(DW_ACCESS_public)
-     924                            .dwattr $C$DW$52, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     924                            .dwattr $C$DW$52, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      925                            .dwattr $C$DW$52, DW_AT_decl_line(0xb9)
      926                            .dwattr $C$DW$52, DW_AT_decl_column(0x2a)
      927                    $C$DW$53        .dwtag  DW_TAG_member
@@ -1015,10 +1015,10 @@ Task_Blinky.asm                                                      PAGE   17
      930                            .dwattr $C$DW$53, DW_AT_TI_symbol_name("pxPrevious")
      931                            .dwattr $C$DW$53, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
      932                            .dwattr $C$DW$53, DW_AT_accessibility(DW_ACCESS_public)
-     933                            .dwattr $C$DW$53, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     933                            .dwattr $C$DW$53, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      934                            .dwattr $C$DW$53, DW_AT_decl_line(0xba)
      935                            .dwattr $C$DW$53, DW_AT_decl_column(0x2a)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   18
@@ -1029,7 +1029,7 @@ Task_Blinky.asm                                                      PAGE   18
      939                            .dwattr $C$DW$54, DW_AT_TI_symbol_name("pvOwner")
      940                            .dwattr $C$DW$54, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
      941                            .dwattr $C$DW$54, DW_AT_accessibility(DW_ACCESS_public)
-     942                            .dwattr $C$DW$54, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     942                            .dwattr $C$DW$54, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      943                            .dwattr $C$DW$54, DW_AT_decl_line(0xbb)
      944                            .dwattr $C$DW$54, DW_AT_decl_column(0x09)
      945                    $C$DW$55        .dwtag  DW_TAG_member
@@ -1038,18 +1038,18 @@ Task_Blinky.asm                                                      PAGE   18
      948                            .dwattr $C$DW$55, DW_AT_TI_symbol_name("pvContainer")
      949                            .dwattr $C$DW$55, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
      950                            .dwattr $C$DW$55, DW_AT_accessibility(DW_ACCESS_public)
-     951                            .dwattr $C$DW$55, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+     951                            .dwattr $C$DW$55, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
      952                            .dwattr $C$DW$55, DW_AT_decl_line(0xbc)
      953                            .dwattr $C$DW$55, DW_AT_decl_column(0x1d)
      954                            .dwendtag $C$DW$T$32
      955                    
-     956                            .dwattr $C$DW$T$32, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+     956                            .dwattr $C$DW$T$32, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
      957                            .dwattr $C$DW$T$32, DW_AT_decl_line(0xb5)
      958                            .dwattr $C$DW$T$32, DW_AT_decl_column(0x08)
      959                    $C$DW$T$26      .dwtag  DW_TAG_typedef, DW_AT_name("ListItem_t")
      960                            .dwattr $C$DW$T$26, DW_AT_type(*$C$DW$T$32)
      961                            .dwattr $C$DW$T$26, DW_AT_language(DW_LANG_C)
-     962                            .dwattr $C$DW$T$26, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+     962                            .dwattr $C$DW$T$26, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
      963                            .dwattr $C$DW$T$26, DW_AT_decl_line(0xbf)
      964                            .dwattr $C$DW$T$26, DW_AT_decl_column(0x1b)
      965                    $C$DW$T$27      .dwtag  DW_TAG_pointer_type
@@ -1068,7 +1068,7 @@ Task_Blinky.asm                                                      PAGE   18
      978                            .dwattr $C$DW$56, DW_AT_TI_symbol_name("pvBaseAddress")
      979                            .dwattr $C$DW$56, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      980                            .dwattr $C$DW$56, DW_AT_accessibility(DW_ACCESS_public)
-     981                            .dwattr $C$DW$56, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     981                            .dwattr $C$DW$56, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
      982                            .dwattr $C$DW$56, DW_AT_decl_line(0x91)
      983                            .dwattr $C$DW$56, DW_AT_decl_column(0x08)
      984                    $C$DW$57        .dwtag  DW_TAG_member
@@ -1077,8 +1077,8 @@ Task_Blinky.asm                                                      PAGE   18
      987                            .dwattr $C$DW$57, DW_AT_TI_symbol_name("ulLengthInBytes")
      988                            .dwattr $C$DW$57, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
      989                            .dwattr $C$DW$57, DW_AT_accessibility(DW_ACCESS_public)
-     990                            .dwattr $C$DW$57, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+     990                            .dwattr $C$DW$57, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   19
@@ -1091,18 +1091,18 @@ Task_Blinky.asm                                                      PAGE   19
      996                            .dwattr $C$DW$58, DW_AT_TI_symbol_name("ulParameters")
      997                            .dwattr $C$DW$58, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
      998                            .dwattr $C$DW$58, DW_AT_accessibility(DW_ACCESS_public)
-     999                            .dwattr $C$DW$58, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+     999                            .dwattr $C$DW$58, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1000                            .dwattr $C$DW$58, DW_AT_decl_line(0x93)
     1001                            .dwattr $C$DW$58, DW_AT_decl_column(0x0b)
     1002                            .dwendtag $C$DW$T$33
     1003                    
-    1004                            .dwattr $C$DW$T$33, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+    1004                            .dwattr $C$DW$T$33, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
     1005                            .dwattr $C$DW$T$33, DW_AT_decl_line(0x8f)
     1006                            .dwattr $C$DW$T$33, DW_AT_decl_column(0x10)
     1007                    $C$DW$T$45      .dwtag  DW_TAG_typedef, DW_AT_name("MemoryRegion_t")
     1008                            .dwattr $C$DW$T$45, DW_AT_type(*$C$DW$T$33)
     1009                            .dwattr $C$DW$T$45, DW_AT_language(DW_LANG_C)
-    1010                            .dwattr $C$DW$T$45, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+    1010                            .dwattr $C$DW$T$45, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
     1011                            .dwattr $C$DW$T$45, DW_AT_decl_line(0x94)
     1012                            .dwattr $C$DW$T$45, DW_AT_decl_column(0x03)
     1013                    
@@ -1124,7 +1124,7 @@ Task_Blinky.asm                                                      PAGE   19
     1029                            .dwattr $C$DW$60, DW_AT_TI_symbol_name("xItemValue")
     1030                            .dwattr $C$DW$60, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1031                            .dwattr $C$DW$60, DW_AT_accessibility(DW_ACCESS_public)
-    1032                            .dwattr $C$DW$60, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+    1032                            .dwattr $C$DW$60, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
     1033                            .dwattr $C$DW$60, DW_AT_decl_line(0xc4)
     1034                            .dwattr $C$DW$60, DW_AT_decl_column(0x21)
     1035                    $C$DW$61        .dwtag  DW_TAG_member
@@ -1133,12 +1133,12 @@ Task_Blinky.asm                                                      PAGE   19
     1038                            .dwattr $C$DW$61, DW_AT_TI_symbol_name("pxNext")
     1039                            .dwattr $C$DW$61, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1040                            .dwattr $C$DW$61, DW_AT_accessibility(DW_ACCESS_public)
-    1041                            .dwattr $C$DW$61, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+    1041                            .dwattr $C$DW$61, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
     1042                            .dwattr $C$DW$61, DW_AT_decl_line(0xc5)
     1043                            .dwattr $C$DW$61, DW_AT_decl_column(0x2a)
     1044                    $C$DW$62        .dwtag  DW_TAG_member
     1045                            .dwattr $C$DW$62, DW_AT_type(*$C$DW$T$31)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   20
@@ -1147,18 +1147,18 @@ Task_Blinky.asm                                                      PAGE   20
     1047                            .dwattr $C$DW$62, DW_AT_TI_symbol_name("pxPrevious")
     1048                            .dwattr $C$DW$62, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     1049                            .dwattr $C$DW$62, DW_AT_accessibility(DW_ACCESS_public)
-    1050                            .dwattr $C$DW$62, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inclu
+    1050                            .dwattr $C$DW$62, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
     1051                            .dwattr $C$DW$62, DW_AT_decl_line(0xc6)
     1052                            .dwattr $C$DW$62, DW_AT_decl_column(0x2a)
     1053                            .dwendtag $C$DW$T$34
     1054                    
-    1055                            .dwattr $C$DW$T$34, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+    1055                            .dwattr $C$DW$T$34, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
     1056                            .dwattr $C$DW$T$34, DW_AT_decl_line(0xc1)
     1057                            .dwattr $C$DW$T$34, DW_AT_decl_column(0x08)
     1058                    $C$DW$T$28      .dwtag  DW_TAG_typedef, DW_AT_name("MiniListItem_t")
     1059                            .dwattr $C$DW$T$28, DW_AT_type(*$C$DW$T$34)
     1060                            .dwattr $C$DW$T$28, DW_AT_language(DW_LANG_C)
-    1061                            .dwattr $C$DW$T$28, DW_AT_decl_file("C:\Projects\TI_ARM_Tiva_Projects_EECS_690_Sp16\Source\inc
+    1061                            .dwattr $C$DW$T$28, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
     1062                            .dwattr $C$DW$T$28, DW_AT_decl_line(0xc8)
     1063                            .dwattr $C$DW$T$28, DW_AT_decl_column(0x20)
     1064                    
@@ -1171,7 +1171,7 @@ Task_Blinky.asm                                                      PAGE   20
     1071                            .dwattr $C$DW$63, DW_AT_TI_symbol_name("pvTaskCode")
     1072                            .dwattr $C$DW$63, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1073                            .dwattr $C$DW$63, DW_AT_accessibility(DW_ACCESS_public)
-    1074                            .dwattr $C$DW$63, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1074                            .dwattr $C$DW$63, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1075                            .dwattr $C$DW$63, DW_AT_decl_line(0x9b)
     1076                            .dwattr $C$DW$63, DW_AT_decl_column(0x11)
     1077                    $C$DW$64        .dwtag  DW_TAG_member
@@ -1180,7 +1180,7 @@ Task_Blinky.asm                                                      PAGE   20
     1080                            .dwattr $C$DW$64, DW_AT_TI_symbol_name("pcName")
     1081                            .dwattr $C$DW$64, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1082                            .dwattr $C$DW$64, DW_AT_accessibility(DW_ACCESS_public)
-    1083                            .dwattr $C$DW$64, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1083                            .dwattr $C$DW$64, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1084                            .dwattr $C$DW$64, DW_AT_decl_line(0x9c)
     1085                            .dwattr $C$DW$64, DW_AT_decl_column(0x15)
     1086                    $C$DW$65        .dwtag  DW_TAG_member
@@ -1189,7 +1189,7 @@ Task_Blinky.asm                                                      PAGE   20
     1089                            .dwattr $C$DW$65, DW_AT_TI_symbol_name("usStackDepth")
     1090                            .dwattr $C$DW$65, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     1091                            .dwattr $C$DW$65, DW_AT_accessibility(DW_ACCESS_public)
-    1092                            .dwattr $C$DW$65, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1092                            .dwattr $C$DW$65, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1093                            .dwattr $C$DW$65, DW_AT_decl_line(0x9d)
     1094                            .dwattr $C$DW$65, DW_AT_decl_column(0x0b)
     1095                    $C$DW$66        .dwtag  DW_TAG_member
@@ -1198,12 +1198,12 @@ Task_Blinky.asm                                                      PAGE   20
     1098                            .dwattr $C$DW$66, DW_AT_TI_symbol_name("pvParameters")
     1099                            .dwattr $C$DW$66, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
     1100                            .dwattr $C$DW$66, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   21
 
-    1101                            .dwattr $C$DW$66, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1101                            .dwattr $C$DW$66, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1102                            .dwattr $C$DW$66, DW_AT_decl_line(0x9e)
     1103                            .dwattr $C$DW$66, DW_AT_decl_column(0x08)
     1104                    $C$DW$67        .dwtag  DW_TAG_member
@@ -1212,7 +1212,7 @@ Task_Blinky.asm                                                      PAGE   21
     1107                            .dwattr $C$DW$67, DW_AT_TI_symbol_name("uxPriority")
     1108                            .dwattr $C$DW$67, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
     1109                            .dwattr $C$DW$67, DW_AT_accessibility(DW_ACCESS_public)
-    1110                            .dwattr $C$DW$67, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1110                            .dwattr $C$DW$67, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1111                            .dwattr $C$DW$67, DW_AT_decl_line(0x9f)
     1112                            .dwattr $C$DW$67, DW_AT_decl_column(0x0e)
     1113                    $C$DW$68        .dwtag  DW_TAG_member
@@ -1221,7 +1221,7 @@ Task_Blinky.asm                                                      PAGE   21
     1116                            .dwattr $C$DW$68, DW_AT_TI_symbol_name("puxStackBuffer")
     1117                            .dwattr $C$DW$68, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
     1118                            .dwattr $C$DW$68, DW_AT_accessibility(DW_ACCESS_public)
-    1119                            .dwattr $C$DW$68, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1119                            .dwattr $C$DW$68, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1120                            .dwattr $C$DW$68, DW_AT_decl_line(0xa0)
     1121                            .dwattr $C$DW$68, DW_AT_decl_column(0x0f)
     1122                    $C$DW$69        .dwtag  DW_TAG_member
@@ -1230,18 +1230,18 @@ Task_Blinky.asm                                                      PAGE   21
     1125                            .dwattr $C$DW$69, DW_AT_TI_symbol_name("xRegions")
     1126                            .dwattr $C$DW$69, DW_AT_data_member_location[DW_OP_plus_uconst 0x18]
     1127                            .dwattr $C$DW$69, DW_AT_accessibility(DW_ACCESS_public)
-    1128                            .dwattr $C$DW$69, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1128                            .dwattr $C$DW$69, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1129                            .dwattr $C$DW$69, DW_AT_decl_line(0xa1)
     1130                            .dwattr $C$DW$69, DW_AT_decl_column(0x11)
     1131                            .dwendtag $C$DW$T$47
     1132                    
-    1133                            .dwattr $C$DW$T$47, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+    1133                            .dwattr $C$DW$T$47, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
     1134                            .dwattr $C$DW$T$47, DW_AT_decl_line(0x99)
     1135                            .dwattr $C$DW$T$47, DW_AT_decl_column(0x10)
     1136                    $C$DW$T$123     .dwtag  DW_TAG_typedef, DW_AT_name("TaskParameters_t")
     1137                            .dwattr $C$DW$T$123, DW_AT_type(*$C$DW$T$47)
     1138                            .dwattr $C$DW$T$123, DW_AT_language(DW_LANG_C)
-    1139                            .dwattr $C$DW$T$123, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/in
+    1139                            .dwattr $C$DW$T$123, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
     1140                            .dwattr $C$DW$T$123, DW_AT_decl_line(0xa2)
     1141                            .dwattr $C$DW$T$123, DW_AT_decl_column(0x03)
     1142                    
@@ -1254,11 +1254,11 @@ Task_Blinky.asm                                                      PAGE   21
     1149                            .dwattr $C$DW$70, DW_AT_TI_symbol_name("xHandle")
     1150                            .dwattr $C$DW$70, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1151                            .dwattr $C$DW$70, DW_AT_accessibility(DW_ACCESS_public)
-    1152                            .dwattr $C$DW$70, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1152                            .dwattr $C$DW$70, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1153                            .dwattr $C$DW$70, DW_AT_decl_line(0xa8)
     1154                            .dwattr $C$DW$70, DW_AT_decl_column(0x0f)
     1155                    $C$DW$71        .dwtag  DW_TAG_member
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   22
@@ -1268,7 +1268,7 @@ Task_Blinky.asm                                                      PAGE   22
     1158                            .dwattr $C$DW$71, DW_AT_TI_symbol_name("pcTaskName")
     1159                            .dwattr $C$DW$71, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1160                            .dwattr $C$DW$71, DW_AT_accessibility(DW_ACCESS_public)
-    1161                            .dwattr $C$DW$71, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1161                            .dwattr $C$DW$71, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1162                            .dwattr $C$DW$71, DW_AT_decl_line(0xa9)
     1163                            .dwattr $C$DW$71, DW_AT_decl_column(0x0e)
     1164                    $C$DW$72        .dwtag  DW_TAG_member
@@ -1277,7 +1277,7 @@ Task_Blinky.asm                                                      PAGE   22
     1167                            .dwattr $C$DW$72, DW_AT_TI_symbol_name("xTaskNumber")
     1168                            .dwattr $C$DW$72, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     1169                            .dwattr $C$DW$72, DW_AT_accessibility(DW_ACCESS_public)
-    1170                            .dwattr $C$DW$72, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1170                            .dwattr $C$DW$72, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1171                            .dwattr $C$DW$72, DW_AT_decl_line(0xaa)
     1172                            .dwattr $C$DW$72, DW_AT_decl_column(0x0e)
     1173                    $C$DW$73        .dwtag  DW_TAG_member
@@ -1286,7 +1286,7 @@ Task_Blinky.asm                                                      PAGE   22
     1176                            .dwattr $C$DW$73, DW_AT_TI_symbol_name("eCurrentState")
     1177                            .dwattr $C$DW$73, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
     1178                            .dwattr $C$DW$73, DW_AT_accessibility(DW_ACCESS_public)
-    1179                            .dwattr $C$DW$73, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1179                            .dwattr $C$DW$73, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1180                            .dwattr $C$DW$73, DW_AT_decl_line(0xab)
     1181                            .dwattr $C$DW$73, DW_AT_decl_column(0x0d)
     1182                    $C$DW$74        .dwtag  DW_TAG_member
@@ -1295,7 +1295,7 @@ Task_Blinky.asm                                                      PAGE   22
     1185                            .dwattr $C$DW$74, DW_AT_TI_symbol_name("uxCurrentPriority")
     1186                            .dwattr $C$DW$74, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
     1187                            .dwattr $C$DW$74, DW_AT_accessibility(DW_ACCESS_public)
-    1188                            .dwattr $C$DW$74, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1188                            .dwattr $C$DW$74, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1189                            .dwattr $C$DW$74, DW_AT_decl_line(0xac)
     1190                            .dwattr $C$DW$74, DW_AT_decl_column(0x0e)
     1191                    $C$DW$75        .dwtag  DW_TAG_member
@@ -1304,7 +1304,7 @@ Task_Blinky.asm                                                      PAGE   22
     1194                            .dwattr $C$DW$75, DW_AT_TI_symbol_name("uxBasePriority")
     1195                            .dwattr $C$DW$75, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
     1196                            .dwattr $C$DW$75, DW_AT_accessibility(DW_ACCESS_public)
-    1197                            .dwattr $C$DW$75, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1197                            .dwattr $C$DW$75, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1198                            .dwattr $C$DW$75, DW_AT_decl_line(0xad)
     1199                            .dwattr $C$DW$75, DW_AT_decl_column(0x0e)
     1200                    $C$DW$76        .dwtag  DW_TAG_member
@@ -1313,12 +1313,12 @@ Task_Blinky.asm                                                      PAGE   22
     1203                            .dwattr $C$DW$76, DW_AT_TI_symbol_name("ulRunTimeCounter")
     1204                            .dwattr $C$DW$76, DW_AT_data_member_location[DW_OP_plus_uconst 0x18]
     1205                            .dwattr $C$DW$76, DW_AT_accessibility(DW_ACCESS_public)
-    1206                            .dwattr $C$DW$76, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1206                            .dwattr $C$DW$76, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1207                            .dwattr $C$DW$76, DW_AT_decl_line(0xae)
     1208                            .dwattr $C$DW$76, DW_AT_decl_column(0x0b)
     1209                    $C$DW$77        .dwtag  DW_TAG_member
     1210                            .dwattr $C$DW$77, DW_AT_type(*$C$DW$T$42)
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   23
@@ -1327,18 +1327,18 @@ Task_Blinky.asm                                                      PAGE   23
     1212                            .dwattr $C$DW$77, DW_AT_TI_symbol_name("usStackHighWaterMark")
     1213                            .dwattr $C$DW$77, DW_AT_data_member_location[DW_OP_plus_uconst 0x1c]
     1214                            .dwattr $C$DW$77, DW_AT_accessibility(DW_ACCESS_public)
-    1215                            .dwattr $C$DW$77, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1215                            .dwattr $C$DW$77, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1216                            .dwattr $C$DW$77, DW_AT_decl_line(0xaf)
     1217                            .dwattr $C$DW$77, DW_AT_decl_column(0x0b)
     1218                            .dwendtag $C$DW$T$51
     1219                    
-    1220                            .dwattr $C$DW$T$51, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+    1220                            .dwattr $C$DW$T$51, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
     1221                            .dwattr $C$DW$T$51, DW_AT_decl_line(0xa6)
     1222                            .dwattr $C$DW$T$51, DW_AT_decl_column(0x10)
     1223                    $C$DW$T$124     .dwtag  DW_TAG_typedef, DW_AT_name("TaskStatus_t")
     1224                            .dwattr $C$DW$T$124, DW_AT_type(*$C$DW$T$51)
     1225                            .dwattr $C$DW$T$124, DW_AT_language(DW_LANG_C)
-    1226                            .dwattr $C$DW$T$124, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/in
+    1226                            .dwattr $C$DW$T$124, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
     1227                            .dwattr $C$DW$T$124, DW_AT_decl_line(0xb0)
     1228                            .dwattr $C$DW$T$124, DW_AT_decl_column(0x03)
     1229                    
@@ -1351,7 +1351,7 @@ Task_Blinky.asm                                                      PAGE   23
     1236                            .dwattr $C$DW$78, DW_AT_TI_symbol_name("xOverflowCount")
     1237                            .dwattr $C$DW$78, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1238                            .dwattr $C$DW$78, DW_AT_accessibility(DW_ACCESS_public)
-    1239                            .dwattr $C$DW$78, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1239                            .dwattr $C$DW$78, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1240                            .dwattr $C$DW$78, DW_AT_decl_line(0x88)
     1241                            .dwattr $C$DW$78, DW_AT_decl_column(0x0d)
     1242                    $C$DW$79        .dwtag  DW_TAG_member
@@ -1360,25 +1360,25 @@ Task_Blinky.asm                                                      PAGE   23
     1245                            .dwattr $C$DW$79, DW_AT_TI_symbol_name("xTimeOnEntering")
     1246                            .dwattr $C$DW$79, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1247                            .dwattr $C$DW$79, DW_AT_accessibility(DW_ACCESS_public)
-    1248                            .dwattr $C$DW$79, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inclu
+    1248                            .dwattr $C$DW$79, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
     1249                            .dwattr $C$DW$79, DW_AT_decl_line(0x89)
     1250                            .dwattr $C$DW$79, DW_AT_decl_column(0x0d)
     1251                            .dwendtag $C$DW$T$54
     1252                    
-    1253                            .dwattr $C$DW$T$54, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/inc
+    1253                            .dwattr $C$DW$T$54, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
     1254                            .dwattr $C$DW$T$54, DW_AT_decl_line(0x86)
     1255                            .dwattr $C$DW$T$54, DW_AT_decl_column(0x10)
     1256                    $C$DW$T$125     .dwtag  DW_TAG_typedef, DW_AT_name("TimeOut_t")
     1257                            .dwattr $C$DW$T$125, DW_AT_type(*$C$DW$T$54)
     1258                            .dwattr $C$DW$T$125, DW_AT_language(DW_LANG_C)
-    1259                            .dwattr $C$DW$T$125, DW_AT_decl_file("C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/in
+    1259                            .dwattr $C$DW$T$125, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
     1260                            .dwattr $C$DW$T$125, DW_AT_decl_line(0x8a)
     1261                            .dwattr $C$DW$T$125, DW_AT_decl_column(0x03)
     1262                            .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
     1263                    
     1264                    ;***************************************************************
     1265                    ;* DWARF CIE ENTRIES                                           *
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   24
@@ -1438,7 +1438,7 @@ Task_Blinky.asm                                                      PAGE   24
     1318                            .dwcfi  same_value, 94
     1319                            .dwcfi  same_value, 95
     1320                            .dwendentry
-TI ARM Assembler PC v5.2.5 Thu Mar 10 14:11:46 2016
+TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:13 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Blinky.asm                                                      PAGE   25

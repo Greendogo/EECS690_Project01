@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5
+CG_TOOL_ROOT := C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
 
 ORDERED_OBJS += \
 "./Main_Base_Test.obj" \
@@ -157,13 +157,13 @@ all: FreeRTOS823_3_TM4C1294_Base_Test.out secondary-outputs
 FreeRTOS823_3_TM4C1294_Base_Test.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM Linker'
-	"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --super_quiet --diag_wrap=off --diag_warning=225 --display_error_number --printf_support=full -k --asm_listing -z -m"FreeRTOS823_3_TM4C1294_Base_Test.map" --heap_size=0x0800 --stack_size=0x0800 -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/lib" -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --reread_libs --display_error_number --diag_wrap=off --warn_sections --xml_link_info="FreeRTOS823_3_TM4C1294_Base_Test_linkInfo.xml" --rom_model -o "FreeRTOS823_3_TM4C1294_Base_Test.out" $(ORDERED_OBJS)
+	"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --super_quiet --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing -z -m"FreeRTOS823_3_TM4C1294_Base_Test.map" --heap_size=0x0800 --stack_size=0x0800 -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/lib" -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="FreeRTOS823_3_TM4C1294_Base_Test_linkInfo.xml" --rom_model -o "FreeRTOS823_3_TM4C1294_Base_Test.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 FreeRTOS823_3_TM4C1294_Base_Test.hex: $(EXE_OUTPUTS)
 	@echo 'Invoking: ARM Hex Utility'
-	"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armhex"  -o "FreeRTOS823_3_TM4C1294_Base_Test.hex" $(EXE_OUTPUTS__QUOTED)
+	"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armhex"  -o "FreeRTOS823_3_TM4C1294_Base_Test.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $@'
 	@echo ' '
 

@@ -4,12 +4,12 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/croutine.c \
-C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/event_groups.c \
-C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/list.c \
-C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/queue.c \
-C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/tasks.c \
-C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/timers.c 
+H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/croutine.c \
+H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/event_groups.c \
+H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c \
+H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/queue.c \
+H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/tasks.c \
+H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/timers.c 
 
 OBJS += \
 ./Source/croutine.obj \
@@ -44,11 +44,11 @@ OBJS__QUOTED += \
 "Source\timers.obj" 
 
 C_SRCS__QUOTED += \
-"C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/croutine.c" \
-"C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/event_groups.c" \
-"C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/list.c" \
-"C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/queue.c" \
-"C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/tasks.c" \
-"C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/timers.c" 
+"H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/croutine.c" \
+"H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/event_groups.c" \
+"H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c" \
+"H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/queue.c" \
+"H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/tasks.c" \
+"H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/timers.c" 
 
 
