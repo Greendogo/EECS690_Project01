@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FreeRTOS823_3_TM4C1294_Base_Test/Tasks/Task_Simple_ADC&apos; to &apos;Task_Simple_ADC.c&apos;" description="Rename resource &apos;Task_Simple_ADC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Tasks/Task_Simple_ADC" name="Task_Simple_ADC.c" stamp="1456803616612" updateReferences="true"/>
+</session>

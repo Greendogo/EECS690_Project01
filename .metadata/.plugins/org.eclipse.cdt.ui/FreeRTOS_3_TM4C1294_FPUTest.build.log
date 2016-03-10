@@ -1,0 +1,70 @@
+
+**** Build of configuration Debug for project FreeRTOS_3_TM4C1294_FPUTest ****
+
+"C:\\TI_CodeComposer\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/croutine.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Source/croutine.pp" --obj_directory="Source"  "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/croutine.c"
+"C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest/FreeRTOSConfig.h", line 194: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/croutine.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [Source/croutine.obj] Error 1
+'Building file: C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/event_groups.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Source/event_groups.pp" --obj_directory="Source"  "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/event_groups.c"
+"C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest/FreeRTOSConfig.h", line 194: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/event_groups.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [Source/event_groups.obj] Error 1
+'Building file: C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/list.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Source/list.pp" --obj_directory="Source"  "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/list.c"
+"C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest/FreeRTOSConfig.h", line 194: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/list.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [Source/list.obj] Error 1
+'Building file: C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/queue.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Source/queue.pp" --obj_directory="Source"  "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/queue.c"
+"C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest/FreeRTOSConfig.h", line 194: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/queue.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [Source/queue.obj] Error 1
+'Building file: C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/tasks.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Source/tasks.pp" --obj_directory="Source"  "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/tasks.c"
+"C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest/FreeRTOSConfig.h", line 194: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/tasks.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [Source/tasks.obj] Error 1
+'Building file: C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/timers.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Source/timers.pp" --obj_directory="Source"  "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/timers.c"
+"C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest/FreeRTOSConfig.h", line 194: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/timers.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [Source/timers.obj] Error 1
+'Building file: C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/portable/CCS/ARM_CM4F/port.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Source/portable/CCS/ARM_CM4F/port.pp" --obj_directory="Source/portable/CCS/ARM_CM4F"  "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/portable/CCS/ARM_CM4F/port.c"
+"C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS_3_TM4C1294_FPUTest/FreeRTOSConfig.h", line 194: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/portable/CCS/ARM_CM4F/port.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [Source/portable/CCS/ARM_CM4F/port.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

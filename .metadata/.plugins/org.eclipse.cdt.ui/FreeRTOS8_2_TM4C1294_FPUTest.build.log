@@ -1,0 +1,17 @@
+
+**** Clean-only build of configuration Debug for project FreeRTOS8_2_TM4C1294_FPUTest ****
+
+"C:\\TI_CodeComposer\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "FreeRTOS8_2_TM4C1294_FPUTest.out"  "FreeRTOS8_2_TM4C1294_FPUTest.hex" 
+Could Not Find C:\Projects\TI_ARM_Tiva_Projects_Sp16\FreeRTOS8_2_TM4C1294_FPUTest\Debug\FreeRTOS8_2_TM4C1294_FPUTest.out
+DEL /F "Main_FPUTest.pp" "heap_2.pp" "startup_ccs.pp" "Tasks\Task_TimerInterrupt.pp" "Source\croutine.pp" "Source\event_groups.pp" "Source\list.pp" "Source\queue.pp" "Source\tasks.pp" "Source\timers.pp" "Source\portable\CCS\ARM_CM4F\port.pp" "Drivers\Processor_Initialization_TM4C1294.pp" "Drivers\bmp180.pp" "Drivers\uartstdio.pp" 
+DEL /F "Main_FPUTest.obj" "heap_2.obj" "startup_ccs.obj" "Tasks\Task_TimerInterrupt.obj" "Source\croutine.obj" "Source\event_groups.obj" "Source\list.obj" "Source\queue.obj" "Source\tasks.obj" "Source\timers.obj" "Source\portable\CCS\ARM_CM4F\port.obj" "Source\portable\CCS\ARM_CM4F\portasm.obj" "Drivers\Processor_Initialization_TM4C1294.obj" "Drivers\bmp180.obj" "Drivers\uartstdio.obj" 
+Could Not Find C:\Projects\TI_ARM_Tiva_Projects_Sp16\FreeRTOS8_2_TM4C1294_FPUTest\Debug\Tasks\Task_TimerInterrupt.obj
+Could Not Find C:\Projects\TI_ARM_Tiva_Projects_Sp16\FreeRTOS8_2_TM4C1294_FPUTest\Debug\Source\croutine.obj
+Could Not Find C:\Projects\TI_ARM_Tiva_Projects_Sp16\FreeRTOS8_2_TM4C1294_FPUTest\Debug\Drivers\Processor_Initialization_TM4C1294.obj
+DEL /F "Source\portable\CCS\ARM_CM4F\portasm.pp" 
+Could Not Find C:\Projects\TI_ARM_Tiva_Projects_Sp16\FreeRTOS8_2_TM4C1294_FPUTest\Debug\Source\portable\CCS\ARM_CM4F\portasm.pp
+'Finished clean'
+' '
+
+**** Build Finished ****

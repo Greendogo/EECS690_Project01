@@ -1,0 +1,42 @@
+
+**** Build of configuration Debug for project FreeRTOS823_3_TM4C1294_Base_Test ****
+
+"C:\\TI_CodeComposer\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../Main_Base_Test.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/FreeRTOS823_3_TM4C1294_Base_Test" --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/FreeRTOS823_3_TM4C1294_Base_Test/Drivers" --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/portable/CCS/ARM_CM4F" --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --super_quiet --diag_wrap=off --diag_warning=225 --display_error_number --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Main_Base_Test.pp"  "../Main_Base_Test.c"
+"../Main_Base_Test.c", line 32: warning #552-D: variable "Status" was set but never used
+'Finished building: ../Main_Base_Test.c'
+' '
+'Building file: ../Tasks/Task_Simple_ADC.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/FreeRTOS823_3_TM4C1294_Base_Test" --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/FreeRTOS823_3_TM4C1294_Base_Test/Drivers" --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/portable/CCS/ARM_CM4F" --include_path="C:/Projects/TI_ARM_Tiva_Projects_EECS_690_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --super_quiet --diag_wrap=off --diag_warning=225 --display_error_number --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="Tasks/Task_Simple_ADC.pp" --obj_directory="Tasks"  "../Tasks/Task_Simple_ADC.c"
+'Finished building: ../Tasks/Task_Simple_ADC.c'
+' '
+'Building target: FreeRTOS823_3_TM4C1294_Base_Test.out'
+'Invoking: ARM Linker'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --super_quiet --diag_wrap=off --diag_warning=225 --display_error_number --printf_support=full -k --asm_listing -z -m"FreeRTOS823_3_TM4C1294_Base_Test.map" --heap_size=0x0800 --stack_size=0x0800 -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/lib" -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --reread_libs --display_error_number --diag_wrap=off --warn_sections --xml_link_info="FreeRTOS823_3_TM4C1294_Base_Test_linkInfo.xml" --rom_model -o "FreeRTOS823_3_TM4C1294_Base_Test.out" "./Main_Base_Test.obj" "./TM4C_FreeRTOS_Base_Startup.obj" "./heap_2.obj" "./Tasks/Task_Blinky.obj" "./Tasks/Task_HeaterOn.obj" "./Tasks/Task_ReportTime.obj" "./Tasks/Task_Simple_ADC.obj" "./Source/croutine.obj" "./Source/event_groups.obj" "./Source/list.obj" "./Source/queue.obj" "./Source/tasks.obj" "./Source/timers.obj" "./Source/portable/CCS/ARM_CM4F/port.obj" "./Source/portable/CCS/ARM_CM4F/portasm.obj" "./Drivers/Processor_Initialization_TM4C1294.obj" "../tm4c1294ncpdt.cmd"  -l"libc.a" -l"C:\TI_CodeComposer\TivaWare\driverlib\ccs\Debug\driverlib.lib" 
+'Finished building target: FreeRTOS823_3_TM4C1294_Base_Test.out'
+' '
+'Invoking: ARM Hex Utility'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armhex"  -o "FreeRTOS823_3_TM4C1294_Base_Test.hex"  "FreeRTOS823_3_TM4C1294_Base_Test.out" 
+Translating to Extended Tektronix format...
+   "FreeRTOS823_3_TM4C1294_Base_Test.out" .intvecs ==> .intvecs
+   "FreeRTOS823_3_TM4C1294_Base_Test.out" .text ==> .text
+   "FreeRTOS823_3_TM4C1294_Base_Test.out" .const ==> .const
+   "FreeRTOS823_3_TM4C1294_Base_Test.out" .cinit ==> .cinit
+warning: section FreeRTOS823_3_TM4C1294_Base_Test.out(.text) was padded by 2 to
+   a size of 14012 to satisfy the specified memory width of 4
+warning: section FreeRTOS823_3_TM4C1294_Base_Test.out(.const) was padded by 2
+   to a size of 460 to satisfy the specified memory width of 4
+'Finished building: FreeRTOS823_3_TM4C1294_Base_Test.hex'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project FreeRTOS823_3_TM4C1294_Base_Test ****
+
+"C:\\TI_CodeComposer\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****

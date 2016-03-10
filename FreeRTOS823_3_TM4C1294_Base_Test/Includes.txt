@@ -1,0 +1,5 @@
+"${workspace_loc:/${ProjName}}"
+"${workspace_loc:/${ProjName}/Source/portable/CCS/ARM_CM4F}"
+"${workspace_loc:/${ProjName}/Source/include}"
+"${CG_TOOL_ROOT}/include"
+"C:\TI_CodeComposer\TivaWare"

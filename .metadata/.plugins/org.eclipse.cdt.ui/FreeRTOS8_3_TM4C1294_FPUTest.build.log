@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project FreeRTOS8_3_TM4C1294_FPUTest ****
+
+"C:\\TI_CodeComposer\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../heap_2.c'
+'Invoking: ARM Compiler'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/FreeRTOS8_3_TM4C1294_FPUTest" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/portable/CCS/ARM_CM4F" --include_path="C:/Projects/TI_ARM_Tiva_Projects_Sp16/Source/include" --include_path="C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --include_path="C:/TI_CodeComposer/TivaWare" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --super_quiet --diag_wrap=off --diag_warning=225 --display_error_number --printf_support=full -k --asm_listing --preproc_with_compile --preproc_dependency="heap_2.pp"  "../heap_2.c"
+'Finished building: ../heap_2.c'
+' '
+'Building target: FreeRTOS8_3_TM4C1294_FPUTest.out'
+'Invoking: ARM Linker'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --super_quiet --diag_wrap=off --diag_warning=225 --display_error_number --printf_support=full -k --asm_listing -z -m"FreeRTOS8_3_TM4C1294_FPUTest.map" --heap_size=0x0800 --stack_size=0x0800 -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/lib" -i"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --reread_libs --display_error_number --diag_wrap=off --warn_sections --xml_link_info="FreeRTOS8_3_TM4C1294_FPUTest_linkInfo.xml" --rom_model -o "FreeRTOS8_3_TM4C1294_FPUTest.out" "./TM4C_FreeRTOS_Base_Startup.obj" "./heap_2.obj" "./main.obj" "./Source/croutine.obj" "./Source/event_groups.obj" "./Source/list.obj" "./Source/queue.obj" "./Source/tasks.obj" "./Source/timers.obj" "./Source/portable/CCS/ARM_CM4F/port.obj" "./Source/portable/CCS/ARM_CM4F/portasm.obj" "./Drivers/Processor_Initialization_TM4C1294.obj" "../tm4c1294ncpdt.cmd"  -l"libc.a" 
+'Finished building target: FreeRTOS8_3_TM4C1294_FPUTest.out'
+' '
+'Invoking: ARM Hex Utility'
+"C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armhex"  -o "FreeRTOS8_3_TM4C1294_FPUTest.hex"  "FreeRTOS8_3_TM4C1294_FPUTest.out" 
+Translating to Extended Tektronix format...
+   "FreeRTOS8_3_TM4C1294_FPUTest.out" .intvecs ==> .intvecs
+   "FreeRTOS8_3_TM4C1294_FPUTest.out" .text ==> .text
+   "FreeRTOS8_3_TM4C1294_FPUTest.out" .const ==> .const
+   "FreeRTOS8_3_TM4C1294_FPUTest.out" .cinit ==> .cinit
+warning: section FreeRTOS8_3_TM4C1294_FPUTest.out(.const) was padded by 2 to a
+   size of 8 to satisfy the specified memory width of 4
+'Finished building: FreeRTOS8_3_TM4C1294_FPUTest.hex'
+' '
+
+**** Build Finished ****

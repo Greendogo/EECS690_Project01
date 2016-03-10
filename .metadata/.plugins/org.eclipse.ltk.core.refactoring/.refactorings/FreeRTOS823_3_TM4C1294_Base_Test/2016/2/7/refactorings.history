@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FreeRTOS_3_TM4C1294_FPUTest/startup_ccs.c&apos; to &apos;TM4C_FreeRTOS_Startup.c&apos;" description="Rename resource &apos;startup_ccs.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="startup_ccs.c" name="TM4C_FreeRTOS_Startup.c" stamp="1455278873196" updateReferences="true"/>
+</session>

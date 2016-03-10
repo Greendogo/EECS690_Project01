@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;FreeRTOS8_3_TM4C1294_Base_Test/main.c&apos; to &apos;Main_Base_Test.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.c" name="Main_Base_Test.c" stamp="1456278101704" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;FreeRTOS823_3_TM4C1294_Base_Test/Tasks/Task_ReportTime&apos; to &apos;Task_ReportTime.c&apos;" description="Rename resource &apos;Task_ReportTime&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Tasks/Task_ReportTime" name="Task_ReportTime.c" stamp="1456281388358" updateReferences="true"/>
+</session>
