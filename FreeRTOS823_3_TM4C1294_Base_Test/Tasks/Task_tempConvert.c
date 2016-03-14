@@ -23,9 +23,12 @@ void tempConvert(void *pvParameters)
 
 	while(1)
 	{
-		xQueueReceive(queue1, &store, 0);
-		int tempValue = convertTemp(store);
-		xQueueSendToBack(queue2, &tempValue, 0);
+		if(xQueuePeek( queue1, &store, ( TickType_t ) 10 ))
+		{
+			xQueueReceive(queue1, &store, 0);
+			int tempValue = convertTemp(store);
+			xQueueSendToBack(queue2, &tempValue, 0);
+		}
 		vTaskDelay(delay);
 	}
 }
