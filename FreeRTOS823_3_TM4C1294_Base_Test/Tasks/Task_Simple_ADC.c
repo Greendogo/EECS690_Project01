@@ -29,12 +29,15 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
+#include "queue.h"
 
 #include "stdio.h"
+#include "utils/uartstdio.h"
 
 //
 //	Gloabal subroutines and variables
 //
+xQueueHandle queue1;
 
 extern void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 
@@ -42,6 +45,7 @@ extern void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 	//	Measured voltage value
 	//
 	uint32_t	ADC_Value;
+	queue1 = xQueueCreate(5, sizeof(unsigned int) );
 
 	//
 	//	Enable (power-on) ADC0
@@ -59,7 +63,7 @@ extern void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 
 	ADCSequenceEnable( ADC0_BASE, 0 );
 
-//	printf( ">>>>ADC Initialized.\n");
+	UARTprintf( ">>>>ADC Initialized.\n");
 
 	while ( 1 ) {
 
@@ -83,11 +87,12 @@ extern void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 		//
 		//	Print ADC_Value
 		//
-//		printf( ">>ADC_Value: %d\n", ADC_Value );
+		UARTprintf( ">>ADC_Value: %d\n", ADC_Value );
+		xQueueSend(queue1, &ADC_Value, 0);
 
 		//
-		//	Delay one (1) second.
+		//	Delay one .25 second.
 		//
-		vTaskDelay( (1000 * configTICK_RATE_HZ) / 1000 );
+		vTaskDelay( (250 * configTICK_RATE_HZ) / 1000 );
 	}
 }

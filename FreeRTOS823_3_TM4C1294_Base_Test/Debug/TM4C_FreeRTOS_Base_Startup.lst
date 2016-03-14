@@ -1,11 +1,11 @@
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
-       3                    ;* Date/Time created: Thu Mar 10 16:19:11 2016                                *
+       3                    ;* Date/Time created: Mon Mar 14 16:28:23 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
@@ -14,7 +14,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    1
        9                            .dwattr $C$DW$CU, DW_AT_name("../TM4C_FreeRTOS_Base_Startup.c")
       10                            .dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v5.2.2 Copyright (c) 1996-2015 Te
       11                            .dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proje
+      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("H:\EECS_690\EECS690_Project01\FreeRTOS823_3_TM4C1294_Base_Te
       13                    
       14                    $C$DW$1 .dwtag  DW_TAG_subprogram, DW_AT_name("xPortPendSVHandler")
       15                            .dwattr $C$DW$1, DW_AT_TI_symbol_name("xPortPendSVHandler")
@@ -58,7 +58,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    1
       53 0000000c 00000000!         .bits   FaultISR,32             ; g_pfnVectors[3] @ 96
       54 00000010 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[4] @ 128
       55 00000014 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[5] @ 160
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    2
@@ -118,7 +118,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    2
      108 000000e8 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[58] @ 1856
      109 000000ec 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[59] @ 1888
      110 000000f0 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[60] @ 1920
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    3
@@ -178,7 +178,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    3
      163 000001c4 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[113] @ 3616
      164 000001c8 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[114] @ 3648
      165 000001cc 00000000!         .bits   IntDefaultHandler,32            ; g_pfnVectors[115] @ 3680
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    4
@@ -204,7 +204,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    4
      184                            .dwattr $C$DW$5, DW_AT_decl_file("../TM4C_FreeRTOS_Base_Startup.c")
      185                            .dwattr $C$DW$5, DW_AT_decl_line(0x64)
      186                            .dwattr $C$DW$5, DW_AT_decl_column(0x0f)
-     187                    ;       C:\TI_CodeComposer\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armacpia.exe -@C:\\Users\\PDODDA~
+     187                    ;       C:\TI_CodeComposer\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armacpia.exe -@C:\\Users\\deasley
      188 00000000                   .sect   ".text"
      189                            .clink
      190                            .thumbfunc ResetISR
@@ -238,7 +238,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    4
      218                    ;* --------------------------------------------------------------------------*
      219                            .dwcfi  cfa_offset, 0
      220                            .dwpsn  file "../TM4C_FreeRTOS_Base_Startup.c",line 249,column 5,is_stmt,isa 1
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    5
@@ -298,7 +298,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    5
      273                    ;*   Known Max Trip Count Factor     : 1
      274                    ;* --------------------------------------------------------------------------*
      275 00000006           ||$C$L1||:    
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    6
@@ -358,7 +358,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    6
      328                    ;* --------------------------------------------------------------------------*
      329                            .dwattr $C$DW$9, DW_AT_TI_end_file("../TM4C_FreeRTOS_Base_Startup.c")
      330                            .dwattr $C$DW$9, DW_AT_TI_end_line(0x124)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    7
@@ -418,7 +418,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    7
      383                            .dwendtag $C$DW$10
      384                    
      385                    ;*****************************************************************************
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    8
@@ -478,7 +478,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    8
      438                            .dwattr $C$DW$T$5, DW_AT_byte_size(0x01)
      439                    $C$DW$T$24      .dwtag  DW_TAG_typedef, DW_AT_name("int8_t")
      440                            .dwattr $C$DW$T$24, DW_AT_type(*$C$DW$T$5)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    9
@@ -538,7 +538,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE    9
      493                            .dwattr $C$DW$T$30, DW_AT_language(DW_LANG_C)
      494                            .dwattr $C$DW$T$30, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      495                            .dwattr $C$DW$T$30, DW_AT_decl_line(0x1e5)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   10
@@ -598,7 +598,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   10
      548                            .dwattr $C$DW$T$38, DW_AT_decl_column(0x17)
      549                    $C$DW$T$39      .dwtag  DW_TAG_typedef, DW_AT_name("int_fast8_t")
      550                            .dwattr $C$DW$T$39, DW_AT_type(*$C$DW$T$36)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   11
@@ -658,7 +658,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   11
      603                            .dwattr $C$DW$T$47, DW_AT_language(DW_LANG_C)
      604                            .dwattr $C$DW$T$47, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      605                            .dwattr $C$DW$T$47, DW_AT_decl_line(0x4b)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   12
@@ -718,7 +718,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   12
      658                    $C$DW$T$55      .dwtag  DW_TAG_typedef, DW_AT_name("_Longlong")
      659                            .dwattr $C$DW$T$55, DW_AT_type(*$C$DW$T$14)
      660                            .dwattr $C$DW$T$55, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   13
@@ -778,7 +778,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   13
      713                            .dwattr $C$DW$T$63, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      714                            .dwattr $C$DW$T$63, DW_AT_decl_line(0x41)
      715                            .dwattr $C$DW$T$63, DW_AT_decl_column(0x16)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   14
@@ -838,7 +838,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   14
      768                            .dwattr $C$DW$T$69, DW_AT_type(*$C$DW$T$19)
      769                            .dwattr $C$DW$T$69, DW_AT_language(DW_LANG_C)
      770                            .dwattr $C$DW$T$69, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   15
@@ -898,7 +898,7 @@ TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   15
      823                            .dwcfi  same_value, 82
      824                            .dwcfi  same_value, 83
      825                            .dwcfi  same_value, 84
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:11 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 TM4C_FreeRTOS_Base_Startup.asm                                       PAGE   16

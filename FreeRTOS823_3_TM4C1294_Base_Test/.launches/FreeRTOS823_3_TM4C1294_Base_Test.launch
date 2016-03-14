@@ -5,7 +5,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.Stellaris In-Circuit Debug Interface/CORTEX_M4_0" value="${build_artifact:FreeRTOS823_3_TM4C1294_Base_Test}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.Stellaris In-Circuit Debug Interface/CORTEX_M4_0" value="FreeRTOS823_3_TM4C1294_Base_Test"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:FreeRTOS823_3_TM4C1294_Base_Test}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Stellaris In-Circuit Debug Interface/CORTEX_M4_0" value="H:/EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Project01\FreeRTOS823_3_TM4C1294_Base_Test\Debug\FreeRTOS823_3_TM4C1294_Base_Test.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Stellaris In-Circuit Debug Interface/CORTEX_M4_0" value="H:/EECS_690\EECS690_Project01\FreeRTOS823_3_TM4C1294_Base_Test\Debug\FreeRTOS823_3_TM4C1294_Base_Test.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/FreeRTOS823_3_TM4C1294_Base_Test"/>
 </listAttribute>

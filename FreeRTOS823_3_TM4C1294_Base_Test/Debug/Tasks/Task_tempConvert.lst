@@ -1,0 +1,117 @@
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:28 2016
+
+Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
+Task_tempConvert.asm                                                 PAGE    1
+
+       1                    ;******************************************************************************
+       2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
+       3                    ;* Date/Time created: Mon Mar 14 16:28:28 2016                                *
+       4                    ;******************************************************************************
+       5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
+       6 00000000                   .thumb
+       7                    
+       8                    $C$DW$CU        .dwtag  DW_TAG_compile_unit
+       9                            .dwattr $C$DW$CU, DW_AT_name("../Tasks/Task_tempConvert.c")
+      10                            .dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v5.2.2 Copyright (c) 1996-2015 Te
+      11                            .dwattr $C$DW$CU, DW_AT_TI_version(0x01)
+      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("H:\EECS_690\EECS690_Project01\FreeRTOS823_3_TM4C1294_Base_Te
+      13                    ;       C:\TI_CodeComposer\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armacpia.exe -@C:\\Users\\deasley
+      14                    
+      15                    ;******************************************************************************
+      16                    ;* BUILD ATTRIBUTES                                                           *
+      17                    ;******************************************************************************
+      18                            .battr "aeabi", Tag_File, 1, Tag_ABI_PCS_wchar_t(2)
+      19                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_rounding(0)
+      20                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_denormal(0)
+      21                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_exceptions(0)
+      22                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_number_model(1)
+      23                            .battr "aeabi", Tag_File, 1, Tag_ABI_enum_size(0)
+      24                            .battr "aeabi", Tag_File, 1, Tag_ABI_optimization_goals(5)
+      25                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_optimization_goals(0)
+      26                            .battr "TI", Tag_File, 1, Tag_Bitfield_layout(2)
+      27                            .battr "TI", Tag_File, 1, Tag_FP_interface(1)
+      28                    
+      29                    ;******************************************************************************
+      30                    ;* TYPE INFORMATION                                                           *
+      31                    ;******************************************************************************
+      32                    $C$DW$T$2       .dwtag  DW_TAG_unspecified_type
+      33                            .dwattr $C$DW$T$2, DW_AT_name("void")
+      34                    $C$DW$T$4       .dwtag  DW_TAG_base_type
+      35                            .dwattr $C$DW$T$4, DW_AT_encoding(DW_ATE_boolean)
+      36                            .dwattr $C$DW$T$4, DW_AT_name("bool")
+      37                            .dwattr $C$DW$T$4, DW_AT_byte_size(0x01)
+      38                    $C$DW$T$5       .dwtag  DW_TAG_base_type
+      39                            .dwattr $C$DW$T$5, DW_AT_encoding(DW_ATE_signed_char)
+      40                            .dwattr $C$DW$T$5, DW_AT_name("signed char")
+      41                            .dwattr $C$DW$T$5, DW_AT_byte_size(0x01)
+      42                    $C$DW$T$6       .dwtag  DW_TAG_base_type
+      43                            .dwattr $C$DW$T$6, DW_AT_encoding(DW_ATE_unsigned_char)
+      44                            .dwattr $C$DW$T$6, DW_AT_name("unsigned char")
+      45                            .dwattr $C$DW$T$6, DW_AT_byte_size(0x01)
+      46                    $C$DW$T$7       .dwtag  DW_TAG_base_type
+      47                            .dwattr $C$DW$T$7, DW_AT_encoding(DW_ATE_signed_char)
+      48                            .dwattr $C$DW$T$7, DW_AT_name("wchar_t")
+      49                            .dwattr $C$DW$T$7, DW_AT_byte_size(0x02)
+      50                    $C$DW$T$8       .dwtag  DW_TAG_base_type
+      51                            .dwattr $C$DW$T$8, DW_AT_encoding(DW_ATE_signed)
+      52                            .dwattr $C$DW$T$8, DW_AT_name("short")
+      53                            .dwattr $C$DW$T$8, DW_AT_byte_size(0x02)
+      54                    $C$DW$T$9       .dwtag  DW_TAG_base_type
+      55                            .dwattr $C$DW$T$9, DW_AT_encoding(DW_ATE_unsigned)
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:28 2016
+
+Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
+Task_tempConvert.asm                                                 PAGE    2
+
+      56                            .dwattr $C$DW$T$9, DW_AT_name("unsigned short")
+      57                            .dwattr $C$DW$T$9, DW_AT_byte_size(0x02)
+      58                    $C$DW$T$10      .dwtag  DW_TAG_base_type
+      59                            .dwattr $C$DW$T$10, DW_AT_encoding(DW_ATE_signed)
+      60                            .dwattr $C$DW$T$10, DW_AT_name("int")
+      61                            .dwattr $C$DW$T$10, DW_AT_byte_size(0x04)
+      62                    $C$DW$T$11      .dwtag  DW_TAG_base_type
+      63                            .dwattr $C$DW$T$11, DW_AT_encoding(DW_ATE_unsigned)
+      64                            .dwattr $C$DW$T$11, DW_AT_name("unsigned int")
+      65                            .dwattr $C$DW$T$11, DW_AT_byte_size(0x04)
+      66                    $C$DW$T$12      .dwtag  DW_TAG_base_type
+      67                            .dwattr $C$DW$T$12, DW_AT_encoding(DW_ATE_signed)
+      68                            .dwattr $C$DW$T$12, DW_AT_name("long")
+      69                            .dwattr $C$DW$T$12, DW_AT_byte_size(0x04)
+      70                    $C$DW$T$13      .dwtag  DW_TAG_base_type
+      71                            .dwattr $C$DW$T$13, DW_AT_encoding(DW_ATE_unsigned)
+      72                            .dwattr $C$DW$T$13, DW_AT_name("unsigned long")
+      73                            .dwattr $C$DW$T$13, DW_AT_byte_size(0x04)
+      74                    $C$DW$T$14      .dwtag  DW_TAG_base_type
+      75                            .dwattr $C$DW$T$14, DW_AT_encoding(DW_ATE_signed)
+      76                            .dwattr $C$DW$T$14, DW_AT_name("long long")
+      77                            .dwattr $C$DW$T$14, DW_AT_byte_size(0x08)
+      78                    $C$DW$T$15      .dwtag  DW_TAG_base_type
+      79                            .dwattr $C$DW$T$15, DW_AT_encoding(DW_ATE_unsigned)
+      80                            .dwattr $C$DW$T$15, DW_AT_name("unsigned long long")
+      81                            .dwattr $C$DW$T$15, DW_AT_byte_size(0x08)
+      82                    $C$DW$T$16      .dwtag  DW_TAG_base_type
+      83                            .dwattr $C$DW$T$16, DW_AT_encoding(DW_ATE_float)
+      84                            .dwattr $C$DW$T$16, DW_AT_name("float")
+      85                            .dwattr $C$DW$T$16, DW_AT_byte_size(0x04)
+      86                    $C$DW$T$17      .dwtag  DW_TAG_base_type
+      87                            .dwattr $C$DW$T$17, DW_AT_encoding(DW_ATE_float)
+      88                            .dwattr $C$DW$T$17, DW_AT_name("double")
+      89                            .dwattr $C$DW$T$17, DW_AT_byte_size(0x08)
+      90                    $C$DW$T$18      .dwtag  DW_TAG_base_type
+      91                            .dwattr $C$DW$T$18, DW_AT_encoding(DW_ATE_float)
+      92                            .dwattr $C$DW$T$18, DW_AT_name("long double")
+      93                            .dwattr $C$DW$T$18, DW_AT_byte_size(0x08)
+      94                    $C$DW$T$20      .dwtag  DW_TAG_pointer_type
+      95                            .dwattr $C$DW$T$20, DW_AT_type(*$C$DW$T$6)
+      96                            .dwattr $C$DW$T$20, DW_AT_address_class(0x20)
+      97                    $C$DW$T$21      .dwtag  DW_TAG_typedef, DW_AT_name("__builtin_va_list")
+      98                            .dwattr $C$DW$T$21, DW_AT_type(*$C$DW$T$20)
+      99                            .dwattr $C$DW$T$21, DW_AT_language(DW_LANG_C)
+     100                            .dwattr $C$DW$T$21, DW_AT_decl_file("../Tasks/Task_tempConvert.c")
+     101                            .dwattr $C$DW$T$21, DW_AT_decl_line(0x01)
+     102                            .dwattr $C$DW$T$21, DW_AT_decl_column(0x00)
+     103                            .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
+     104                            .dwendtag $C$DW$CU
+     105                    
+
+No Assembly Errors, No Assembly Warnings
