@@ -1,21 +1,21 @@
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
-       3                    ;* Date/Time created: Thu Mar 10 16:19:18 2016                                *
+       3                    ;* Date/Time created: Mon Mar 14 16:28:30 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
        7                    
        8                    $C$DW$CU        .dwtag  DW_TAG_compile_unit
-       9                            .dwattr $C$DW$CU, DW_AT_name("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01
+       9                            .dwattr $C$DW$CU, DW_AT_name("H:/EECS_690/EECS690_Project01/Source/list.c")
       10                            .dwattr $C$DW$CU, DW_AT_producer("TI TI ARM C/C++ Codegen PC v5.2.2 Copyright (c) 1996-2015 Te
       11                            .dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proje
-      13                    ;       C:\TI_CodeComposer\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armacpia.exe -@C:\\Users\\PDODDA~
+      12                            .dwattr $C$DW$CU, DW_AT_comp_dir("H:\EECS_690\EECS690_Project01\FreeRTOS823_3_TM4C1294_Base_Te
+      13                    ;       C:\TI_CodeComposer\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armacpia.exe -@C:\\Users\\deasley
       14 00000000                   .sect   ".text"
       15                            .clink
       16                            .thumbfunc vListInitialise
@@ -27,14 +27,14 @@ list.asm                                                             PAGE    1
       22                            .dwattr $C$DW$1, DW_AT_high_pc(0x00)
       23                            .dwattr $C$DW$1, DW_AT_TI_symbol_name("vListInitialise")
       24                            .dwattr $C$DW$1, DW_AT_external
-      25                            .dwattr $C$DW$1, DW_AT_TI_begin_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
+      25                            .dwattr $C$DW$1, DW_AT_TI_begin_file("H:/EECS_690/EECS690_Project01/Source/list.c")
       26                            .dwattr $C$DW$1, DW_AT_TI_begin_line(0x4f)
       27                            .dwattr $C$DW$1, DW_AT_TI_begin_column(0x06)
-      28                            .dwattr $C$DW$1, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proje
+      28                            .dwattr $C$DW$1, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/list.c")
       29                            .dwattr $C$DW$1, DW_AT_decl_line(0x4f)
       30                            .dwattr $C$DW$1, DW_AT_decl_column(0x06)
       31                            .dwattr $C$DW$1, DW_AT_TI_max_frame_size(0x08)
-      32                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+      32                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 80,column 1,is_stmt,address vL
       33                    
       34                            .dwfde $C$DW$CIE, vListInitialise
       35                    $C$DW$2 .dwtag  DW_TAG_formal_parameter, DW_AT_name("pxList")
@@ -58,36 +58,36 @@ list.asm                                                             PAGE    1
       53                            .dwattr $C$DW$3, DW_AT_TI_symbol_name("pxList")
       54                            .dwattr $C$DW$3, DW_AT_type(*$C$DW$T$43)
       55                            .dwattr $C$DW$3, DW_AT_location[DW_OP_breg13 0]
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    2
 
       56 00000004 9000              STR       A1, [SP, #0]          ; [DPU_3_PIPE] |80|  ; [ORIG 16-BIT INS]
-      57                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+      57                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 84,column 2,is_stmt,isa 1
       58 00000006 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |84|  ; [ORIG 16-BIT INS]
       59 00000008 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |84|  ; [ORIG 16-BIT INS]
       60 0000000a 3008              ADDS      A1, A1, #8            ; [DPU_3_PIPE] |84|  ; [ORIG 16-BIT INS]
       61 0000000c 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |84|  ; [ORIG 16-BIT INS]
-      62                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+      62                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 88,column 2,is_stmt,isa 1
       63 0000000e 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |88|  ; [ORIG 16-BIT INS]
       64 00000010 31FFF04F          MOV       A2, #-1               ; [DPU_3_PIPE] |88|  ; [KEEP 32-BIT INS]
       65 00000014 6081              STR       A2, [A1, #8]          ; [DPU_3_PIPE] |88|  ; [ORIG 16-BIT INS]
-      66                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+      66                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 92,column 2,is_stmt,isa 1
       67 00000016 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |92|  ; [ORIG 16-BIT INS]
       68 00000018 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |92|  ; [ORIG 16-BIT INS]
       69 0000001a 3008              ADDS      A1, A1, #8            ; [DPU_3_PIPE] |92|  ; [ORIG 16-BIT INS]
       70 0000001c 60C8              STR       A1, [A2, #12]         ; [DPU_3_PIPE] |92|  ; [ORIG 16-BIT INS]
-      71                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+      71                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 93,column 2,is_stmt,isa 1
       72 0000001e 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |93|  ; [ORIG 16-BIT INS]
       73 00000020 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |93|  ; [ORIG 16-BIT INS]
       74 00000022 3008              ADDS      A1, A1, #8            ; [DPU_3_PIPE] |93|  ; [ORIG 16-BIT INS]
       75 00000024 6108              STR       A1, [A2, #16]         ; [DPU_3_PIPE] |93|  ; [ORIG 16-BIT INS]
-      76                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+      76                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 95,column 2,is_stmt,isa 1
       77 00000026 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |95|  ; [ORIG 16-BIT INS]
       78 00000028 2100              MOVS      A2, #0                ; [DPU_3_PIPE] |95|  ; [ORIG 16-BIT INS]
       79 0000002a 6001              STR       A2, [A1, #0]          ; [DPU_3_PIPE] |95|  ; [ORIG 16-BIT INS]
-      80                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+      80                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 101,column 1,is_stmt,isa 1
       81 0000002c B002              ADD       SP, SP, #8            ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
       82                            .dwcfi  cfa_offset, 0
       83                    $C$DW$4 .dwtag  DW_TAG_TI_branch
@@ -95,7 +95,7 @@ list.asm                                                             PAGE    2
       85                            .dwattr $C$DW$4, DW_AT_TI_return
       86 0000002e 4770              BX        LR                    ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
       87                            ; BRANCH OCCURS                  ; [] 
-      88                            .dwattr $C$DW$1, DW_AT_TI_end_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pro
+      88                            .dwattr $C$DW$1, DW_AT_TI_end_file("H:/EECS_690/EECS690_Project01/Source/list.c")
       89                            .dwattr $C$DW$1, DW_AT_TI_end_line(0x65)
       90                            .dwattr $C$DW$1, DW_AT_TI_end_column(0x01)
       91                            .dwendentry
@@ -112,19 +112,19 @@ list.asm                                                             PAGE    2
      102                            .dwattr $C$DW$5, DW_AT_high_pc(0x00)
      103                            .dwattr $C$DW$5, DW_AT_TI_symbol_name("vListInitialiseItem")
      104                            .dwattr $C$DW$5, DW_AT_external
-     105                            .dwattr $C$DW$5, DW_AT_TI_begin_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
+     105                            .dwattr $C$DW$5, DW_AT_TI_begin_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      106                            .dwattr $C$DW$5, DW_AT_TI_begin_line(0x68)
      107                            .dwattr $C$DW$5, DW_AT_TI_begin_column(0x06)
-     108                            .dwattr $C$DW$5, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proje
+     108                            .dwattr $C$DW$5, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      109                            .dwattr $C$DW$5, DW_AT_decl_line(0x68)
      110                            .dwattr $C$DW$5, DW_AT_decl_column(0x06)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    3
 
      111                            .dwattr $C$DW$5, DW_AT_TI_max_frame_size(0x08)
-     112                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     112                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 105,column 1,is_stmt,address v
      113                    
      114                            .dwfde $C$DW$CIE, vListInitialiseItem
      115                    $C$DW$6 .dwtag  DW_TAG_formal_parameter, DW_AT_name("pxItem")
@@ -149,11 +149,11 @@ list.asm                                                             PAGE    3
      134                            .dwattr $C$DW$7, DW_AT_type(*$C$DW$T$45)
      135                            .dwattr $C$DW$7, DW_AT_location[DW_OP_breg13 0]
      136 00000034 9000              STR       A1, [SP, #0]          ; [DPU_3_PIPE] |105|  ; [ORIG 16-BIT INS]
-     137                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     137                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 107,column 2,is_stmt,isa 1
      138 00000036 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |107|  ; [ORIG 16-BIT INS]
      139 00000038 2100              MOVS      A2, #0                ; [DPU_3_PIPE] |107|  ; [ORIG 16-BIT INS]
      140 0000003a 6101              STR       A2, [A1, #16]         ; [DPU_3_PIPE] |107|  ; [ORIG 16-BIT INS]
-     141                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     141                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 113,column 1,is_stmt,isa 1
      142 0000003c B002              ADD       SP, SP, #8            ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      143                            .dwcfi  cfa_offset, 0
      144                    $C$DW$8 .dwtag  DW_TAG_TI_branch
@@ -161,7 +161,7 @@ list.asm                                                             PAGE    3
      146                            .dwattr $C$DW$8, DW_AT_TI_return
      147 0000003e 4770              BX        LR                    ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      148                            ; BRANCH OCCURS                  ; [] 
-     149                            .dwattr $C$DW$5, DW_AT_TI_end_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pro
+     149                            .dwattr $C$DW$5, DW_AT_TI_end_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      150                            .dwattr $C$DW$5, DW_AT_TI_end_line(0x71)
      151                            .dwattr $C$DW$5, DW_AT_TI_end_column(0x01)
      152                            .dwendentry
@@ -178,19 +178,19 @@ list.asm                                                             PAGE    3
      163                            .dwattr $C$DW$9, DW_AT_high_pc(0x00)
      164                            .dwattr $C$DW$9, DW_AT_TI_symbol_name("vListInsertEnd")
      165                            .dwattr $C$DW$9, DW_AT_external
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    4
 
-     166                            .dwattr $C$DW$9, DW_AT_TI_begin_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
+     166                            .dwattr $C$DW$9, DW_AT_TI_begin_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      167                            .dwattr $C$DW$9, DW_AT_TI_begin_line(0x74)
      168                            .dwattr $C$DW$9, DW_AT_TI_begin_column(0x06)
-     169                            .dwattr $C$DW$9, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proje
+     169                            .dwattr $C$DW$9, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      170                            .dwattr $C$DW$9, DW_AT_decl_line(0x74)
      171                            .dwattr $C$DW$9, DW_AT_decl_column(0x06)
      172                            .dwattr $C$DW$9, DW_AT_TI_max_frame_size(0x10)
-     173                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     173                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 117,column 1,is_stmt,address v
      174                    
      175                            .dwfde $C$DW$CIE, vListInsertEnd
      176                    $C$DW$10        .dwtag  DW_TAG_formal_parameter, DW_AT_name("pxList")
@@ -228,17 +228,17 @@ list.asm                                                             PAGE    4
      208                            .dwattr $C$DW$14, DW_AT_location[DW_OP_breg13 8]
      209 00000044 9101              STR       A2, [SP, #4]          ; [DPU_3_PIPE] |117|  ; [ORIG 16-BIT INS]
      210 00000046 9000              STR       A1, [SP, #0]          ; [DPU_3_PIPE] |117|  ; [ORIG 16-BIT INS]
-     211                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     211                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 118,column 28,is_stmt,isa 1
      212 00000048 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |118|  ; [ORIG 16-BIT INS]
      213 0000004a 6840              LDR       A1, [A1, #4]          ; [DPU_3_PIPE] |118|  ; [ORIG 16-BIT INS]
      214 0000004c 9002              STR       A1, [SP, #8]          ; [DPU_3_PIPE] |118|  ; [ORIG 16-BIT INS]
-     215                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     215                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 129,column 2,is_stmt,isa 1
      216 0000004e 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |129|  ; [ORIG 16-BIT INS]
      217 00000050 9802              LDR       A1, [SP, #8]          ; [DPU_3_PIPE] |129|  ; [ORIG 16-BIT INS]
      218 00000052 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |129|  ; [ORIG 16-BIT INS]
-     219                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     219                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 130,column 2,is_stmt,isa 1
      220 00000054 9802              LDR       A1, [SP, #8]          ; [DPU_3_PIPE] |130|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    5
@@ -246,25 +246,25 @@ list.asm                                                             PAGE    5
      221 00000056 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |130|  ; [ORIG 16-BIT INS]
      222 00000058 6880              LDR       A1, [A1, #8]          ; [DPU_3_PIPE] |130|  ; [ORIG 16-BIT INS]
      223 0000005a 6088              STR       A1, [A2, #8]          ; [DPU_3_PIPE] |130|  ; [ORIG 16-BIT INS]
-     224                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     224                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 135,column 2,is_stmt,isa 1
      225 0000005c 9902              LDR       A2, [SP, #8]          ; [DPU_3_PIPE] |135|  ; [ORIG 16-BIT INS]
      226 0000005e 9801              LDR       A1, [SP, #4]          ; [DPU_3_PIPE] |135|  ; [ORIG 16-BIT INS]
      227 00000060 6889              LDR       A2, [A2, #8]          ; [DPU_3_PIPE] |135|  ; [ORIG 16-BIT INS]
      228 00000062 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |135|  ; [ORIG 16-BIT INS]
-     229                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     229                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 136,column 2,is_stmt,isa 1
      230 00000064 9801              LDR       A1, [SP, #4]          ; [DPU_3_PIPE] |136|  ; [ORIG 16-BIT INS]
      231 00000066 9902              LDR       A2, [SP, #8]          ; [DPU_3_PIPE] |136|  ; [ORIG 16-BIT INS]
      232 00000068 6088              STR       A1, [A2, #8]          ; [DPU_3_PIPE] |136|  ; [ORIG 16-BIT INS]
-     233                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     233                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 139,column 2,is_stmt,isa 1
      234 0000006a 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |139|  ; [ORIG 16-BIT INS]
      235 0000006c 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |139|  ; [ORIG 16-BIT INS]
      236 0000006e 6108              STR       A1, [A2, #16]         ; [DPU_3_PIPE] |139|  ; [ORIG 16-BIT INS]
-     237                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     237                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 141,column 2,is_stmt,isa 1
      238 00000070 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |141|  ; [ORIG 16-BIT INS]
      239 00000072 6808              LDR       A1, [A2, #0]          ; [DPU_3_PIPE] |141|  ; [ORIG 16-BIT INS]
      240 00000074 1C40              ADDS      A1, A1, #1            ; [DPU_3_PIPE] |141|  ; [ORIG 16-BIT INS]
      241 00000076 6008              STR       A1, [A2, #0]          ; [DPU_3_PIPE] |141|  ; [ORIG 16-BIT INS]
-     242                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     242                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 142,column 1,is_stmt,isa 1
      243 00000078 B004              ADD       SP, SP, #16           ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      244                            .dwcfi  cfa_offset, 0
      245                    $C$DW$15        .dwtag  DW_TAG_TI_branch
@@ -272,7 +272,7 @@ list.asm                                                             PAGE    5
      247                            .dwattr $C$DW$15, DW_AT_TI_return
      248 0000007a 4770              BX        LR                    ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      249                            ; BRANCH OCCURS                  ; [] 
-     250                            .dwattr $C$DW$9, DW_AT_TI_end_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pro
+     250                            .dwattr $C$DW$9, DW_AT_TI_end_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      251                            .dwattr $C$DW$9, DW_AT_TI_end_line(0x8e)
      252                            .dwattr $C$DW$9, DW_AT_TI_end_column(0x01)
      253                            .dwendentry
@@ -289,16 +289,16 @@ list.asm                                                             PAGE    5
      264                            .dwattr $C$DW$16, DW_AT_high_pc(0x00)
      265                            .dwattr $C$DW$16, DW_AT_TI_symbol_name("vListInsert")
      266                            .dwattr $C$DW$16, DW_AT_external
-     267                            .dwattr $C$DW$16, DW_AT_TI_begin_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_
+     267                            .dwattr $C$DW$16, DW_AT_TI_begin_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      268                            .dwattr $C$DW$16, DW_AT_TI_begin_line(0x91)
      269                            .dwattr $C$DW$16, DW_AT_TI_begin_column(0x06)
-     270                            .dwattr $C$DW$16, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+     270                            .dwattr $C$DW$16, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      271                            .dwattr $C$DW$16, DW_AT_decl_line(0x91)
      272                            .dwattr $C$DW$16, DW_AT_decl_column(0x06)
      273                            .dwattr $C$DW$16, DW_AT_TI_max_frame_size(0x10)
-     274                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     274                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 146,column 1,is_stmt,address v
      275                    
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    6
@@ -343,22 +343,22 @@ list.asm                                                             PAGE    6
      313                            .dwattr $C$DW$22, DW_AT_location[DW_OP_breg13 12]
      314 00000080 9101              STR       A2, [SP, #4]          ; [DPU_3_PIPE] |146|  ; [ORIG 16-BIT INS]
      315 00000082 9000              STR       A1, [SP, #0]          ; [DPU_3_PIPE] |146|  ; [ORIG 16-BIT INS]
-     316                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     316                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 148,column 36,is_stmt,isa 1
      317 00000084 9801              LDR       A1, [SP, #4]          ; [DPU_3_PIPE] |148|  ; [ORIG 16-BIT INS]
      318 00000086 6800              LDR       A1, [A1, #0]          ; [DPU_3_PIPE] |148|  ; [ORIG 16-BIT INS]
      319 00000088 9003              STR       A1, [SP, #12]         ; [DPU_3_PIPE] |148|  ; [ORIG 16-BIT INS]
-     320                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     320                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 164,column 2,is_stmt,isa 1
      321 0000008a 9803              LDR       A1, [SP, #12]         ; [DPU_3_PIPE] |164|  ; [ORIG 16-BIT INS]
      322 0000008c 3FFFF1B0          CMP       A1, #-1               ; [DPU_3_PIPE] |164|  ; [KEEP 32-BIT INS]
      323 00000090 D103              BNE       ||$C$L1||             ; [DPU_3_PIPE] |164|  ; [ORIG 16-BIT INS]
      324                            ; BRANCHCC OCCURS {||$C$L1||}    ; [] |164| 
      325                    ;* --------------------------------------------------------------------------*
-     326                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     326                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 166,column 3,is_stmt,isa 1
      327 00000092 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |166|  ; [ORIG 16-BIT INS]
      328 00000094 6900              LDR       A1, [A1, #16]         ; [DPU_3_PIPE] |166|  ; [ORIG 16-BIT INS]
      329 00000096 9002              STR       A1, [SP, #8]          ; [DPU_3_PIPE] |166|  ; [ORIG 16-BIT INS]
-     330                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+     330                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 167,column 2,is_stmt,isa 1
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    7
@@ -367,7 +367,7 @@ list.asm                                                             PAGE    7
      332                            ; BRANCH OCCURS {||$C$L4||}      ; [] |167| 
      333                    ;* --------------------------------------------------------------------------*
      334 0000009a           ||$C$L1||:    
-     335                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     335                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 192,column 8,is_stmt,isa 1
      336 0000009a 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
      337 0000009c 3008              ADDS      A1, A1, #8            ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
      338 0000009e 9002              STR       A1, [SP, #8]          ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
@@ -375,7 +375,7 @@ list.asm                                                             PAGE    7
      340                            ; BRANCH OCCURS {||$C$L3||}      ; [] |192| 
      341                    ;* --------------------------------------------------------------------------*
      342 000000a2           ||$C$L2||:    
-     343                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     343                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 192,column 114,is_stmt,isa 1
      344 000000a2 9802              LDR       A1, [SP, #8]          ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
      345 000000a4 6840              LDR       A1, [A1, #4]          ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
      346 000000a6 9002              STR       A1, [SP, #8]          ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
@@ -383,7 +383,7 @@ list.asm                                                             PAGE    7
      348                    ;*   BEGIN LOOP ||$C$L3||
      349                    ;* --------------------------------------------------------------------------*
      350 000000a8           ||$C$L3||:    
-     351                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     351                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 192,column 61,is_stmt,isa 1
      352 000000a8 9802              LDR       A1, [SP, #8]          ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
      353 000000aa 6841              LDR       A2, [A1, #4]          ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
      354 000000ac 9803              LDR       A1, [SP, #12]         ; [DPU_3_PIPE] |192|  ; [ORIG 16-BIT INS]
@@ -393,39 +393,39 @@ list.asm                                                             PAGE    7
      358                            ; BRANCHCC OCCURS {||$C$L2||}    ; [] |192| 
      359                    ;* --------------------------------------------------------------------------*
      360 000000b4           ||$C$L4||:    
-     361                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     361                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 199,column 2,is_stmt,isa 1
      362 000000b4 9802              LDR       A1, [SP, #8]          ; [DPU_3_PIPE] |199|  ; [ORIG 16-BIT INS]
      363 000000b6 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |199|  ; [ORIG 16-BIT INS]
      364 000000b8 6840              LDR       A1, [A1, #4]          ; [DPU_3_PIPE] |199|  ; [ORIG 16-BIT INS]
      365 000000ba 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |199|  ; [ORIG 16-BIT INS]
-     366                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     366                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 200,column 2,is_stmt,isa 1
      367 000000bc 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |200|  ; [ORIG 16-BIT INS]
      368 000000be 9801              LDR       A1, [SP, #4]          ; [DPU_3_PIPE] |200|  ; [ORIG 16-BIT INS]
      369 000000c0 6849              LDR       A2, [A2, #4]          ; [DPU_3_PIPE] |200|  ; [ORIG 16-BIT INS]
      370 000000c2 6088              STR       A1, [A2, #8]          ; [DPU_3_PIPE] |200|  ; [ORIG 16-BIT INS]
-     371                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     371                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 201,column 2,is_stmt,isa 1
      372 000000c4 9802              LDR       A1, [SP, #8]          ; [DPU_3_PIPE] |201|  ; [ORIG 16-BIT INS]
      373 000000c6 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |201|  ; [ORIG 16-BIT INS]
      374 000000c8 6088              STR       A1, [A2, #8]          ; [DPU_3_PIPE] |201|  ; [ORIG 16-BIT INS]
-     375                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     375                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 202,column 2,is_stmt,isa 1
      376 000000ca 9801              LDR       A1, [SP, #4]          ; [DPU_3_PIPE] |202|  ; [ORIG 16-BIT INS]
      377 000000cc 9902              LDR       A2, [SP, #8]          ; [DPU_3_PIPE] |202|  ; [ORIG 16-BIT INS]
      378 000000ce 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |202|  ; [ORIG 16-BIT INS]
-     379                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     379                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 206,column 2,is_stmt,isa 1
      380 000000d0 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |206|  ; [ORIG 16-BIT INS]
      381 000000d2 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |206|  ; [ORIG 16-BIT INS]
      382 000000d4 6108              STR       A1, [A2, #16]         ; [DPU_3_PIPE] |206|  ; [ORIG 16-BIT INS]
-     383                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     383                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 208,column 2,is_stmt,isa 1
      384 000000d6 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |208|  ; [ORIG 16-BIT INS]
      385 000000d8 6808              LDR       A1, [A2, #0]          ; [DPU_3_PIPE] |208|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    8
 
      386 000000da 1C40              ADDS      A1, A1, #1            ; [DPU_3_PIPE] |208|  ; [ORIG 16-BIT INS]
      387 000000dc 6008              STR       A1, [A2, #0]          ; [DPU_3_PIPE] |208|  ; [ORIG 16-BIT INS]
-     388                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     388                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 209,column 1,is_stmt,isa 1
      389 000000de B004              ADD       SP, SP, #16           ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      390                            .dwcfi  cfa_offset, 0
      391                    $C$DW$23        .dwtag  DW_TAG_TI_branch
@@ -433,7 +433,7 @@ list.asm                                                             PAGE    8
      393                            .dwattr $C$DW$23, DW_AT_TI_return
      394 000000e0 4770              BX        LR                    ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      395                            ; BRANCH OCCURS                  ; [] 
-     396                            .dwattr $C$DW$16, DW_AT_TI_end_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     396                            .dwattr $C$DW$16, DW_AT_TI_end_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      397                            .dwattr $C$DW$16, DW_AT_TI_end_line(0xd1)
      398                            .dwattr $C$DW$16, DW_AT_TI_end_column(0x01)
      399                            .dwendentry
@@ -451,14 +451,14 @@ list.asm                                                             PAGE    8
      411                            .dwattr $C$DW$24, DW_AT_TI_symbol_name("uxListRemove")
      412                            .dwattr $C$DW$24, DW_AT_external
      413                            .dwattr $C$DW$24, DW_AT_type(*$C$DW$T$28)
-     414                            .dwattr $C$DW$24, DW_AT_TI_begin_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_
+     414                            .dwattr $C$DW$24, DW_AT_TI_begin_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      415                            .dwattr $C$DW$24, DW_AT_TI_begin_line(0xd4)
      416                            .dwattr $C$DW$24, DW_AT_TI_begin_column(0x0d)
-     417                            .dwattr $C$DW$24, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+     417                            .dwattr $C$DW$24, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      418                            .dwattr $C$DW$24, DW_AT_decl_line(0xd4)
      419                            .dwattr $C$DW$24, DW_AT_decl_column(0x0d)
      420                            .dwattr $C$DW$24, DW_AT_TI_max_frame_size(0x08)
-     421                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     421                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 213,column 1,is_stmt,address u
      422                    
      423                            .dwfde $C$DW$CIE, uxListRemove
      424                    $C$DW$25        .dwtag  DW_TAG_formal_parameter, DW_AT_name("pxItemToRemove")
@@ -478,7 +478,7 @@ list.asm                                                             PAGE    8
      438                            .dwcfi  cfa_offset, 0
      439 000000e2 0D08F1AD          SUB       SP, SP, #8            ; [DPU_3_PIPE]  ; [KEEP 32-BIT INS]
      440                            .dwcfi  cfa_offset, 8
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE    9
@@ -492,23 +492,23 @@ list.asm                                                             PAGE    9
      447                            .dwattr $C$DW$27, DW_AT_type(*$C$DW$T$43)
      448                            .dwattr $C$DW$27, DW_AT_location[DW_OP_breg13 4]
      449 000000e6 9000              STR       A1, [SP, #0]          ; [DPU_3_PIPE] |213|  ; [ORIG 16-BIT INS]
-     450                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     450                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 216,column 23,is_stmt,isa 1
      451 000000e8 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |216|  ; [ORIG 16-BIT INS]
      452 000000ea 6900              LDR       A1, [A1, #16]         ; [DPU_3_PIPE] |216|  ; [ORIG 16-BIT INS]
      453 000000ec 9001              STR       A1, [SP, #4]          ; [DPU_3_PIPE] |216|  ; [ORIG 16-BIT INS]
-     454                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     454                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 218,column 2,is_stmt,isa 1
      455 000000ee 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |218|  ; [ORIG 16-BIT INS]
      456 000000f0 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |218|  ; [ORIG 16-BIT INS]
      457 000000f2 6849              LDR       A2, [A2, #4]          ; [DPU_3_PIPE] |218|  ; [ORIG 16-BIT INS]
      458 000000f4 6880              LDR       A1, [A1, #8]          ; [DPU_3_PIPE] |218|  ; [ORIG 16-BIT INS]
      459 000000f6 6088              STR       A1, [A2, #8]          ; [DPU_3_PIPE] |218|  ; [ORIG 16-BIT INS]
-     460                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     460                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 219,column 2,is_stmt,isa 1
      461 000000f8 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |219|  ; [ORIG 16-BIT INS]
      462 000000fa 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |219|  ; [ORIG 16-BIT INS]
      463 000000fc 6840              LDR       A1, [A1, #4]          ; [DPU_3_PIPE] |219|  ; [ORIG 16-BIT INS]
      464 000000fe 6889              LDR       A2, [A2, #8]          ; [DPU_3_PIPE] |219|  ; [ORIG 16-BIT INS]
      465 00000100 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |219|  ; [ORIG 16-BIT INS]
-     466                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     466                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 225,column 2,is_stmt,isa 1
      467 00000102 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |225|  ; [ORIG 16-BIT INS]
      468 00000104 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |225|  ; [ORIG 16-BIT INS]
      469 00000106 6849              LDR       A2, [A2, #4]          ; [DPU_3_PIPE] |225|  ; [ORIG 16-BIT INS]
@@ -516,29 +516,29 @@ list.asm                                                             PAGE    9
      471 0000010a D103              BNE       ||$C$L5||             ; [DPU_3_PIPE] |225|  ; [ORIG 16-BIT INS]
      472                            ; BRANCHCC OCCURS {||$C$L5||}    ; [] |225| 
      473                    ;* --------------------------------------------------------------------------*
-     474                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     474                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 227,column 3,is_stmt,isa 1
      475 0000010c 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |227|  ; [ORIG 16-BIT INS]
      476 0000010e 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |227|  ; [ORIG 16-BIT INS]
      477 00000110 6880              LDR       A1, [A1, #8]          ; [DPU_3_PIPE] |227|  ; [ORIG 16-BIT INS]
      478 00000112 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |227|  ; [ORIG 16-BIT INS]
-     479                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     479                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 228,column 2,is_stmt,isa 1
      480                    ;* --------------------------------------------------------------------------*
      481 00000114           ||$C$L5||:    
-     482                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     482                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 234,column 2,is_stmt,isa 1
      483 00000114 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |234|  ; [ORIG 16-BIT INS]
      484 00000116 2100              MOVS      A2, #0                ; [DPU_3_PIPE] |234|  ; [ORIG 16-BIT INS]
      485 00000118 6101              STR       A2, [A1, #16]         ; [DPU_3_PIPE] |234|  ; [ORIG 16-BIT INS]
-     486                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     486                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 235,column 2,is_stmt,isa 1
      487 0000011a 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |235|  ; [ORIG 16-BIT INS]
      488 0000011c 6808              LDR       A1, [A2, #0]          ; [DPU_3_PIPE] |235|  ; [ORIG 16-BIT INS]
      489 0000011e 1E40              SUBS      A1, A1, #1            ; [DPU_3_PIPE] |235|  ; [ORIG 16-BIT INS]
      490 00000120 6008              STR       A1, [A2, #0]          ; [DPU_3_PIPE] |235|  ; [ORIG 16-BIT INS]
-     491                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     491                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 237,column 2,is_stmt,isa 1
      492 00000122 9801              LDR       A1, [SP, #4]          ; [DPU_3_PIPE] |237|  ; [ORIG 16-BIT INS]
      493 00000124 6800              LDR       A1, [A1, #0]          ; [DPU_3_PIPE] |237|  ; [ORIG 16-BIT INS]
-     494                            .dwpsn  file "H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Project01/Source/list.c",
+     494                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/list.c",line 238,column 1,is_stmt,isa 1
      495 00000126 B002              ADD       SP, SP, #8            ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   10
@@ -549,7 +549,7 @@ list.asm                                                             PAGE   10
      499                            .dwattr $C$DW$28, DW_AT_TI_return
      500 00000128 4770              BX        LR                    ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      501                            ; BRANCH OCCURS                  ; [] 
-     502                            .dwattr $C$DW$24, DW_AT_TI_end_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     502                            .dwattr $C$DW$24, DW_AT_TI_end_file("H:/EECS_690/EECS690_Project01/Source/list.c")
      503                            .dwattr $C$DW$24, DW_AT_TI_end_line(0xee)
      504                            .dwattr $C$DW$24, DW_AT_TI_end_column(0x01)
      505                            .dwendentry
@@ -598,7 +598,7 @@ list.asm                                                             PAGE   10
      548                    
      549                            .dwattr $C$DW$T$19, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      550                            .dwattr $C$DW$T$19, DW_AT_decl_line(0x59)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   11
@@ -658,7 +658,7 @@ list.asm                                                             PAGE   11
      603                            .dwattr $C$DW$34, DW_AT_type(*$C$DW$T$14)
      604                            .dwattr $C$DW$34, DW_AT_name("rem")
      605                            .dwattr $C$DW$34, DW_AT_TI_symbol_name("rem")
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   12
@@ -689,7 +689,7 @@ list.asm                                                             PAGE   12
      629                            .dwattr $C$DW$35, DW_AT_TI_symbol_name("pucStartAddress")
      630                            .dwattr $C$DW$35, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      631                            .dwattr $C$DW$35, DW_AT_accessibility(DW_ACCESS_public)
-     632                            .dwattr $C$DW$35, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
+     632                            .dwattr $C$DW$35, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\portable.h")
      633                            .dwattr $C$DW$35, DW_AT_decl_line(0x96)
      634                            .dwattr $C$DW$35, DW_AT_decl_column(0x0b)
      635                    $C$DW$36        .dwtag  DW_TAG_member
@@ -698,18 +698,18 @@ list.asm                                                             PAGE   12
      638                            .dwattr $C$DW$36, DW_AT_TI_symbol_name("xSizeInBytes")
      639                            .dwattr $C$DW$36, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
      640                            .dwattr $C$DW$36, DW_AT_accessibility(DW_ACCESS_public)
-     641                            .dwattr $C$DW$36, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Proj
+     641                            .dwattr $C$DW$36, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\portable.h")
      642                            .dwattr $C$DW$36, DW_AT_decl_line(0x97)
      643                            .dwattr $C$DW$36, DW_AT_decl_column(0x09)
      644                            .dwendtag $C$DW$T$25
      645                    
-     646                            .dwattr $C$DW$T$25, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
+     646                            .dwattr $C$DW$T$25, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\portable.h")
      647                            .dwattr $C$DW$T$25, DW_AT_decl_line(0x94)
      648                            .dwattr $C$DW$T$25, DW_AT_decl_column(0x10)
      649                    $C$DW$T$40      .dwtag  DW_TAG_typedef, DW_AT_name("HeapRegion_t")
      650                            .dwattr $C$DW$T$40, DW_AT_type(*$C$DW$T$25)
      651                            .dwattr $C$DW$T$40, DW_AT_language(DW_LANG_C)
-     652                            .dwattr $C$DW$T$40, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
+     652                            .dwattr $C$DW$T$40, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\portable.h")
      653                            .dwattr $C$DW$T$40, DW_AT_decl_line(0x98)
      654                            .dwattr $C$DW$T$40, DW_AT_decl_column(0x03)
      655                    $C$DW$T$2       .dwtag  DW_TAG_unspecified_type
@@ -718,7 +718,7 @@ list.asm                                                             PAGE   12
      658                            .dwattr $C$DW$T$3, DW_AT_type(*$C$DW$T$2)
      659                            .dwattr $C$DW$T$3, DW_AT_address_class(0x20)
      660                    
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   13
@@ -752,7 +752,7 @@ list.asm                                                             PAGE   13
      687                    $C$DW$T$55      .dwtag  DW_TAG_typedef, DW_AT_name("TaskFunction_t")
      688                            .dwattr $C$DW$T$55, DW_AT_type(*$C$DW$T$54)
      689                            .dwattr $C$DW$T$55, DW_AT_language(DW_LANG_C)
-     690                            .dwattr $C$DW$T$55, DW_AT_decl_file("H:\EECS_690\TI_ARM_Tiva_Projects_EECS_690_Sp16\EECS690_Pr
+     690                            .dwattr $C$DW$T$55, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\projdefs.h")
      691                            .dwattr $C$DW$T$55, DW_AT_decl_line(0x4d)
      692                            .dwattr $C$DW$T$55, DW_AT_decl_column(0x10)
      693                    $C$DW$T$4       .dwtag  DW_TAG_base_type
@@ -778,7 +778,7 @@ list.asm                                                             PAGE   13
      713                    $C$DW$T$6       .dwtag  DW_TAG_base_type
      714                            .dwattr $C$DW$T$6, DW_AT_encoding(DW_ATE_unsigned_char)
      715                            .dwattr $C$DW$T$6, DW_AT_name("unsigned char")
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   14
@@ -796,7 +796,7 @@ list.asm                                                             PAGE   14
      726                    $C$DW$T$58      .dwtag  DW_TAG_typedef, DW_AT_name("portCHAR")
      727                            .dwattr $C$DW$T$58, DW_AT_type(*$C$DW$T$22)
      728                            .dwattr $C$DW$T$58, DW_AT_language(DW_LANG_C)
-     729                            .dwattr $C$DW$T$58, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     729                            .dwattr $C$DW$T$58, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      730                            .dwattr $C$DW$T$58, DW_AT_decl_line(0x60)
      731                            .dwattr $C$DW$T$58, DW_AT_decl_column(0x12)
      732                    $C$DW$T$59      .dwtag  DW_TAG_typedef, DW_AT_name("uint_least8_t")
@@ -828,7 +828,7 @@ list.asm                                                             PAGE   14
      758                    $C$DW$T$62      .dwtag  DW_TAG_typedef, DW_AT_name("portSHORT")
      759                            .dwattr $C$DW$T$62, DW_AT_type(*$C$DW$T$60)
      760                            .dwattr $C$DW$T$62, DW_AT_language(DW_LANG_C)
-     761                            .dwattr $C$DW$T$62, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     761                            .dwattr $C$DW$T$62, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      762                            .dwattr $C$DW$T$62, DW_AT_decl_line(0x64)
      763                            .dwattr $C$DW$T$62, DW_AT_decl_column(0x12)
      764                    $C$DW$T$9       .dwtag  DW_TAG_base_type
@@ -838,7 +838,7 @@ list.asm                                                             PAGE   14
      768                    $C$DW$T$63      .dwtag  DW_TAG_typedef, DW_AT_name("_Wchart")
      769                            .dwattr $C$DW$T$63, DW_AT_type(*$C$DW$T$9)
      770                            .dwattr $C$DW$T$63, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   15
@@ -898,7 +898,7 @@ list.asm                                                             PAGE   15
      823                            .dwattr $C$DW$T$71, DW_AT_language(DW_LANG_C)
      824                            .dwattr $C$DW$T$71, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      825                            .dwattr $C$DW$T$71, DW_AT_decl_line(0xb5)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   16
@@ -913,7 +913,7 @@ list.asm                                                             PAGE   16
      833                    $C$DW$T$73      .dwtag  DW_TAG_typedef, DW_AT_name("BaseType_t")
      834                            .dwattr $C$DW$T$73, DW_AT_type(*$C$DW$T$72)
      835                            .dwattr $C$DW$T$73, DW_AT_language(DW_LANG_C)
-     836                            .dwattr $C$DW$T$73, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     836                            .dwattr $C$DW$T$73, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      837                            .dwattr $C$DW$T$73, DW_AT_decl_line(0x69)
      838                            .dwattr $C$DW$T$73, DW_AT_decl_column(0x12)
      839                    $C$DW$T$74      .dwtag  DW_TAG_typedef, DW_AT_name("int_fast16_t")
@@ -943,13 +943,13 @@ list.asm                                                             PAGE   16
      863                    $C$DW$T$78      .dwtag  DW_TAG_typedef, DW_AT_name("portBASE_TYPE")
      864                            .dwattr $C$DW$T$78, DW_AT_type(*$C$DW$T$72)
      865                            .dwattr $C$DW$T$78, DW_AT_language(DW_LANG_C)
-     866                            .dwattr $C$DW$T$78, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     866                            .dwattr $C$DW$T$78, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      867                            .dwattr $C$DW$T$78, DW_AT_decl_line(0x66)
      868                            .dwattr $C$DW$T$78, DW_AT_decl_column(0x12)
      869                    $C$DW$T$79      .dwtag  DW_TAG_typedef, DW_AT_name("portLONG")
      870                            .dwattr $C$DW$T$79, DW_AT_type(*$C$DW$T$72)
      871                            .dwattr $C$DW$T$79, DW_AT_language(DW_LANG_C)
-     872                            .dwattr $C$DW$T$79, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     872                            .dwattr $C$DW$T$79, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      873                            .dwattr $C$DW$T$79, DW_AT_decl_line(0x63)
      874                            .dwattr $C$DW$T$79, DW_AT_decl_column(0x12)
      875                    $C$DW$T$80      .dwtag  DW_TAG_typedef, DW_AT_name("intptr_t")
@@ -958,7 +958,7 @@ list.asm                                                             PAGE   16
      878                            .dwattr $C$DW$T$80, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      879                            .dwattr $C$DW$T$80, DW_AT_decl_line(0x52)
      880                            .dwattr $C$DW$T$80, DW_AT_decl_column(0x1a)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   17
@@ -994,13 +994,13 @@ list.asm                                                             PAGE   17
      909                    $C$DW$T$83      .dwtag  DW_TAG_typedef, DW_AT_name("StackType_t")
      910                            .dwattr $C$DW$T$83, DW_AT_type(*$C$DW$T$27)
      911                            .dwattr $C$DW$T$83, DW_AT_language(DW_LANG_C)
-     912                            .dwattr $C$DW$T$83, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     912                            .dwattr $C$DW$T$83, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      913                            .dwattr $C$DW$T$83, DW_AT_decl_line(0x68)
      914                            .dwattr $C$DW$T$83, DW_AT_decl_column(0x12)
      915                    $C$DW$T$33      .dwtag  DW_TAG_typedef, DW_AT_name("TickType_t")
      916                            .dwattr $C$DW$T$33, DW_AT_type(*$C$DW$T$27)
      917                            .dwattr $C$DW$T$33, DW_AT_language(DW_LANG_C)
-     918                            .dwattr $C$DW$T$33, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     918                            .dwattr $C$DW$T$33, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      919                            .dwattr $C$DW$T$33, DW_AT_decl_line(0x70)
      920                            .dwattr $C$DW$T$33, DW_AT_decl_column(0x13)
      921                    $C$DW$T$84      .dwtag  DW_TAG_const_type
@@ -1008,17 +1008,17 @@ list.asm                                                             PAGE   17
      923                    $C$DW$T$28      .dwtag  DW_TAG_typedef, DW_AT_name("UBaseType_t")
      924                            .dwattr $C$DW$T$28, DW_AT_type(*$C$DW$T$27)
      925                            .dwattr $C$DW$T$28, DW_AT_language(DW_LANG_C)
-     926                            .dwattr $C$DW$T$28, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     926                            .dwattr $C$DW$T$28, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      927                            .dwattr $C$DW$T$28, DW_AT_decl_line(0x6a)
      928                            .dwattr $C$DW$T$28, DW_AT_decl_column(0x12)
      929                    $C$DW$T$86      .dwtag  DW_TAG_typedef, DW_AT_name("portSTACK_TYPE")
      930                            .dwattr $C$DW$T$86, DW_AT_type(*$C$DW$T$27)
      931                            .dwattr $C$DW$T$86, DW_AT_language(DW_LANG_C)
-     932                            .dwattr $C$DW$T$86, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+     932                            .dwattr $C$DW$T$86, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      933                            .dwattr $C$DW$T$86, DW_AT_decl_line(0x65)
      934                            .dwattr $C$DW$T$86, DW_AT_decl_column(0x12)
      935                    $C$DW$T$87      .dwtag  DW_TAG_typedef, DW_AT_name("uint_fast16_t")
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   18
@@ -1078,7 +1078,7 @@ list.asm                                                             PAGE   18
      988                            .dwattr $C$DW$T$14, DW_AT_byte_size(0x08)
      989                    $C$DW$T$94      .dwtag  DW_TAG_typedef, DW_AT_name("_Longlong")
      990                            .dwattr $C$DW$T$94, DW_AT_type(*$C$DW$T$14)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   19
@@ -1108,7 +1108,7 @@ list.asm                                                             PAGE   19
     1013                    $C$DW$T$98      .dwtag  DW_TAG_typedef, DW_AT_name("portDOUBLE")
     1014                            .dwattr $C$DW$T$98, DW_AT_type(*$C$DW$T$95)
     1015                            .dwattr $C$DW$T$98, DW_AT_language(DW_LANG_C)
-    1016                            .dwattr $C$DW$T$98, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+    1016                            .dwattr $C$DW$T$98, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
     1017                            .dwattr $C$DW$T$98, DW_AT_decl_line(0x62)
     1018                            .dwattr $C$DW$T$98, DW_AT_decl_column(0x12)
     1019                    $C$DW$T$99      .dwtag  DW_TAG_typedef, DW_AT_name("intmax_t")
@@ -1138,7 +1138,7 @@ list.asm                                                             PAGE   19
     1043                            .dwattr $C$DW$T$102, DW_AT_language(DW_LANG_C)
     1044                            .dwattr $C$DW$T$102, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
     1045                            .dwattr $C$DW$T$102, DW_AT_decl_line(0x4f)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   20
@@ -1163,7 +1163,7 @@ list.asm                                                             PAGE   20
     1063                    $C$DW$T$105     .dwtag  DW_TAG_typedef, DW_AT_name("portFLOAT")
     1064                            .dwattr $C$DW$T$105, DW_AT_type(*$C$DW$T$16)
     1065                            .dwattr $C$DW$T$105, DW_AT_language(DW_LANG_C)
-    1066                            .dwattr $C$DW$T$105, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
+    1066                            .dwattr $C$DW$T$105, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM
     1067                            .dwattr $C$DW$T$105, DW_AT_decl_line(0x61)
     1068                            .dwattr $C$DW$T$105, DW_AT_decl_column(0x10)
     1069                    $C$DW$T$17      .dwtag  DW_TAG_base_type
@@ -1186,7 +1186,7 @@ list.asm                                                             PAGE   20
     1086                    $C$DW$T$109     .dwtag  DW_TAG_typedef, DW_AT_name("__builtin_va_list")
     1087                            .dwattr $C$DW$T$109, DW_AT_type(*$C$DW$T$108)
     1088                            .dwattr $C$DW$T$109, DW_AT_language(DW_LANG_C)
-    1089                            .dwattr $C$DW$T$109, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_P
+    1089                            .dwattr $C$DW$T$109, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/list.c")
     1090                            .dwattr $C$DW$T$109, DW_AT_decl_line(0xee)
     1091                            .dwattr $C$DW$T$109, DW_AT_decl_column(0x01)
     1092                    
@@ -1198,7 +1198,7 @@ list.asm                                                             PAGE   20
     1098                            .dwattr $C$DW$40, DW_AT_name("__ap")
     1099                            .dwattr $C$DW$40, DW_AT_TI_symbol_name("__ap")
     1100                            .dwattr $C$DW$40, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   21
@@ -1234,7 +1234,7 @@ list.asm                                                             PAGE   21
     1129                            .dwattr $C$DW$41, DW_AT_TI_symbol_name("uxNumberOfItems")
     1130                            .dwattr $C$DW$41, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1131                            .dwattr $C$DW$41, DW_AT_accessibility(DW_ACCESS_public)
-    1132                            .dwattr $C$DW$41, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1132                            .dwattr $C$DW$41, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1133                            .dwattr $C$DW$41, DW_AT_decl_line(0xd0)
     1134                            .dwattr $C$DW$41, DW_AT_decl_column(0x22)
     1135                    $C$DW$42        .dwtag  DW_TAG_member
@@ -1243,7 +1243,7 @@ list.asm                                                             PAGE   21
     1138                            .dwattr $C$DW$42, DW_AT_TI_symbol_name("pxIndex")
     1139                            .dwattr $C$DW$42, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1140                            .dwattr $C$DW$42, DW_AT_accessibility(DW_ACCESS_public)
-    1141                            .dwattr $C$DW$42, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1141                            .dwattr $C$DW$42, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1142                            .dwattr $C$DW$42, DW_AT_decl_line(0xd1)
     1143                            .dwattr $C$DW$42, DW_AT_decl_column(0x23)
     1144                    $C$DW$43        .dwtag  DW_TAG_member
@@ -1252,13 +1252,13 @@ list.asm                                                             PAGE   21
     1147                            .dwattr $C$DW$43, DW_AT_TI_symbol_name("xListEnd")
     1148                            .dwattr $C$DW$43, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     1149                            .dwattr $C$DW$43, DW_AT_accessibility(DW_ACCESS_public)
-    1150                            .dwattr $C$DW$43, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1150                            .dwattr $C$DW$43, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1151                            .dwattr $C$DW$43, DW_AT_decl_line(0xd2)
     1152                            .dwattr $C$DW$43, DW_AT_decl_column(0x11)
     1153                            .dwendtag $C$DW$T$32
     1154                    
-    1155                            .dwattr $C$DW$T$32, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+    1155                            .dwattr $C$DW$T$32, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   22
@@ -1268,7 +1268,7 @@ list.asm                                                             PAGE   22
     1158                    $C$DW$T$41      .dwtag  DW_TAG_typedef, DW_AT_name("List_t")
     1159                            .dwattr $C$DW$T$41, DW_AT_type(*$C$DW$T$32)
     1160                            .dwattr $C$DW$T$41, DW_AT_language(DW_LANG_C)
-    1161                            .dwattr $C$DW$T$41, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+    1161                            .dwattr $C$DW$T$41, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1162                            .dwattr $C$DW$T$41, DW_AT_decl_line(0xd4)
     1163                            .dwattr $C$DW$T$41, DW_AT_decl_column(0x03)
     1164                    $C$DW$T$42      .dwtag  DW_TAG_pointer_type
@@ -1286,7 +1286,7 @@ list.asm                                                             PAGE   22
     1176                            .dwattr $C$DW$44, DW_AT_TI_symbol_name("xItemValue")
     1177                            .dwattr $C$DW$44, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1178                            .dwattr $C$DW$44, DW_AT_accessibility(DW_ACCESS_public)
-    1179                            .dwattr $C$DW$44, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1179                            .dwattr $C$DW$44, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1180                            .dwattr $C$DW$44, DW_AT_decl_line(0xb8)
     1181                            .dwattr $C$DW$44, DW_AT_decl_column(0x21)
     1182                    $C$DW$45        .dwtag  DW_TAG_member
@@ -1295,7 +1295,7 @@ list.asm                                                             PAGE   22
     1185                            .dwattr $C$DW$45, DW_AT_TI_symbol_name("pxNext")
     1186                            .dwattr $C$DW$45, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1187                            .dwattr $C$DW$45, DW_AT_accessibility(DW_ACCESS_public)
-    1188                            .dwattr $C$DW$45, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1188                            .dwattr $C$DW$45, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1189                            .dwattr $C$DW$45, DW_AT_decl_line(0xb9)
     1190                            .dwattr $C$DW$45, DW_AT_decl_column(0x2a)
     1191                    $C$DW$46        .dwtag  DW_TAG_member
@@ -1304,7 +1304,7 @@ list.asm                                                             PAGE   22
     1194                            .dwattr $C$DW$46, DW_AT_TI_symbol_name("pxPrevious")
     1195                            .dwattr $C$DW$46, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     1196                            .dwattr $C$DW$46, DW_AT_accessibility(DW_ACCESS_public)
-    1197                            .dwattr $C$DW$46, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1197                            .dwattr $C$DW$46, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1198                            .dwattr $C$DW$46, DW_AT_decl_line(0xba)
     1199                            .dwattr $C$DW$46, DW_AT_decl_column(0x2a)
     1200                    $C$DW$47        .dwtag  DW_TAG_member
@@ -1313,12 +1313,12 @@ list.asm                                                             PAGE   22
     1203                            .dwattr $C$DW$47, DW_AT_TI_symbol_name("pvOwner")
     1204                            .dwattr $C$DW$47, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
     1205                            .dwattr $C$DW$47, DW_AT_accessibility(DW_ACCESS_public)
-    1206                            .dwattr $C$DW$47, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1206                            .dwattr $C$DW$47, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1207                            .dwattr $C$DW$47, DW_AT_decl_line(0xbb)
     1208                            .dwattr $C$DW$47, DW_AT_decl_column(0x09)
     1209                    $C$DW$48        .dwtag  DW_TAG_member
     1210                            .dwattr $C$DW$48, DW_AT_type(*$C$DW$T$3)
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   23
@@ -1327,18 +1327,18 @@ list.asm                                                             PAGE   23
     1212                            .dwattr $C$DW$48, DW_AT_TI_symbol_name("pvContainer")
     1213                            .dwattr $C$DW$48, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
     1214                            .dwattr $C$DW$48, DW_AT_accessibility(DW_ACCESS_public)
-    1215                            .dwattr $C$DW$48, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1215                            .dwattr $C$DW$48, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1216                            .dwattr $C$DW$48, DW_AT_decl_line(0xbc)
     1217                            .dwattr $C$DW$48, DW_AT_decl_column(0x1d)
     1218                            .dwendtag $C$DW$T$35
     1219                    
-    1220                            .dwattr $C$DW$T$35, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+    1220                            .dwattr $C$DW$T$35, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1221                            .dwattr $C$DW$T$35, DW_AT_decl_line(0xb5)
     1222                            .dwattr $C$DW$T$35, DW_AT_decl_column(0x08)
     1223                    $C$DW$T$29      .dwtag  DW_TAG_typedef, DW_AT_name("ListItem_t")
     1224                            .dwattr $C$DW$T$29, DW_AT_type(*$C$DW$T$35)
     1225                            .dwattr $C$DW$T$29, DW_AT_language(DW_LANG_C)
-    1226                            .dwattr $C$DW$T$29, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+    1226                            .dwattr $C$DW$T$29, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1227                            .dwattr $C$DW$T$29, DW_AT_decl_line(0xbf)
     1228                            .dwattr $C$DW$T$29, DW_AT_decl_column(0x1b)
     1229                    $C$DW$T$30      .dwtag  DW_TAG_pointer_type
@@ -1359,7 +1359,7 @@ list.asm                                                             PAGE   23
     1244                            .dwattr $C$DW$49, DW_AT_TI_symbol_name("xItemValue")
     1245                            .dwattr $C$DW$49, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1246                            .dwattr $C$DW$49, DW_AT_accessibility(DW_ACCESS_public)
-    1247                            .dwattr $C$DW$49, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1247                            .dwattr $C$DW$49, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1248                            .dwattr $C$DW$49, DW_AT_decl_line(0xc4)
     1249                            .dwattr $C$DW$49, DW_AT_decl_column(0x21)
     1250                    $C$DW$50        .dwtag  DW_TAG_member
@@ -1368,7 +1368,7 @@ list.asm                                                             PAGE   23
     1253                            .dwattr $C$DW$50, DW_AT_TI_symbol_name("pxNext")
     1254                            .dwattr $C$DW$50, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1255                            .dwattr $C$DW$50, DW_AT_accessibility(DW_ACCESS_public)
-    1256                            .dwattr $C$DW$50, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
+    1256                            .dwattr $C$DW$50, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1257                            .dwattr $C$DW$50, DW_AT_decl_line(0xc5)
     1258                            .dwattr $C$DW$50, DW_AT_decl_column(0x2a)
     1259                    $C$DW$51        .dwtag  DW_TAG_member
@@ -1377,8 +1377,8 @@ list.asm                                                             PAGE   23
     1262                            .dwattr $C$DW$51, DW_AT_TI_symbol_name("pxPrevious")
     1263                            .dwattr $C$DW$51, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     1264                            .dwattr $C$DW$51, DW_AT_accessibility(DW_ACCESS_public)
-    1265                            .dwattr $C$DW$51, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Proj
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+    1265                            .dwattr $C$DW$51, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   24
@@ -1387,13 +1387,13 @@ list.asm                                                             PAGE   24
     1267                            .dwattr $C$DW$51, DW_AT_decl_column(0x2a)
     1268                            .dwendtag $C$DW$T$36
     1269                    
-    1270                            .dwattr $C$DW$T$36, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+    1270                            .dwattr $C$DW$T$36, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1271                            .dwattr $C$DW$T$36, DW_AT_decl_line(0xc1)
     1272                            .dwattr $C$DW$T$36, DW_AT_decl_column(0x08)
     1273                    $C$DW$T$31      .dwtag  DW_TAG_typedef, DW_AT_name("MiniListItem_t")
     1274                            .dwattr $C$DW$T$31, DW_AT_type(*$C$DW$T$36)
     1275                            .dwattr $C$DW$T$31, DW_AT_language(DW_LANG_C)
-    1276                            .dwattr $C$DW$T$31, DW_AT_decl_file("H:/EECS_690/TI_ARM_Tiva_Projects_EECS_690_Sp16/EECS690_Pr
+    1276                            .dwattr $C$DW$T$31, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/list.h")
     1277                            .dwattr $C$DW$T$31, DW_AT_decl_line(0xc8)
     1278                            .dwattr $C$DW$T$31, DW_AT_decl_column(0x20)
     1279                            .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
@@ -1438,7 +1438,7 @@ list.asm                                                             PAGE   24
     1318                            .dwcfi  undefined, 77
     1319                            .dwcfi  undefined, 78
     1320                            .dwcfi  undefined, 79
-TI ARM Assembler PC v5.2.2 Thu Mar 10 16:19:18 2016
+TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:31 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 list.asm                                                             PAGE   25
@@ -1469,7 +1469,7 @@ Thumb2 Statistics
 Number of Thumb2 ins converted to Thumb = 0 (0%)
 Number of Thumb ins in input = 155 (95%)
 Number of Thumb2 ins encoded as Thumb2 = 7 (100%)
-Number of Thumb2 ins converted to 2 OPND Thumb = 9
+Number of Thumb2 ins converted to 2 OPND Thumb = 10
 
 
 No Assembly Errors, No Assembly Warnings
