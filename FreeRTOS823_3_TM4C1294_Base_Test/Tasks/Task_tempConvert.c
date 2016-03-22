@@ -17,13 +17,13 @@ int temperatureArray[62] = {91,87,84,82,79,77,75,73,71,69,68,66,65,64,62,61,60,5
 
 void tempConvert(void *pvParameters)
 {
-	unsigned long delay = 1000.0; //declare and set delay variable to 250ms
+	unsigned long delay = 250.0; //declare and set delay variable to 250ms
 	QueueHandle_t queueTemp = xQueueCreate(10, sizeof(unsigned char));
 	unsigned int store;
 
 	while(1)
 	{
-		if(xQueuePeek( queue1, &store, ( TickType_t ) 10 ))
+		if(xQueuePeek( queue1, &store, ( TickType_t ) 0 ))
 		{
 			xQueueReceive(queue1, &store, 0);
 			int tempValue = convertTemp(store);
