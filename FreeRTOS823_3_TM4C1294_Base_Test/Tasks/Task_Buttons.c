@@ -23,6 +23,7 @@ void buttonControl(void *pvParameters){
 
 			} else {
 				//delay
+				vTaskDelay((250 * configTICK_RATE_HZ) / 1000);
 			}
 		} else {
 			if((CurrentState == PreviousState) && (CurrentState != FirstState)){
@@ -43,7 +44,8 @@ void buttonControl(void *pvParameters){
 				}
 			}
 		}
-		//vTaskDelay(delay);
+		//delay
+		vTaskDelay((250 * configTICK_RATE_HZ) / 1000);
 	}
 }
 

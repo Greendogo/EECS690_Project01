@@ -1,11 +1,11 @@
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
-       3                    ;* Date/Time created: Mon Mar 14 16:28:24 2016                                *
+       3                    ;* Date/Time created: Tue Mar 22 18:00:41 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
@@ -58,7 +58,7 @@ heap_2.asm                                                           PAGE    1
       53                            .dwattr $C$DW$5, DW_AT_TI_symbol_name("xStart")
       54                            .dwattr $C$DW$5, DW_AT_type(*$C$DW$T$72)
       55                            .dwattr $C$DW$5, DW_AT_location[DW_OP_addr xStart]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    2
@@ -118,7 +118,7 @@ heap_2.asm                                                           PAGE    2
      108                            .dwfde $C$DW$CIE, pvPortMalloc
      109                    $C$DW$9 .dwtag  DW_TAG_variable, DW_AT_name("xHeapHasBeenInitialised")
      110                            .dwattr $C$DW$9, DW_AT_TI_symbol_name("xHeapHasBeenInitialised$1")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    3
@@ -178,7 +178,7 @@ heap_2.asm                                                           PAGE    3
      163 0000000a 9004              STR       A1, [SP, #16]         ; [DPU_3_PIPE] |137|  ; [ORIG 16-BIT INS]
      164                            .dwpsn  file "../heap_2.c",line 139,column 2,is_stmt,isa 1
      165                    $C$DW$16        .dwtag  DW_TAG_TI_branch
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    4
@@ -238,7 +238,7 @@ heap_2.asm                                                           PAGE    4
      218 0000004c 4858              LDR       A1, $C$CON7           ; [DPU_3_PIPE] |153|  ; [ORIG 16-BIT INS]
      219 0000004e 9900              LDR       A2, [SP, #0]          ; [DPU_3_PIPE] |153|  ; [ORIG 16-BIT INS]
      220 00000050 8800              LDRH      A1, [A1, #0]          ; [DPU_3_PIPE] |153|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    5
@@ -298,7 +298,7 @@ heap_2.asm                                                           PAGE    5
      273                            .dwpsn  file "../heap_2.c",line 169,column 11,is_stmt,isa 1
      274 00000092 9901              LDR       A2, [SP, #4]          ; [DPU_3_PIPE] |169|  ; [ORIG 16-BIT INS]
      275 00000094 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |169|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    6
@@ -358,7 +358,7 @@ heap_2.asm                                                           PAGE    6
      328 000000e2 1A80              SUBS      A1, A1, A3            ; [DPU_3_PIPE] |196|  ; [ORIG 16-BIT INS]
      329 000000e4 6048              STR       A1, [A2, #4]          ; [DPU_3_PIPE] |196|  ; [ORIG 16-BIT INS]
      330                            .dwpsn  file "../heap_2.c",line 197,column 6,is_stmt,isa 1
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    7
@@ -418,7 +418,7 @@ heap_2.asm                                                           PAGE    7
      383 0000011c 6808              LDR       A1, [A2, #0]          ; [DPU_3_PIPE] |203|  ; [ORIG 16-BIT INS]
      384 0000011e 1A80              SUBS      A1, A1, A3            ; [DPU_3_PIPE] |203|  ; [ORIG 16-BIT INS]
      385 00000120 6008              STR       A1, [A2, #0]          ; [DPU_3_PIPE] |203|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    8
@@ -478,7 +478,7 @@ heap_2.asm                                                           PAGE    8
      438                    ;*****************************************************************************
      439                    ;* FUNCTION NAME: vPortFree                                                  *
      440                    ;*                                                                           *
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE    9
@@ -538,7 +538,7 @@ heap_2.asm                                                           PAGE    9
      493                            ; CALL OCCURS {vTaskSuspendAll }  ; [] |237| 
      494                    
      495                    $C$DW$30        .dwtag  DW_TAG_lexical_block, DW_AT_low_pc(0x00), DW_AT_high_pc(0x00)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   10
@@ -598,7 +598,7 @@ heap_2.asm                                                           PAGE   10
      548                            .dwattr $C$DW$33, DW_AT_name("xTaskResumeAll")
      549                            .dwattr $C$DW$33, DW_AT_TI_call
      550 00000186 FFFEF7FF!         BL        xTaskResumeAll        ; [DPU_3_PIPE] |243|  ; [KEEP 32-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   11
@@ -658,7 +658,7 @@ heap_2.asm                                                           PAGE   11
      603 0000018e 4809              LDR       A1, $C$CON8           ; [DPU_3_PIPE] |250|  ; [ORIG 16-BIT INS]
      604 00000190 6800              LDR       A1, [A1, #0]          ; [DPU_3_PIPE] |250|  ; [ORIG 16-BIT INS]
      605                            .dwpsn  file "../heap_2.c",line 251,column 1,is_stmt,isa 1
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   12
@@ -718,7 +718,7 @@ heap_2.asm                                                           PAGE   12
      658                            .dwendentry
      659                            .dwendtag $C$DW$37
      660                    
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   13
@@ -778,7 +778,7 @@ heap_2.asm                                                           PAGE   13
      705                    $C$DW$T$59      .dwtag  DW_TAG_enumeration_type
      706                            .dwattr $C$DW$T$59, DW_AT_byte_size(0x01)
      707                    $C$DW$39        .dwtag  DW_TAG_enumerator, DW_AT_name("eRunning"), DW_AT_const_value(0x00)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   14
@@ -838,7 +838,7 @@ heap_2.asm                                                           PAGE   14
      760                            .dwattr $C$DW$48, DW_AT_decl_column(0x02)
      761                            .dwendtag $C$DW$T$65
      762                    
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   15
@@ -898,7 +898,7 @@ heap_2.asm                                                           PAGE   15
      815                            .dwattr $C$DW$53, DW_AT_accessibility(DW_ACCESS_public)
      816                            .dwattr $C$DW$53, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/in
      817                            .dwattr $C$DW$53, DW_AT_decl_line(0x59)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   16
@@ -958,7 +958,7 @@ heap_2.asm                                                           PAGE   16
      870                            .dwattr $C$DW$56, DW_AT_accessibility(DW_ACCESS_public)
      871                            .dwattr $C$DW$56, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/in
      872                            .dwattr $C$DW$56, DW_AT_decl_line(0x5e)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   17
@@ -1018,7 +1018,7 @@ heap_2.asm                                                           PAGE   17
      925                            .dwattr $C$DW$T$72, DW_AT_type(*$C$DW$T$24)
      926                            .dwattr $C$DW$T$72, DW_AT_language(DW_LANG_C)
      927                            .dwattr $C$DW$T$72, DW_AT_decl_file("../heap_2.c")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   18
@@ -1078,7 +1078,7 @@ heap_2.asm                                                           PAGE   18
      980                    $C$DW$62        .dwtag  DW_TAG_formal_parameter
      981                            .dwattr $C$DW$62, DW_AT_type(*$C$DW$T$3)
      982                            .dwendtag $C$DW$T$45
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   19
@@ -1138,7 +1138,7 @@ heap_2.asm                                                           PAGE   19
     1035                    $C$DW$T$43      .dwtag  DW_TAG_array_type
     1036                            .dwattr $C$DW$T$43, DW_AT_type(*$C$DW$T$6)
     1037                            .dwattr $C$DW$T$43, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   20
@@ -1198,7 +1198,7 @@ heap_2.asm                                                           PAGE   20
     1090                            .dwattr $C$DW$T$88, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
     1091                            .dwattr $C$DW$T$88, DW_AT_decl_line(0x64)
     1092                            .dwattr $C$DW$T$88, DW_AT_decl_column(0x12)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   21
@@ -1258,7 +1258,7 @@ heap_2.asm                                                           PAGE   21
     1145                    $C$DW$65        .dwtag  DW_TAG_formal_parameter
     1146                            .dwattr $C$DW$65, DW_AT_type(*$C$DW$T$80)
     1147                            .dwendtag $C$DW$T$95
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   22
@@ -1318,7 +1318,7 @@ heap_2.asm                                                           PAGE   22
     1200                            .dwattr $C$DW$T$105, DW_AT_type(*$C$DW$T$62)
     1201                            .dwattr $C$DW$T$105, DW_AT_language(DW_LANG_C)
     1202                            .dwattr $C$DW$T$105, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   23
@@ -1378,7 +1378,7 @@ heap_2.asm                                                           PAGE   23
     1255                            .dwattr $C$DW$T$29, DW_AT_decl_line(0x2f)
     1256                            .dwattr $C$DW$T$29, DW_AT_decl_column(0x1c)
     1257                    $C$DW$T$53      .dwtag  DW_TAG_typedef, DW_AT_name("StackType_t")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   24
@@ -1438,7 +1438,7 @@ heap_2.asm                                                           PAGE   24
     1310                            .dwattr $C$DW$T$118, DW_AT_language(DW_LANG_C)
     1311                            .dwattr $C$DW$T$118, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
     1312                            .dwattr $C$DW$T$118, DW_AT_decl_line(0x53)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   25
@@ -1498,7 +1498,7 @@ heap_2.asm                                                           PAGE   25
     1365                            .dwattr $C$DW$T$41, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
     1366                            .dwattr $C$DW$T$41, DW_AT_decl_line(0x62)
     1367                            .dwattr $C$DW$T$41, DW_AT_decl_column(0x12)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   26
@@ -1558,7 +1558,7 @@ heap_2.asm                                                           PAGE   26
     1420                    $C$DW$T$17      .dwtag  DW_TAG_base_type
     1421                            .dwattr $C$DW$T$17, DW_AT_encoding(DW_ATE_float)
     1422                            .dwattr $C$DW$T$17, DW_AT_name("double")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   27
@@ -1618,7 +1618,7 @@ heap_2.asm                                                           PAGE   27
     1475                            .dwattr $C$DW$T$135, DW_AT_type(*$C$DW$T$134)
     1476                            .dwattr $C$DW$T$135, DW_AT_language(DW_LANG_C)
     1477                            .dwattr $C$DW$T$135, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   28
@@ -1678,7 +1678,7 @@ heap_2.asm                                                           PAGE   28
     1530                            .dwattr $C$DW$71, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1531                            .dwattr $C$DW$71, DW_AT_accessibility(DW_ACCESS_public)
     1532                            .dwattr $C$DW$71, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\list.h")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   29
@@ -1738,7 +1738,7 @@ heap_2.asm                                                           PAGE   29
     1585                    $C$DW$T$36      .dwtag  DW_TAG_pointer_type
     1586                            .dwattr $C$DW$T$36, DW_AT_type(*$C$DW$T$37)
     1587                            .dwattr $C$DW$T$36, DW_AT_address_class(0x20)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   30
@@ -1798,7 +1798,7 @@ heap_2.asm                                                           PAGE   30
     1640                    $C$DW$T$39      .dwtag  DW_TAG_structure_type
     1641                            .dwattr $C$DW$T$39, DW_AT_name("xMINI_LIST_ITEM")
     1642                            .dwattr $C$DW$T$39, DW_AT_byte_size(0x0c)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   31
@@ -1858,7 +1858,7 @@ heap_2.asm                                                           PAGE   31
     1695                            .dwattr $C$DW$84, DW_AT_type(*$C$DW$T$43)
     1696                            .dwattr $C$DW$84, DW_AT_name("ucHeap")
     1697                            .dwattr $C$DW$84, DW_AT_TI_symbol_name("ucHeap")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   32
@@ -1918,7 +1918,7 @@ heap_2.asm                                                           PAGE   32
     1750                            .dwattr $C$DW$89, DW_AT_name("uxPriority")
     1751                            .dwattr $C$DW$89, DW_AT_TI_symbol_name("uxPriority")
     1752                            .dwattr $C$DW$89, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   33
@@ -1978,7 +1978,7 @@ heap_2.asm                                                           PAGE   33
     1805                            .dwattr $C$DW$93, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/task.h")
     1806                            .dwattr $C$DW$93, DW_AT_decl_line(0xa9)
     1807                            .dwattr $C$DW$93, DW_AT_decl_column(0x0e)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   34
@@ -2038,7 +2038,7 @@ heap_2.asm                                                           PAGE   34
     1860                            .dwattr $C$DW$99, DW_AT_decl_line(0xaf)
     1861                            .dwattr $C$DW$99, DW_AT_decl_column(0x0b)
     1862                            .dwendtag $C$DW$T$61
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   35
@@ -2098,7 +2098,7 @@ heap_2.asm                                                           PAGE   35
     1915                            .dwcfi  undefined, 0
     1916                            .dwcfi  undefined, 1
     1917                            .dwcfi  undefined, 2
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:24 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:41 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 heap_2.asm                                                           PAGE   36

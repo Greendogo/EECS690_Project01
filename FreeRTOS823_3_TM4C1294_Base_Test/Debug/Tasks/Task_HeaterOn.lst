@@ -1,11 +1,11 @@
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
-       3                    ;* Date/Time created: Mon Mar 14 16:28:26 2016                                *
+       3                    ;* Date/Time created: Tue Mar 22 18:00:43 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
@@ -58,7 +58,7 @@ Task_HeaterOn.asm                                                    PAGE    1
       53                    $C$DW$10        .dwtag  DW_TAG_formal_parameter
       54                            .dwattr $C$DW$10, DW_AT_type(*$C$DW$T$21)
       55                    $C$DW$11        .dwtag  DW_TAG_formal_parameter
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    2
@@ -118,7 +118,7 @@ Task_HeaterOn.asm                                                    PAGE    2
      108                            .dwattr $C$DW$18, DW_AT_TI_symbol_name("pvParameters")
      109                            .dwattr $C$DW$18, DW_AT_type(*$C$DW$T$3)
      110                            .dwattr $C$DW$18, DW_AT_location[DW_OP_reg0]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    3
@@ -178,7 +178,7 @@ Task_HeaterOn.asm                                                    PAGE    3
      163 0000001c 2201              MOVS      A3, #1                ; [DPU_3_PIPE] |54|  ; [ORIG 16-BIT INS]
      164 0000001e 2308              MOVS      A4, #8                ; [DPU_3_PIPE] |54|  ; [ORIG 16-BIT INS]
      165                    $C$DW$23        .dwtag  DW_TAG_TI_branch
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    4
@@ -238,7 +238,7 @@ Task_HeaterOn.asm                                                    PAGE    4
      218                            .dwattr $C$DW$27, DW_AT_name("GPIOPinWrite")
      219                            .dwattr $C$DW$27, DW_AT_TI_call
      220 00000048 FFFEF7FF!         BL        GPIOPinWrite          ; [DPU_3_PIPE] |70|  ; [KEEP 32-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    5
@@ -298,7 +298,7 @@ Task_HeaterOn.asm                                                    PAGE    5
      273 00000072 080646C0  ||$C$CON1||:    .bits   -268433402,32
          00000076 0000F000 
      274                            .align  4
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    6
@@ -358,7 +358,7 @@ Task_HeaterOn.asm                                                    PAGE    6
      324                            .dwattr $C$DW$35, DW_AT_decl_column(0x02)
      325                    $C$DW$36        .dwtag  DW_TAG_enumerator, DW_AT_name("eDeleted"), DW_AT_const_value(0x04)
      326                            .dwattr $C$DW$36, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/task.h")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    7
@@ -418,7 +418,7 @@ Task_HeaterOn.asm                                                    PAGE    7
      379                            .dwattr $C$DW$42, DW_AT_decl_line(0xb5)
      380                            .dwattr $C$DW$42, DW_AT_decl_column(0x02)
      381                    $C$DW$43        .dwtag  DW_TAG_enumerator, DW_AT_name("eStandardSleep"), DW_AT_const_value(0x01)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    8
@@ -478,7 +478,7 @@ Task_HeaterOn.asm                                                    PAGE    8
      434                            .dwattr $C$DW$48, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
      435                            .dwattr $C$DW$48, DW_AT_accessibility(DW_ACCESS_public)
      436                            .dwattr $C$DW$48, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/in
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE    9
@@ -538,7 +538,7 @@ Task_HeaterOn.asm                                                    PAGE    9
      489                            .dwattr $C$DW$52, DW_AT_decl_column(0x09)
      490                            .dwendtag $C$DW$T$24
      491                    
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   10
@@ -598,7 +598,7 @@ Task_HeaterOn.asm                                                    PAGE   10
      544                            .dwattr $C$DW$T$75, DW_AT_language(DW_LANG_C)
      545                            .dwattr $C$DW$T$75, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      546                            .dwattr $C$DW$T$75, DW_AT_decl_line(0x37)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   11
@@ -658,7 +658,7 @@ Task_HeaterOn.asm                                                    PAGE   11
      599                            .dwattr $C$DW$T$80, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      600                            .dwattr $C$DW$T$80, DW_AT_decl_line(0x64)
      601                            .dwattr $C$DW$T$80, DW_AT_decl_column(0x12)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   12
@@ -718,7 +718,7 @@ Task_HeaterOn.asm                                                    PAGE   12
      654                            .dwattr $C$DW$T$55, DW_AT_language(DW_LANG_C)
      655                            .dwattr $C$DW$T$55, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      656                            .dwattr $C$DW$T$55, DW_AT_decl_line(0x69)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   13
@@ -778,7 +778,7 @@ Task_HeaterOn.asm                                                    PAGE   13
      709                            .dwattr $C$DW$T$94, DW_AT_decl_line(0x63)
      710                            .dwattr $C$DW$T$94, DW_AT_decl_column(0x12)
      711                    $C$DW$T$95      .dwtag  DW_TAG_typedef, DW_AT_name("intptr_t")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   14
@@ -838,7 +838,7 @@ Task_HeaterOn.asm                                                    PAGE   14
      764                            .dwattr $C$DW$T$27, DW_AT_language(DW_LANG_C)
      765                            .dwattr $C$DW$T$27, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
      766                            .dwattr $C$DW$T$27, DW_AT_decl_line(0x6a)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   15
@@ -898,7 +898,7 @@ Task_HeaterOn.asm                                                    PAGE   15
      819                            .dwattr $C$DW$T$105, DW_AT_decl_column(0x0e)
      820                    $C$DW$T$13      .dwtag  DW_TAG_base_type
      821                            .dwattr $C$DW$T$13, DW_AT_encoding(DW_ATE_unsigned)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   16
@@ -958,7 +958,7 @@ Task_HeaterOn.asm                                                    PAGE   16
      874                    $C$DW$T$113     .dwtag  DW_TAG_typedef, DW_AT_name("_ULonglong")
      875                            .dwattr $C$DW$T$113, DW_AT_type(*$C$DW$T$15)
      876                            .dwattr $C$DW$T$113, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   17
@@ -1018,7 +1018,7 @@ Task_HeaterOn.asm                                                    PAGE   17
      929                            .dwattr $C$DW$T$41, DW_AT_type(*$C$DW$T$6)
      930                    $C$DW$T$42      .dwtag  DW_TAG_pointer_type
      931                            .dwattr $C$DW$T$42, DW_AT_type(*$C$DW$T$41)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   18
@@ -1078,7 +1078,7 @@ Task_HeaterOn.asm                                                    PAGE   18
      984                            .dwattr $C$DW$56, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\list.h")
      985                            .dwattr $C$DW$56, DW_AT_decl_line(0xd0)
      986                            .dwattr $C$DW$56, DW_AT_decl_column(0x22)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   19
@@ -1138,7 +1138,7 @@ Task_HeaterOn.asm                                                    PAGE   19
     1039                            .dwattr $C$DW$61, DW_AT_type(*$C$DW$T$33)
     1040                            .dwattr $C$DW$61, DW_AT_name("pxPrevious")
     1041                            .dwattr $C$DW$61, DW_AT_TI_symbol_name("pxPrevious")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   20
@@ -1198,7 +1198,7 @@ Task_HeaterOn.asm                                                    PAGE   20
     1094                            .dwattr $C$DW$64, DW_AT_decl_column(0x08)
     1095                    $C$DW$65        .dwtag  DW_TAG_member
     1096                            .dwattr $C$DW$65, DW_AT_type(*$C$DW$T$26)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   21
@@ -1258,7 +1258,7 @@ Task_HeaterOn.asm                                                    PAGE   21
     1149                            .dwattr $C$DW$69, DW_AT_TI_symbol_name("pxNext")
     1150                            .dwattr $C$DW$69, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1151                            .dwattr $C$DW$69, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   22
@@ -1318,7 +1318,7 @@ Task_HeaterOn.asm                                                    PAGE   22
     1204                            .dwattr $C$DW$73, DW_AT_decl_line(0x9d)
     1205                            .dwattr $C$DW$73, DW_AT_decl_column(0x0b)
     1206                    $C$DW$74        .dwtag  DW_TAG_member
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   23
@@ -1378,7 +1378,7 @@ Task_HeaterOn.asm                                                    PAGE   23
     1259                            .dwattr $C$DW$78, DW_AT_name("xHandle")
     1260                            .dwattr $C$DW$78, DW_AT_TI_symbol_name("xHandle")
     1261                            .dwattr $C$DW$78, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   24
@@ -1438,7 +1438,7 @@ Task_HeaterOn.asm                                                    PAGE   24
     1314                            .dwattr $C$DW$84, DW_AT_TI_symbol_name("ulRunTimeCounter")
     1315                            .dwattr $C$DW$84, DW_AT_data_member_location[DW_OP_plus_uconst 0x18]
     1316                            .dwattr $C$DW$84, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   25
@@ -1498,7 +1498,7 @@ Task_HeaterOn.asm                                                    PAGE   25
     1369                            .dwattr $C$DW$T$127, DW_AT_language(DW_LANG_C)
     1370                            .dwattr $C$DW$T$127, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/task.h")
     1371                            .dwattr $C$DW$T$127, DW_AT_decl_line(0x8a)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   26
@@ -1558,7 +1558,7 @@ Task_HeaterOn.asm                                                    PAGE   26
     1424                            .dwcfi  same_value, 89
     1425                            .dwcfi  same_value, 90
     1426                            .dwcfi  same_value, 91
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:26 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:43 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_HeaterOn.asm                                                    PAGE   27

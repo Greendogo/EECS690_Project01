@@ -11,6 +11,7 @@ ORDERED_OBJS += \
 "./TM4C_FreeRTOS_Base_Startup.obj" \
 "./heap_2.obj" \
 "./Tasks/Task_Blinky.obj" \
+"./Tasks/Task_Buttons.obj" \
 "./Tasks/Task_HeaterOn.obj" \
 "./Tasks/Task_PID.obj" \
 "./Tasks/Task_ReportTime.obj" \
@@ -173,8 +174,8 @@ FreeRTOS823_3_TM4C1294_Base_Test.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)$(BIN_OUTPUTS__QUOTED)
-	-$(RM) "Main_Base_Test.pp" "TM4C_FreeRTOS_Base_Startup.pp" "heap_2.pp" "Tasks\Task_Blinky.pp" "Tasks\Task_HeaterOn.pp" "Tasks\Task_PID.pp" "Tasks\Task_ReportTime.pp" "Tasks\Task_Simple_ADC.pp" "Tasks\Task_tempConvert.pp" "Source\croutine.pp" "Source\event_groups.pp" "Source\list.pp" "Source\queue.pp" "Source\tasks.pp" "Source\timers.pp" "Source\uartstdio.pp" "Source\portable\CCS\ARM_CM4F\port.pp" "Drivers\Processor_Initialization_TM4C1294.pp" 
-	-$(RM) "Main_Base_Test.obj" "TM4C_FreeRTOS_Base_Startup.obj" "heap_2.obj" "Tasks\Task_Blinky.obj" "Tasks\Task_HeaterOn.obj" "Tasks\Task_PID.obj" "Tasks\Task_ReportTime.obj" "Tasks\Task_Simple_ADC.obj" "Tasks\Task_tempConvert.obj" "Source\croutine.obj" "Source\event_groups.obj" "Source\list.obj" "Source\queue.obj" "Source\tasks.obj" "Source\timers.obj" "Source\uartstdio.obj" "Source\portable\CCS\ARM_CM4F\port.obj" "Source\portable\CCS\ARM_CM4F\portasm.obj" "Drivers\Processor_Initialization_TM4C1294.obj" 
+	-$(RM) "Main_Base_Test.pp" "TM4C_FreeRTOS_Base_Startup.pp" "heap_2.pp" "Tasks\Task_Blinky.pp" "Tasks\Task_Buttons.pp" "Tasks\Task_HeaterOn.pp" "Tasks\Task_PID.pp" "Tasks\Task_ReportTime.pp" "Tasks\Task_Simple_ADC.pp" "Tasks\Task_tempConvert.pp" "Source\croutine.pp" "Source\event_groups.pp" "Source\list.pp" "Source\queue.pp" "Source\tasks.pp" "Source\timers.pp" "Source\uartstdio.pp" "Source\portable\CCS\ARM_CM4F\port.pp" "Drivers\Processor_Initialization_TM4C1294.pp" 
+	-$(RM) "Main_Base_Test.obj" "TM4C_FreeRTOS_Base_Startup.obj" "heap_2.obj" "Tasks\Task_Blinky.obj" "Tasks\Task_Buttons.obj" "Tasks\Task_HeaterOn.obj" "Tasks\Task_PID.obj" "Tasks\Task_ReportTime.obj" "Tasks\Task_Simple_ADC.obj" "Tasks\Task_tempConvert.obj" "Source\croutine.obj" "Source\event_groups.obj" "Source\list.obj" "Source\queue.obj" "Source\tasks.obj" "Source\timers.obj" "Source\uartstdio.obj" "Source\portable\CCS\ARM_CM4F\port.obj" "Source\portable\CCS\ARM_CM4F\portasm.obj" "Drivers\Processor_Initialization_TM4C1294.obj" 
 	-$(RM) "Source\portable\CCS\ARM_CM4F\portasm.pp" 
 	-@echo 'Finished clean'
 	-@echo ' '

@@ -1,11 +1,11 @@
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
-       3                    ;* Date/Time created: Mon Mar 14 16:28:38 2016                                *
+       3                    ;* Date/Time created: Tue Mar 22 18:00:56 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
@@ -58,7 +58,7 @@ port.asm                                                             PAGE    1
       53 00000000 000000A0          .bits   160,32                  ; ulMaxSyscallInterruptPriority @ 0
       54                    
       55                    $C$DW$6 .dwtag  DW_TAG_variable, DW_AT_name("ulMaxSyscallInterruptPriority")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    2
@@ -118,7 +118,7 @@ port.asm                                                             PAGE    2
      108                            .dwattr $C$DW$9, DW_AT_decl_line(0xe2)
      109                            .dwattr $C$DW$9, DW_AT_decl_column(0x0e)
      110                            .dwattr $C$DW$9, DW_AT_TI_max_frame_size(0x10)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    3
@@ -178,7 +178,7 @@ port.asm                                                             PAGE    3
      163 00000018 9800              LDR       A1, [SP, #0]          ; [DPU_3_PIPE] |237|  ; [ORIG 16-BIT INS]
      164 0000001a 1F00              SUBS      A1, A1, #4            ; [DPU_3_PIPE] |237|  ; [ORIG 16-BIT INS]
      165 0000001c 9000              STR       A1, [SP, #0]          ; [DPU_3_PIPE] |237|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    4
@@ -238,7 +238,7 @@ port.asm                                                             PAGE    4
      218                    
      219                    $C$DW$17        .dwtag  DW_TAG_subprogram, DW_AT_name("prvTaskExitError")
      220                            .dwattr $C$DW$17, DW_AT_low_pc(prvTaskExitError)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    5
@@ -298,7 +298,7 @@ port.asm                                                             PAGE    5
      273                            .global xPortStartScheduler
      274                    
      275                    $C$DW$18        .dwtag  DW_TAG_subprogram, DW_AT_name("xPortStartScheduler")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    6
@@ -358,7 +358,7 @@ port.asm                                                             PAGE    6
      328 00000080 4925              LDR       A2, $C$CON3           ; [DPU_3_PIPE] |331|  ; [ORIG 16-BIT INS]
      329 00000082 2000              MOVS      A1, #0                ; [DPU_3_PIPE] |331|  ; [ORIG 16-BIT INS]
      330 00000084 6008              STR       A1, [A2, #0]          ; [DPU_3_PIPE] |331|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    7
@@ -418,7 +418,7 @@ port.asm                                                             PAGE    7
      383                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4F/port.c",line 348,colu
      384                    
      385                            .dwfde $C$DW$CIE, vPortEndScheduler
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    8
@@ -478,7 +478,7 @@ port.asm                                                             PAGE    8
      438 0000009e           vPortEnterCritical:
      439                    ;* --------------------------------------------------------------------------*
      440                            .dwcfi  cfa_offset, 0
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE    9
@@ -538,7 +538,7 @@ port.asm                                                             PAGE    9
      493                    
      494                    ;*****************************************************************************
      495                    ;* FUNCTION NAME: vPortExitCritical                                          *
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   10
@@ -598,7 +598,7 @@ port.asm                                                             PAGE   10
      548                            .dwattr $C$DW$29, DW_AT_decl_column(0x06)
      549                            .dwattr $C$DW$29, DW_AT_TI_max_frame_size(0x08)
      550                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4F/port.c",line 392,colu
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   11
@@ -658,7 +658,7 @@ port.asm                                                             PAGE   11
      603                    $C$DW$31        .dwtag  DW_TAG_TI_branch
      604                            .dwattr $C$DW$31, DW_AT_low_pc(0x00)
      605                            .dwattr $C$DW$31, DW_AT_TI_return
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   12
@@ -718,7 +718,7 @@ port.asm                                                             PAGE   12
      658                            .dwattr $C$DW$33, DW_AT_TI_return
      659 0000010e 4770              BX        LR                    ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      660                            ; BRANCH OCCURS                  ; [] 
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   13
@@ -778,7 +778,7 @@ port.asm                                                             PAGE   13
      713                    
      714                    $C$DW$T$49      .dwtag  DW_TAG_enumeration_type
      715                            .dwattr $C$DW$T$49, DW_AT_byte_size(0x01)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   14
@@ -838,7 +838,7 @@ port.asm                                                             PAGE   14
      768                            .dwattr $C$DW$43, DW_AT_decl_line(0x80)
      769                            .dwattr $C$DW$43, DW_AT_decl_column(0x02)
      770                            .dwendtag $C$DW$T$55
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   15
@@ -898,7 +898,7 @@ port.asm                                                             PAGE   15
      823                            .dwattr $C$DW$48, DW_AT_TI_symbol_name("xSizeInBytes")
      824                            .dwattr $C$DW$48, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
      825                            .dwattr $C$DW$48, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   16
@@ -958,7 +958,7 @@ port.asm                                                             PAGE   16
      878                            .dwattr $C$DW$T$62, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      879                            .dwattr $C$DW$T$62, DW_AT_decl_line(0x2a)
      880                            .dwattr $C$DW$T$62, DW_AT_decl_column(0x1d)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   17
@@ -1018,7 +1018,7 @@ port.asm                                                             PAGE   17
      933                            .dwattr $C$DW$T$68, DW_AT_type(*$C$DW$T$66)
      934                            .dwattr $C$DW$T$68, DW_AT_language(DW_LANG_C)
      935                            .dwattr $C$DW$T$68, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   18
@@ -1078,7 +1078,7 @@ port.asm                                                             PAGE   18
      988                    $C$DW$T$53      .dwtag  DW_TAG_typedef, DW_AT_name("BaseType_t")
      989                            .dwattr $C$DW$T$53, DW_AT_type(*$C$DW$T$52)
      990                            .dwattr $C$DW$T$53, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   19
@@ -1138,7 +1138,7 @@ port.asm                                                             PAGE   19
     1043                            .dwattr $C$DW$T$84, DW_AT_language(DW_LANG_C)
     1044                            .dwattr $C$DW$T$84, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
     1045                            .dwattr $C$DW$T$84, DW_AT_decl_line(0x63)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   20
@@ -1198,7 +1198,7 @@ port.asm                                                             PAGE   20
     1098                            .dwattr $C$DW$T$25, DW_AT_language(DW_LANG_C)
     1099                            .dwattr $C$DW$T$25, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM4
     1100                            .dwattr $C$DW$T$25, DW_AT_decl_line(0x6a)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   21
@@ -1258,7 +1258,7 @@ port.asm                                                             PAGE   21
     1153                            .dwattr $C$DW$T$13, DW_AT_byte_size(0x04)
     1154                    $C$DW$T$100     .dwtag  DW_TAG_typedef, DW_AT_name("_Uint32t")
     1155                            .dwattr $C$DW$T$100, DW_AT_type(*$C$DW$T$13)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   22
@@ -1318,7 +1318,7 @@ port.asm                                                             PAGE   22
     1208                            .dwattr $C$DW$T$107, DW_AT_decl_line(0x1b6)
     1209                            .dwattr $C$DW$T$107, DW_AT_decl_column(0x14)
     1210                    $C$DW$T$108     .dwtag  DW_TAG_typedef, DW_AT_name("uint64_t")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   23
@@ -1378,7 +1378,7 @@ port.asm                                                             PAGE   23
     1263                    $C$DW$T$41      .dwtag  DW_TAG_const_type
     1264                            .dwattr $C$DW$T$41, DW_AT_type(*$C$DW$T$40)
     1265                    $C$DW$T$114     .dwtag  DW_TAG_pointer_type
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   24
@@ -1438,7 +1438,7 @@ port.asm                                                             PAGE   24
     1318                            .dwattr $C$DW$53, DW_AT_type(*$C$DW$T$27)
     1319                            .dwattr $C$DW$53, DW_AT_name("pxIndex")
     1320                            .dwattr $C$DW$53, DW_AT_TI_symbol_name("pxIndex")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   25
@@ -1498,7 +1498,7 @@ port.asm                                                             PAGE   25
     1373                            .dwattr $C$DW$57, DW_AT_accessibility(DW_ACCESS_public)
     1374                            .dwattr $C$DW$57, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\list.h")
     1375                            .dwattr $C$DW$57, DW_AT_decl_line(0xba)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   26
@@ -1558,7 +1558,7 @@ port.asm                                                             PAGE   26
     1428                            .dwattr $C$DW$61, DW_AT_TI_symbol_name("ulLengthInBytes")
     1429                            .dwattr $C$DW$61, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     1430                            .dwattr $C$DW$61, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   27
@@ -1618,7 +1618,7 @@ port.asm                                                             PAGE   27
     1483                            .dwattr $C$DW$65, DW_AT_decl_line(0xc5)
     1484                            .dwattr $C$DW$65, DW_AT_decl_column(0x2a)
     1485                    $C$DW$66        .dwtag  DW_TAG_member
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   28
@@ -1678,7 +1678,7 @@ port.asm                                                             PAGE   28
     1538                            .dwattr $C$DW$70, DW_AT_name("pvParameters")
     1539                            .dwattr $C$DW$70, DW_AT_TI_symbol_name("pvParameters")
     1540                            .dwattr $C$DW$70, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   29
@@ -1738,7 +1738,7 @@ port.asm                                                             PAGE   29
     1593                            .dwattr $C$DW$74, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/task.h")
     1594                            .dwattr $C$DW$74, DW_AT_decl_line(0xa8)
     1595                            .dwattr $C$DW$74, DW_AT_decl_column(0x0f)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   30
@@ -1798,7 +1798,7 @@ port.asm                                                             PAGE   30
     1648                            .dwattr $C$DW$80, DW_AT_decl_line(0xae)
     1649                            .dwattr $C$DW$80, DW_AT_decl_column(0x0b)
     1650                    $C$DW$81        .dwtag  DW_TAG_member
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   31
@@ -1858,7 +1858,7 @@ port.asm                                                             PAGE   31
     1703                            .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
     1704                    
     1705                    ;***************************************************************
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   32
@@ -1918,7 +1918,7 @@ port.asm                                                             PAGE   32
     1758                            .dwcfi  same_value, 93
     1759                            .dwcfi  same_value, 94
     1760                            .dwcfi  same_value, 95
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:38 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:56 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 port.asm                                                             PAGE   33
@@ -1933,7 +1933,7 @@ Thumb2 Statistics
 Number of Thumb2 ins converted to Thumb = 0 (0%)
 Number of Thumb ins in input = 97 (81%)
 Number of Thumb2 ins encoded as Thumb2 = 22 (100%)
-Number of Thumb2 ins converted to 2 OPND Thumb = 3
+Number of Thumb2 ins converted to 2 OPND Thumb = 4
 
 
 No Assembly Errors, No Assembly Warnings

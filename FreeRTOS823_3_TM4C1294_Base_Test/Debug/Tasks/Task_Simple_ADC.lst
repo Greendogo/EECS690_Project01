@@ -1,11 +1,11 @@
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
-       3                    ;* Date/Time created: Mon Mar 14 16:30:52 2016                                *
+       3                    ;* Date/Time created: Tue Mar 22 18:00:45 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
@@ -58,7 +58,7 @@ Task_Simple_ADC.asm                                                  PAGE    1
       53                            .dwattr $C$DW$9, DW_AT_type(*$C$DW$T$26)
       54                            .dwendtag $C$DW$7
       55                    
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    2
@@ -118,7 +118,7 @@ Task_Simple_ADC.asm                                                  PAGE    2
      108                            .dwattr $C$DW$23, DW_AT_TI_symbol_name("ADCSequenceDataGet")
      109                            .dwattr $C$DW$23, DW_AT_type(*$C$DW$T$54)
      110                            .dwattr $C$DW$23, DW_AT_declaration
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    3
@@ -178,7 +178,7 @@ Task_Simple_ADC.asm                                                  PAGE    3
      163                            .dwattr $C$DW$35, DW_AT_type(*$C$DW$T$32)
      164                    $C$DW$36        .dwtag  DW_TAG_formal_parameter
      165                            .dwattr $C$DW$36, DW_AT_type(*$C$DW$T$96)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    4
@@ -238,7 +238,7 @@ Task_Simple_ADC.asm                                                  PAGE    4
      218                            .dwattr $C$DW$45, DW_AT_TI_symbol_name("Task_Simple_ADC0_Ch0")
      219                            .dwattr $C$DW$45, DW_AT_external
      220                            .dwattr $C$DW$45, DW_AT_TI_begin_file("../Tasks/Task_Simple_ADC.c")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    5
@@ -298,7 +298,7 @@ Task_Simple_ADC.asm                                                  PAGE    5
      273                            ; CALL OCCURS {xQueueGenericCreate }  ; [] |48| 
      274 0000000e 4928              LDR       A2, $C$CON1           ; [DPU_3_PIPE] |48|  ; [ORIG 16-BIT INS]
      275 00000010 6008              STR       A1, [A2, #0]          ; [DPU_3_PIPE] |48|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    6
@@ -358,7 +358,7 @@ Task_Simple_ADC.asm                                                  PAGE    6
      328                    ;*   Loop closing brace source line  : 97
      329                    ;*   Known Minimum Trip Count        : 1
      330                    ;*   Known Maximum Trip Count        : 4294967295
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    7
@@ -418,7 +418,7 @@ Task_Simple_ADC.asm                                                  PAGE    7
      383                            .dwattr $C$DW$58, DW_AT_name("ADCIntClear")
      384                            .dwattr $C$DW$58, DW_AT_TI_call
      385 00000062 FFFEF7FF!         BL        ADCIntClear           ; [DPU_3_PIPE] |85|  ; [KEEP 32-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    8
@@ -478,7 +478,7 @@ Task_Simple_ADC.asm                                                  PAGE    8
          0000008b 20       
          0000008c 49       
          0000008d 6E       
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE    9
@@ -538,7 +538,7 @@ Task_Simple_ADC.asm                                                  PAGE    9
      456                            .global xQueueGenericSend
      457                            .global xQueueGenericCreate
      458                            .global UARTprintf
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   10
@@ -598,7 +598,7 @@ Task_Simple_ADC.asm                                                  PAGE   10
      511                    
      512                    $C$DW$T$57      .dwtag  DW_TAG_enumeration_type
      513                            .dwattr $C$DW$T$57, DW_AT_byte_size(0x01)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   11
@@ -658,7 +658,7 @@ Task_Simple_ADC.asm                                                  PAGE   11
      566                            .dwattr $C$DW$T$60, DW_AT_type(*$C$DW$T$59)
      567                            .dwattr $C$DW$T$60, DW_AT_language(DW_LANG_C)
      568                            .dwattr $C$DW$T$60, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/task.h")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   12
@@ -718,7 +718,7 @@ Task_Simple_ADC.asm                                                  PAGE   12
      621                            .dwattr $C$DW$80, DW_AT_name("flags")
      622                            .dwattr $C$DW$80, DW_AT_TI_symbol_name("flags")
      623                            .dwattr $C$DW$80, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   13
@@ -778,7 +778,7 @@ Task_Simple_ADC.asm                                                  PAGE   13
      676                            .dwattr $C$DW$T$3, DW_AT_address_class(0x20)
      677                    $C$DW$T$63      .dwtag  DW_TAG_typedef, DW_AT_name("QueueHandle_t")
      678                            .dwattr $C$DW$T$63, DW_AT_type(*$C$DW$T$3)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   14
@@ -838,7 +838,7 @@ Task_Simple_ADC.asm                                                  PAGE   14
      731                            .dwattr $C$DW$T$5, DW_AT_byte_size(0x01)
      732                    $C$DW$T$84      .dwtag  DW_TAG_typedef, DW_AT_name("int8_t")
      733                            .dwattr $C$DW$T$84, DW_AT_type(*$C$DW$T$5)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   15
@@ -898,7 +898,7 @@ Task_Simple_ADC.asm                                                  PAGE   15
      786                            .dwattr $C$DW$T$88, DW_AT_decl_line(0x2c)
      787                            .dwattr $C$DW$T$88, DW_AT_decl_column(0x1d)
      788                    $C$DW$T$89      .dwtag  DW_TAG_typedef, DW_AT_name("int_least16_t")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   16
@@ -958,7 +958,7 @@ Task_Simple_ADC.asm                                                  PAGE   16
      841                            .dwattr $C$DW$T$95, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
      842                            .dwattr $C$DW$T$95, DW_AT_decl_line(0xa9)
      843                            .dwattr $C$DW$T$95, DW_AT_decl_column(0x1e)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   17
@@ -1018,7 +1018,7 @@ Task_Simple_ADC.asm                                                  PAGE   17
      896                            .dwattr $C$DW$T$108, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
      897                            .dwattr $C$DW$T$108, DW_AT_decl_line(0x3c)
      898                            .dwattr $C$DW$T$108, DW_AT_decl_column(0x17)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   18
@@ -1078,7 +1078,7 @@ Task_Simple_ADC.asm                                                  PAGE   18
      951                    $C$DW$T$46      .dwtag  DW_TAG_pointer_type
      952                            .dwattr $C$DW$T$46, DW_AT_type(*$C$DW$T$45)
      953                            .dwattr $C$DW$T$46, DW_AT_address_class(0x20)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   19
@@ -1138,7 +1138,7 @@ Task_Simple_ADC.asm                                                  PAGE   19
     1006                            .dwattr $C$DW$T$122, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2
     1007                            .dwattr $C$DW$T$122, DW_AT_decl_line(0x53)
     1008                            .dwattr $C$DW$T$122, DW_AT_decl_column(0x1a)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   20
@@ -1198,7 +1198,7 @@ Task_Simple_ADC.asm                                                  PAGE   20
     1061                            .dwattr $C$DW$T$129, DW_AT_decl_line(0x40)
     1062                            .dwattr $C$DW$T$129, DW_AT_decl_column(0x17)
     1063                    $C$DW$T$130     .dwtag  DW_TAG_typedef, DW_AT_name("portDOUBLE")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   21
@@ -1258,7 +1258,7 @@ Task_Simple_ADC.asm                                                  PAGE   21
     1116                            .dwattr $C$DW$T$137, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/portable/CCS/ARM_CM
     1117                            .dwattr $C$DW$T$137, DW_AT_decl_line(0x61)
     1118                            .dwattr $C$DW$T$137, DW_AT_decl_column(0x10)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   22
@@ -1318,7 +1318,7 @@ Task_Simple_ADC.asm                                                  PAGE   22
     1171                    $C$DW$T$145     .dwtag  DW_TAG_typedef, DW_AT_name("va_list")
     1172                            .dwattr $C$DW$T$145, DW_AT_type(*$C$DW$T$25)
     1173                            .dwattr $C$DW$T$145, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   23
@@ -1378,7 +1378,7 @@ Task_Simple_ADC.asm                                                  PAGE   23
     1226                    $C$DW$T$34      .dwtag  DW_TAG_structure_type
     1227                            .dwattr $C$DW$T$34, DW_AT_name("xLIST_ITEM")
     1228                            .dwattr $C$DW$T$34, DW_AT_byte_size(0x14)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   24
@@ -1438,7 +1438,7 @@ Task_Simple_ADC.asm                                                  PAGE   24
     1281                            .dwattr $C$DW$T$28, DW_AT_language(DW_LANG_C)
     1282                            .dwattr $C$DW$T$28, DW_AT_decl_file("H:\EECS_690\EECS690_Project01\Source\include\list.h")
     1283                            .dwattr $C$DW$T$28, DW_AT_decl_line(0xbf)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   25
@@ -1498,7 +1498,7 @@ Task_Simple_ADC.asm                                                  PAGE   25
     1336                            .dwattr $C$DW$T$48, DW_AT_language(DW_LANG_C)
     1337                            .dwattr $C$DW$T$48, DW_AT_byte_size(0x0c)
     1338                    $C$DW$97        .dwtag  DW_TAG_subrange_type
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   26
@@ -1558,7 +1558,7 @@ Task_Simple_ADC.asm                                                  PAGE   26
     1391                            .dwattr $C$DW$101, DW_AT_TI_symbol_name("pvTaskCode")
     1392                            .dwattr $C$DW$101, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1393                            .dwattr $C$DW$101, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   27
@@ -1618,7 +1618,7 @@ Task_Simple_ADC.asm                                                  PAGE   27
     1446                            .dwattr $C$DW$107, DW_AT_data_member_location[DW_OP_plus_uconst 0x18]
     1447                            .dwattr $C$DW$107, DW_AT_accessibility(DW_ACCESS_public)
     1448                            .dwattr $C$DW$107, DW_AT_decl_file("H:/EECS_690/EECS690_Project01/Source/include/task.h")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   28
@@ -1678,7 +1678,7 @@ Task_Simple_ADC.asm                                                  PAGE   28
     1501                            .dwattr $C$DW$111, DW_AT_decl_column(0x0d)
     1502                    $C$DW$112       .dwtag  DW_TAG_member
     1503                            .dwattr $C$DW$112, DW_AT_type(*$C$DW$T$27)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   29
@@ -1738,7 +1738,7 @@ Task_Simple_ADC.asm                                                  PAGE   29
     1556                            .dwattr $C$DW$116, DW_AT_TI_symbol_name("xOverflowCount")
     1557                            .dwattr $C$DW$116, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1558                            .dwattr $C$DW$116, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   30
@@ -1798,7 +1798,7 @@ Task_Simple_ADC.asm                                                  PAGE   30
     1611                            .dwcfi  undefined, 67
     1612                            .dwcfi  undefined, 68
     1613                            .dwcfi  undefined, 69
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:30:52 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:45 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 Task_Simple_ADC.asm                                                  PAGE   31

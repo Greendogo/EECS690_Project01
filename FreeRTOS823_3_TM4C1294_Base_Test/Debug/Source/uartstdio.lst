@@ -1,11 +1,11 @@
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                             PC v5.2.2 *
-       3                    ;* Date/Time created: Mon Mar 14 16:28:37 2016                                *
+       3                    ;* Date/Time created: Tue Mar 22 18:00:55 2016                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --disab
        6 00000000                   .thumb
@@ -58,7 +58,7 @@ uartstdio.asm                                                        PAGE    1
       53                            .dwattr $C$DW$9, DW_AT_type(*$C$DW$T$20)
       54                            .dwendtag $C$DW$5
       55                    
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    2
@@ -118,7 +118,7 @@ uartstdio.asm                                                        PAGE    2
      108 00000000                   .sect   ".const"
      109                            .align  4
      110                            .elfsym g_pcHex,SYM_SIZE(4)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    3
@@ -178,7 +178,7 @@ uartstdio.asm                                                        PAGE    3
      163                    
      164                    $C$DW$21        .dwtag  DW_TAG_subprogram, DW_AT_name("UARTStdioConfig")
      165                            .dwattr $C$DW$21, DW_AT_low_pc(UARTStdioConfig)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    4
@@ -238,7 +238,7 @@ uartstdio.asm                                                        PAGE    4
      218                            .dwattr $C$DW$26, DW_AT_type(*$C$DW$T$20)
      219                            .dwattr $C$DW$26, DW_AT_location[DW_OP_breg13 4]
      220                    $C$DW$27        .dwtag  DW_TAG_variable, DW_AT_name("ui32SrcClock")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    5
@@ -298,7 +298,7 @@ uartstdio.asm                                                        PAGE    5
      273                            .dwattr $C$DW$31, DW_AT_low_pc(0x00)
      274                            .dwattr $C$DW$31, DW_AT_name("UARTEnable")
      275                            .dwattr $C$DW$31, DW_AT_TI_call
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    6
@@ -358,7 +358,7 @@ uartstdio.asm                                                        PAGE    6
      328                    ;*                           D3,D3_hi,D4,D4_hi,D5,D5_hi,D6,D6_hi,D7,D7_hi,   *
      329                    ;*                           FPEXC,FPSCR                                     *
      330                    ;*   Regs Used         : A1,A2,A3,A4,V9,SP,LR,SR,D0,D0_hi,D1,D1_hi,D2,D2_hi, *
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    7
@@ -418,7 +418,7 @@ uartstdio.asm                                                        PAGE    7
      383                            ; BRANCHCC OCCURS {||$C$L3||}    ; [] |521| 
      384                    ;* --------------------------------------------------------------------------*
      385                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/uartstdio.c",line 523,column 13,is_stmt,isa
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    8
@@ -478,7 +478,7 @@ uartstdio.asm                                                        PAGE    8
      438                            .thumbfunc UARTgets
      439 0000008c                   .thumb
      440                            .global UARTgets
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE    9
@@ -538,7 +538,7 @@ uartstdio.asm                                                        PAGE    9
      493                            .dwattr $C$DW$46, DW_AT_location[DW_OP_breg13 0]
      494                    $C$DW$47        .dwtag  DW_TAG_variable, DW_AT_name("ui32Len")
      495                            .dwattr $C$DW$47, DW_AT_TI_symbol_name("ui32Len")
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   10
@@ -598,7 +598,7 @@ uartstdio.asm                                                        PAGE   10
      548                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/uartstdio.c",line 684,column 17,is_stmt,isa
      549 000000ba A026              ADR       A1, $C$SL2            ; [DPU_3_PIPE] |684|  ; [ORIG 16-BIT INS]
      550 000000bc 2103              MOVS      A2, #3                ; [DPU_3_PIPE] |684|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   11
@@ -658,7 +658,7 @@ uartstdio.asm                                                        PAGE   11
      603                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/uartstdio.c",line 718,column 13,is_stmt,isa
      604 000000fa 000CF99D          LDRSB     A1, [SP, #12]         ; [DPU_3_PIPE] |718|  ; [KEEP 32-BIT INS]
      605 000000fe 280D              CMP       A1, #13               ; [DPU_3_PIPE] |718|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   12
@@ -718,7 +718,7 @@ uartstdio.asm                                                        PAGE   12
      658                            .dwattr $C$DW$53, DW_AT_low_pc(0x00)
      659                            .dwattr $C$DW$53, DW_AT_name("UARTwrite")
      660                            .dwattr $C$DW$53, DW_AT_TI_call
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   13
@@ -778,7 +778,7 @@ uartstdio.asm                                                        PAGE   13
      713                    ;*****************************************************************************
      714 00000146           UARTgetc:
      715                    ;* --------------------------------------------------------------------------*
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   14
@@ -838,7 +838,7 @@ uartstdio.asm                                                        PAGE   14
      763 00000168 00000000! ||$C$CON4||:    .bits   bLastWasCR$1,32
      764 0000016c                   .sect   ".text"
      765                            .clink
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   15
@@ -898,7 +898,7 @@ uartstdio.asm                                                        PAGE   15
      818                            .dwattr $C$DW$62, DW_AT_TI_symbol_name("vaArgP")
      819                            .dwattr $C$DW$62, DW_AT_type(*$C$DW$T$31)
      820                            .dwattr $C$DW$62, DW_AT_location[DW_OP_breg13 4]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   16
@@ -958,7 +958,7 @@ uartstdio.asm                                                        PAGE   16
      873                    ;* --------------------------------------------------------------------------*
      874 0000017e           ||$C$L12||:    
      875                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/uartstdio.c",line 880,column 13,is_stmt,isa
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   17
@@ -1018,7 +1018,7 @@ uartstdio.asm                                                        PAGE   17
      928 000001bc 2020              MOVS      A1, #32               ; [DPU_3_PIPE] |909|  ; [ORIG 16-BIT INS]
      929 000001be 0034F88D          STRB      A1, [SP, #52]         ; [DPU_3_PIPE] |909|  ; [KEEP 32-BIT INS]
      930                    ;* --------------------------------------------------------------------------*
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   18
@@ -1078,7 +1078,7 @@ uartstdio.asm                                                        PAGE   18
      983                            .dwattr $C$DW$75, DW_AT_low_pc(0x00)
      984                            .dwattr $C$DW$75, DW_AT_name("UARTwrite")
      985                            .dwattr $C$DW$75, DW_AT_TI_call
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   19
@@ -1138,7 +1138,7 @@ uartstdio.asm                                                        PAGE   19
     1038 00000246 1CC0              ADDS      A1, A1, #3            ; [DPU_3_PIPE] |1039|  ; [ORIG 16-BIT INS]
     1039 00000248 0003F020          BIC       A1, A1, #3            ; [DPU_3_PIPE] |1039|  ; [KEEP 32-BIT INS]
     1040 0000024c 1D00              ADDS      A1, A1, #4            ; [DPU_3_PIPE] |1039|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   20
@@ -1198,7 +1198,7 @@ uartstdio.asm                                                        PAGE   20
     1093 00000290 9105              STR       A2, [SP, #20]         ; [DPU_3_PIPE] |1059|  ; [ORIG 16-BIT INS]
     1094 00000292 80E1F000          BEQ       ||$C$L44||            ; [DPU_3_PIPE] |1059|  ; [KEEP 32-BIT INS]
     1095                            ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1059| 
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   21
@@ -1258,7 +1258,7 @@ uartstdio.asm                                                        PAGE   21
     1148                            ; BRANCH OCCURS {||$C$L28||}     ; [] |1100| 
     1149                    ;* --------------------------------------------------------------------------*
     1150 000002cc           ||$C$L27||:    
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   22
@@ -1318,7 +1318,7 @@ uartstdio.asm                                                        PAGE   22
     1203 00000314 4350              MULS      A1, A1, A3            ; [DPU_3_PIPE] |1140|  ; [ORIG 16-BIT INS]
     1204 00000316 F0F3FBB0          UDIV      A1, A1, A4            ; [DPU_3_PIPE] |1140|  ; [KEEP 32-BIT INS]
     1205 0000031a 4281              CMP       A2, A1                ; [DPU_3_PIPE] |1140|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   23
@@ -1378,7 +1378,7 @@ uartstdio.asm                                                        PAGE   23
     1258                            .dwpsn  file "H:/EECS_690/EECS690_Project01/Source/uartstdio.c",line 1179,column 25,is_stmt,is
     1259 00000358 9805              LDR       A1, [SP, #20]         ; [DPU_3_PIPE] |1179|  ; [ORIG 16-BIT INS]
     1260 0000035a B168              CBZ       A1, ||$C$L35||        ; []  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   24
@@ -1438,7 +1438,7 @@ uartstdio.asm                                                        PAGE   24
     1313                    ;*   Known Minimum Trip Count        : 1
     1314                    ;*   Known Maximum Trip Count        : 4294967295
     1315                    ;*   Known Max Trip Count Factor     : 1
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   25
@@ -1498,7 +1498,7 @@ uartstdio.asm                                                        PAGE   25
     1368                            .dwattr $C$DW$80, DW_AT_low_pc(0x00)
     1369                            .dwattr $C$DW$80, DW_AT_name("UARTwrite")
     1370                            .dwattr $C$DW$80, DW_AT_TI_call
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   26
@@ -1558,7 +1558,7 @@ uartstdio.asm                                                        PAGE   26
     1423                    ;* --------------------------------------------------------------------------*
     1424 00000406 1E40              SUBS      A1, A1, #1            ; [DPU_3_PIPE] |921|  ; [ORIG 16-BIT INS]
     1425 00000408 AF02F43F          BEQ       ||$C$L19||            ; [DPU_3_PIPE] |921|  ; [KEEP 32-BIT INS]
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   27
@@ -1618,7 +1618,7 @@ uartstdio.asm                                                        PAGE   27
     1478 00000462 B00F              ADD       SP, SP, #60           ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
     1479                            .dwcfi  cfa_offset, 4
     1480                    $C$DW$82        .dwtag  DW_TAG_TI_branch
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   28
@@ -1678,7 +1678,7 @@ uartstdio.asm                                                        PAGE   28
     1533 00000466 B40F              PUSH      {A1, A2, A3, A4}      ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
     1534                            .dwcfi  cfa_offset, 16
     1535                            .dwcfi  save_reg_to_mem, 3, -4
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   29
@@ -1738,7 +1738,7 @@ uartstdio.asm                                                        PAGE   29
     1588                            .align  4
     1589 0000048c 20        ||$C$SL4||:     .string " ",0
          0000048d 00       
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   30
@@ -1798,7 +1798,7 @@ uartstdio.asm                                                        PAGE   30
     1620                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_denormal(0)
     1621                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_exceptions(0)
     1622                            .battr "aeabi", Tag_File, 1, Tag_ABI_FP_number_model(1)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   31
@@ -1858,7 +1858,7 @@ uartstdio.asm                                                        PAGE   31
     1675                            .dwattr $C$DW$T$7, DW_AT_name("wchar_t")
     1676                            .dwattr $C$DW$T$7, DW_AT_byte_size(0x02)
     1677                    $C$DW$T$8       .dwtag  DW_TAG_base_type
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   32
@@ -1918,7 +1918,7 @@ uartstdio.asm                                                        PAGE   32
     1730                            .dwattr $C$DW$T$46, DW_AT_decl_column(0x1e)
     1731                    $C$DW$T$51      .dwtag  DW_TAG_typedef, DW_AT_name("int32_t")
     1732                            .dwattr $C$DW$T$51, DW_AT_type(*$C$DW$T$10)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   33
@@ -1978,7 +1978,7 @@ uartstdio.asm                                                        PAGE   33
     1785                    
     1786                    $C$DW$T$62      .dwtag  DW_TAG_array_type
     1787                            .dwattr $C$DW$T$62, DW_AT_type(*$C$DW$T$61)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   34
@@ -2038,7 +2038,7 @@ uartstdio.asm                                                        PAGE   34
     1840                            .dwattr $C$DW$T$70, DW_AT_language(DW_LANG_C)
     1841                            .dwattr $C$DW$T$70, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
     1842                            .dwattr $C$DW$T$70, DW_AT_decl_line(0xa7)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   35
@@ -2098,7 +2098,7 @@ uartstdio.asm                                                        PAGE   35
     1895                            .dwattr $C$DW$T$78, DW_AT_type(*$C$DW$T$77)
     1896                            .dwattr $C$DW$T$78, DW_AT_language(DW_LANG_C)
     1897                            .dwattr $C$DW$T$78, DW_AT_decl_file("C:/TI_CodeComposer/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   36
@@ -2158,7 +2158,7 @@ uartstdio.asm                                                        PAGE   36
     1950                            .dwattr $C$DW$T$93, DW_AT_byte_size(0x10)
     1951                    $C$DW$90        .dwtag  DW_TAG_subrange_type
     1952                            .dwattr $C$DW$90, DW_AT_upper_bound(0x0f)
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   37
@@ -2218,7 +2218,7 @@ uartstdio.asm                                                        PAGE   37
     2005                            .dwcfi  same_value, 7
     2006                            .dwcfi  same_value, 8
     2007                            .dwcfi  same_value, 9
-TI ARM Assembler PC v5.2.2 Mon Mar 14 16:28:37 2016
+TI ARM Assembler PC v5.2.2 Tue Mar 22 18:00:55 2016
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 uartstdio.asm                                                        PAGE   38
