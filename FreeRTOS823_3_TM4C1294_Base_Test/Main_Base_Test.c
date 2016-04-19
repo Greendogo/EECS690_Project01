@@ -20,14 +20,21 @@
 #include	"FreeRTOS.h"
 #include	"task.h"
 
+
 #include	<stdio.h>
 #include 	"utils/uartstdio.h"
+#include	"queue.h"
 
 extern uint32_t Processor_Initialization();
 extern void Task_Blink_LED_D1( void *pvParameters );
 extern void Task_ReportTime( void *pvParameters );
 extern void Task_Simple_ADC0_Ch0( void *pvParameters );
+extern void Task_TempConvert(void *pvParameters);
 extern void Task_HeaterOn( void *pvParameters );
+extern void Task_PID( void *pvParameters );
+xQueueHandle queue1;
+xQueueHandle queue2;
+xQueueHandle queue3;
 
 int main( void ) {
 
@@ -35,6 +42,9 @@ int main( void ) {
 
 	Status = Processor_Initialization();
 
+	queue1 = xQueueCreate(5, sizeof(unsigned int) );
+	queue2 = xQueueCreate(5, sizeof(unsigned int) );
+	queue3 = xQueueCreate(5, sizeof(unsigned int) );
     //
     // Enable GPIO port A which is used for UART0 pins.
     // TODO: change this to whichever GPIO port you are using.
@@ -98,9 +108,19 @@ int main( void ) {
 	xTaskCreate( Task_Simple_ADC0_Ch0, "ADC0_Ch0", 512, NULL, 1, NULL );
 
 	//
+	//	Create task to convert ADC vals to Temp vals and push to Queue2
+	//
+	xTaskCreate( Task_TempConvert, "TempConvert", 512, NULL, 1, NULL );
+
+	//
+	//	Create task to do Purna's shit
+	//
+	xTaskCreate( Task_PID, "PID", 512, NULL, 1, NULL );
+	//
 	//	Create task to turn-on the HeaterOn_H
 	//
 	xTaskCreate( Task_HeaterOn, "HeaterOn", 512, NULL, 1, NULL );
+
 
 //	puts  ("Hello, world!" );
 

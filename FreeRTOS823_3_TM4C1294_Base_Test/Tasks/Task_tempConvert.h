@@ -28,7 +28,7 @@
 #include	"stdio.h"
 #include	"queue.h"
 
-extern QueueHandle_t queue2; //Temp queue
+//extern QueueHandle_t queue2; //Temp queue
 
 int convertTemp(int ADCVal);
 

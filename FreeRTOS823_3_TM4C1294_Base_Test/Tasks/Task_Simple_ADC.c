@@ -37,15 +37,14 @@
 //
 //	Gloabal subroutines and variables
 //
-xQueueHandle queue1;
+extern xQueueHandle queue1;
 
-extern void Task_Simple_ADC0_Ch0( void *pvParameters ) {
+void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 
 	//
 	//	Measured voltage value
 	//
 	uint32_t	ADC_Value;
-	queue1 = xQueueCreate(5, sizeof(unsigned int) );
 
 	//
 	//	Enable (power-on) ADC0
@@ -64,7 +63,7 @@ extern void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 	ADCSequenceEnable( ADC0_BASE, 0 );
 
 	UARTprintf( ">>>>ADC Initialized.\n");
-
+	UARTprintf( "ADC, Temp(C), Error\n\n");
 	while ( 1 ) {
 
 		//
@@ -87,9 +86,8 @@ extern void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 		//
 		//	Print ADC_Value
 		//
-		UARTprintf( ">>ADC_Value: %d\n", ADC_Value );
+		UARTprintf( " %d", ADC_Value );
 		xQueueSend(queue1, &ADC_Value, 0);
-
 		//
 		//	Delay one .25 second.
 		//
