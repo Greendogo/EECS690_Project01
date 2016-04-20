@@ -35,6 +35,14 @@ extern void Task_PID( void *pvParameters );
 xQueueHandle queue1;
 xQueueHandle queue2;
 xQueueHandle queue3;
+xQueueHandle queue4;
+
+struct dataPacket {
+	uint32_t timeStamp;
+	uint32_t ADC_Value;
+	int tempValue;
+	uint32_t error;
+} dataPacket;
 
 int main( void ) {
 
@@ -42,9 +50,12 @@ int main( void ) {
 
 	Status = Processor_Initialization();
 
-	queue1 = xQueueCreate(5, sizeof(unsigned int) );
-	queue2 = xQueueCreate(5, sizeof(unsigned int) );
-	queue3 = xQueueCreate(5, sizeof(unsigned int) );
+
+
+	queue1 = xQueueCreate(5, sizeof(dataPacket) ); //Start at ADC
+	queue2 = xQueueCreate(5, sizeof(dataPacket) ); //ADC to TempConvert
+	queue3 = xQueueCreate(5, sizeof(dataPacket) ); //TempConvert to PID
+	queue4 = xQueueCreate(5, sizeof(dataPacket) ); //PID to ReportTime and print
     //
     // Enable GPIO port A which is used for UART0 pins.
     // TODO: change this to whichever GPIO port you are using.
@@ -96,11 +107,6 @@ int main( void ) {
 	//	Create a task to blink LED
 	//
 	xTaskCreate( Task_Blink_LED_D1, "Blinky", 128, NULL, 1, NULL );
-	
-	//
-	//	Create a task to report SysTickCount
-	//
-	xTaskCreate( Task_ReportTime, "ReportTime", 512, NULL, 1, NULL );
 
 	//
 	//	Create task to sample ADC0_Ch0
@@ -121,7 +127,10 @@ int main( void ) {
 	//
 	xTaskCreate( Task_HeaterOn, "HeaterOn", 512, NULL, 1, NULL );
 
-
+	//
+	//	Create a task to report SysTickCount
+	//
+	xTaskCreate( Task_ReportTime, "ReportTime", 512, NULL, 1, NULL );
 //	puts  ("Hello, world!" );
 
 	//

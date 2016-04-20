@@ -30,13 +30,20 @@
 #include	"task.h"
 
 #include	"stdio.h"
+#include	"queue.h"
 
 #define		TimeBase_mS		1000
 #define		OnTime_mS		500
 #define		OffTime_mS		( TimeBase_mS - OnTime_mS )
 
-extern void Task_HeaterOn( void *pvParameters ) {
+struct dataPacket {
+	uint32_t timeStamp;
+	uint32_t ADC_Value;
+	int tempValue;
+	uint32_t error;
+} dataPacket;
 
+extern void Task_HeaterOn( void *pvParameters ) {
 	//
 	//	Enable (power-on) PortG
 	//

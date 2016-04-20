@@ -39,13 +39,20 @@
 //
 extern xQueueHandle queue1;
 
+struct dataPacket {
+	uint32_t timeStamp;
+	uint32_t ADC_Value;
+	int tempValue;
+	uint32_t error;
+} dataPacket;
+
 void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 
 	//
 	//	Measured voltage value
 	//
 	uint32_t	ADC_Value;
-
+	struct dataPacket store;
 	//
 	//	Enable (power-on) ADC0
 	//
@@ -63,7 +70,7 @@ void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 	ADCSequenceEnable( ADC0_BASE, 0 );
 
 	UARTprintf( ">>>>ADC Initialized.\n");
-	UARTprintf( "ADC, Temp(C), Error\n\n");
+	UARTprintf( "Time Stamp,\tADC,\tTemp,\tError,\tHeater On\n\n");
 	while ( 1 ) {
 
 		//
@@ -81,13 +88,14 @@ void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 		// Read the value from the ADC.
 		//
 		ADCSequenceDataGet(ADC0_BASE, 0, &ADC_Value);
+		store.ADC_Value = ADC_Value;
 		ADCIntClear( ADC0_BASE, 0 );
 
 		//
 		//	Print ADC_Value
 		//
-		UARTprintf( " %d", ADC_Value );
-		xQueueSend(queue1, &ADC_Value, 0);
+//		UARTprintf( " %d", ADC_Value );
+		xQueueSend(queue1, &store, 0);
 		//
 		//	Delay one .25 second.
 		//

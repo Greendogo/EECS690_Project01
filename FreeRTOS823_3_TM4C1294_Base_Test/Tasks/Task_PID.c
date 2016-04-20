@@ -7,6 +7,7 @@
 #include	<stdbool.h>
 #include	<stdint.h>
 #include	<stdarg.h>
+#include <Tasks/Task_tempConvert.h>
 
 #include	"driverlib/sysctl.h"
 #include	"driverlib/pin_map.h"
@@ -15,7 +16,6 @@
 #include	"FreeRTOS.h"
 #include 	"queue.h"
 #include	"task.h"
-#include 	"Task_tempConvert.h"
 #include "utils/uartstdio.h"
 
 extern QueueHandle_t queue2;//
@@ -35,24 +35,34 @@ uint32_t	ki=1;
 uint32_t	kd=1;
 
 
+struct dataPacket {
+	uint32_t timeStamp;
+	uint32_t ADC_Value;
+	int tempValue;
+	uint32_t error;
+} dataPacket;
+
+struct dataPacket store;
+
 extern void Task_PID( void *pvParameters ) {
 
 	while(1){
-		if(xQueuePeek( queue2, &currentTemp, ( TickType_t ) 0 ))
+		if(xQueuePeek( queue2, &store, ( TickType_t ) 0 ))
 		{
 			//Receive Input
-			xQueueReceive(queue2,&currentTemp,0);//update current temp from convertTemp task
+			xQueueReceive(queue2,&store,0);//update current temp from convertTemp task
 
 			//Calculations
-			error=desiredTemp-currentTemp;
+			error=desiredTemp-store.tempValue;
 			integral=integral+error/(dt);
 			derivative=(error-previous_error)/dt;
 			output= kp*error+ki*error+kd*error;
 			previous_error=error;
-
+			store.error = error;
 			//Output
-			xQueueSendToBack(queue3, &error, 0);//
-			UARTprintf( ", %d\n", error);//
+			xQueueSendToBack(queue3, &store, 0);//
+//			UARTprintf( ", %d\n", error);//
+//			UARTprintf("%d, %d, %d\n", store.ADC_Value, store.tempValue, store.error);
 		}
 		vTaskDelay(dt);
 	}
