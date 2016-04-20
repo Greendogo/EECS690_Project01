@@ -35,7 +35,6 @@ extern void Task_PID( void *pvParameters );
 xQueueHandle queue1;
 xQueueHandle queue2;
 xQueueHandle queue3;
-xQueueHandle queue4;
 
 struct dataPacket {
 	uint32_t timeStamp;
