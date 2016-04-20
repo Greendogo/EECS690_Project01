@@ -54,7 +54,6 @@ int main( void ) {
 	queue1 = xQueueCreate(5, sizeof(dataPacket) ); //Start at ADC
 	queue2 = xQueueCreate(5, sizeof(dataPacket) ); //ADC to TempConvert
 	queue3 = xQueueCreate(5, sizeof(dataPacket) ); //TempConvert to PID
-	queue4 = xQueueCreate(5, sizeof(dataPacket) ); //PID to ReportTime and print
     //
     // Enable GPIO port A which is used for UART0 pins.
     // TODO: change this to whichever GPIO port you are using.
