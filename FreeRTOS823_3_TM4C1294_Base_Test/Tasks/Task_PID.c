@@ -27,7 +27,7 @@ uint32_t	error;
 uint32_t	derivative;
 uint32_t	output;
 uint32_t	dt=(250* configTICK_RATE_HZ)/1000;
-uint32_t	desiredTemp=40;
+uint32_t	desiredTemp=30;
 uint32_t	currentTemp;
 //control variables
 uint32_t	kp=1;
@@ -47,10 +47,10 @@ struct dataPacket store;
 extern void Task_PID( void *pvParameters ) {
 
 	while(1){
-		if(xQueuePeek( queue2, &store, ( TickType_t ) 0 ))
+		if(xQueueReceive(queue2,&store,0))
 		{
 			//Receive Input
-			xQueueReceive(queue2,&store,0);//update current temp from convertTemp task
+			//xQueueReceive(queue2,&store,0);//update current temp from convertTemp task
 
 			//Calculations
 			error=desiredTemp-store.tempValue;
@@ -63,6 +63,7 @@ extern void Task_PID( void *pvParameters ) {
 			xQueueSendToBack(queue3, &store, 0);//
 //			UARTprintf( ", %d\n", error);//
 //			UARTprintf("%d, %d, %d\n", store.ADC_Value, store.tempValue, store.error);
+			printf("Here #1\n");
 		}
 		vTaskDelay(dt);
 	}

@@ -51,6 +51,7 @@ extern void Task_ReportTime( void *pvParameters ) {
 
 		if(xQueuePeek( queue3, &store, ( TickType_t ) 0 ))
 		{
+			printf("Here #3\n");
 			xQueueReceive(queue3, &store, 0);
 			store.timeStamp = xPortSysTickCount;
 			if(GPIOPinRead(0x40064000, 0x00000001) == 0x00)

@@ -30,10 +30,23 @@
 #include	"task.h"
 
 #include	"stdio.h"
+#include	"queue.h"
+
+extern QueueHandle_t queue3;
+extern QueueHandle_t queue4;
+
+struct dataPacket {
+	uint32_t timeStamp;
+	uint32_t ADC_Value;
+	int tempValue;
+	uint32_t error;
+} dataPacket;
 
 #define		TimeBase_mS		1000
-#define		OnTime_mS		500
-#define		OffTime_mS		( TimeBase_mS - OnTime_mS )
+uint32_t OnTime_mS = 500;
+uint32_t OffTime_mS = 500;
+
+void setDutyCycle();
 
 extern void Task_HeaterOn( void *pvParameters ) {
 
@@ -66,6 +79,7 @@ extern void Task_HeaterOn( void *pvParameters ) {
         //
         // Set HeaterOn_H and D2 for OnTime_mS.
         //
+		setDutyCycle();
         GPIOPinWrite( GPIO_PORTG_BASE, GPIO_PIN_0, 0x01 );
         GPIOPinWrite( GPIO_PORTN_BASE, GPIO_PIN_0, 0x01 );
 		vTaskDelay( ( OnTime_mS * configTICK_RATE_HZ ) / TimeBase_mS );
@@ -77,4 +91,35 @@ extern void Task_HeaterOn( void *pvParameters ) {
         GPIOPinWrite( GPIO_PORTN_BASE, GPIO_PIN_0, 0x00 );
 		vTaskDelay( ( OffTime_mS * configTICK_RATE_HZ ) / TimeBase_mS );
 	}
+}
+
+void setDutyCycle()
+{
+	struct dataPacket store;
+	uint32_t OnTime_mS1 = 500;
+	uint32_t OffTime_mS1 = 500;
+	if(xQueueReceive(queue3, &store, 10))
+	{
+		printf("Here #2d\n");
+		if(store.error < 1)
+		{
+			printf("Here #2e\n");
+			OnTime_mS = 0;
+			OffTime_mS = 1000;
+		}
+		else if(store.error > 10)
+		{
+			printf("Here #2f\n");
+			OnTime_mS = 1000;
+			OffTime_mS = 0;
+		}
+		else if(store.error > 2)
+		{
+			printf("Here #2g\n");
+			OnTime_mS = 500;
+			OffTime_mS = 500;
+		}
+		printf("Here #2h\n");
+	}
+	printf("Here #2i\n");
 }
