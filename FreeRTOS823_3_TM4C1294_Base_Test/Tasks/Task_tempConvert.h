@@ -30,6 +30,6 @@
 
 //extern QueueHandle_t queue2; //Temp queue
 
-int convertTemp(int ADCVal);
+float convertTemp(int ADCVal);
 
 #endif /* TASKS_TASK_TEMPCONVERT_H_ */

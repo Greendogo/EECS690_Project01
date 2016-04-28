@@ -21,25 +21,25 @@
 extern QueueHandle_t queue2;//
 extern QueueHandle_t queue3;//
 
-uint32_t	previous_error;
-uint32_t	integral;
-uint32_t	error;
-uint32_t	derivative;
-uint32_t	output;
-uint32_t	dt=(250* configTICK_RATE_HZ)/1000;
-uint32_t	desiredTemp=30;
-uint32_t	currentTemp;
+float	previous_error;
+float	integral;
+float	error;
+float	derivative;
+float	output;
+float	dt=(250* configTICK_RATE_HZ)/1000;
+float	desiredTemp=30;
+float	currentTemp;
 //control variables
-uint32_t	kp=1;
-uint32_t	ki=1;
-uint32_t	kd=1;
+float	kp=1;
+float	ki=1;
+float	kd=1;
 
 
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
-	int tempValue;
-	uint32_t error;
+	float tempValue;
+	float error;
 } dataPacket;
 
 struct dataPacket store;
@@ -63,7 +63,6 @@ extern void Task_PID( void *pvParameters ) {
 			xQueueSendToBack(queue3, &store, 0);//
 //			UARTprintf( ", %d\n", error);//
 //			UARTprintf("%d, %d, %d\n", store.ADC_Value, store.tempValue, store.error);
-			printf("Here #1\n");
 		}
 		vTaskDelay(dt);
 	}

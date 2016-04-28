@@ -8,6 +8,7 @@
 
 #include <Tasks/Task_tempConvert.h>
 #include "utils/uartstdio.h"
+#include "stdio.h"
 
 extern QueueHandle_t queue2;
 extern QueueHandle_t queue1;
@@ -19,8 +20,8 @@ extern QueueHandle_t queue1;
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
-	int tempValue;
-	uint32_t error;
+	float tempValue;
+	float error;
 } dataPacket;
 
 void Task_TempConvert(void *pvParameters)
@@ -46,8 +47,9 @@ void Task_TempConvert(void *pvParameters)
 	}
 }
 
-int convertTemp(int ADCVal)
+float convertTemp(int ADCVal)
 {
+	float temp = 91.93 - 30.45*ADCVal*3.3/4096.0;
 //	int tempR = 0;
 //	tempR = (5000*3300)/(3300 - ADCVal);
 //	int i = 0;
@@ -56,5 +58,5 @@ int convertTemp(int ADCVal)
 //		i++;
 //	}
 //	return temperatureArray[i];
-	return 91.93 - 30.45*ADCVal*3.3/4096;
+	return temp;
 }

@@ -39,8 +39,8 @@ xQueueHandle queue3;
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
-	int tempValue;
-	uint32_t error;
+	float tempValue;
+	float error;
 } dataPacket;
 
 int main( void ) {

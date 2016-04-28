@@ -42,8 +42,8 @@ extern xQueueHandle queue1;
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
-	int tempValue;
-	uint32_t error;
+	float tempValue;
+	float error;
 } dataPacket;
 
 void Task_Simple_ADC0_Ch0( void *pvParameters ) {
