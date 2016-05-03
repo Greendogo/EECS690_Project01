@@ -30,12 +30,14 @@ extern QueueHandle_t queue3; /*!< Queue used for storing the dataPacket after er
  * \var timeStamp A uint32_t representing the time of when data was taken
  * \var ADC_Value A uint32_t representing the ADC_Value read in
  * \var tempValue A float representing the converted temperature in celcius
+ * \var desiredTemp A float representing the desired temperature in celcius
  * \var error A float representing the calculated error from the PID
  */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
 	float tempValue;
+	float desiredTemp;
 	float error;
 } dataPacket;
 
@@ -90,17 +92,19 @@ extern void Task_ReportTime( void *pvParameters ) {
 	//
 	//	Enter task loop
 	//
+	UARTprintf("\n\n");
+	UARTprintf( "Time Stamp,\tADC,\tTemp,\tGoal,\tError,\tHeater On");
+	UARTprintf("\n\n");
 	while ( 1 ) {
 
 		if(xQueuePeek( queue3, &store, ( TickType_t ) 0 ))
 		{
-			printf("Here #3\n");
 			xQueueReceive(queue3, &store, 0);
 			store.timeStamp = xPortSysTickCount;
 			if(GPIOPinRead(0x40064000, 0x00000001) == 0x00)
-				UARTprintf("%010d,\t%d,\t%d.%02d,\t%d.%02d,\tOFF\n", store.timeStamp, store.ADC_Value, iPart(store.tempValue), fPart(store.tempValue,2), iPart(store.error), fPart(store.error,2));
+				UARTprintf("%010d,\t%d,\t%d.%02d,\t%d,\t%d.%02d,\tOFF\n", store.timeStamp, store.ADC_Value, iPart(store.tempValue), fPart(store.tempValue,2), (int) store.desiredTemp, iPart(store.error), fPart(store.error,2));
 			else
-				UARTprintf("%010d,\t%d,\t%d.%02d,\t%d.%02d,\tON\n", store.timeStamp, store.ADC_Value, iPart(store.tempValue), fPart(store.tempValue,2), iPart(store.error), fPart(store.error,2));
+				UARTprintf("%010d,\t%d,\t%d.%02d,\t%d,\t%d.%02d,\tON\n", store.timeStamp, store.ADC_Value, iPart(store.tempValue), fPart(store.tempValue,2), (int) store.desiredTemp, iPart(store.error), fPart(store.error,2));
 		}
 		vTaskDelay( (250 * configTICK_RATE_HZ) / 1000 );
 	}

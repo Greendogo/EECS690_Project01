@@ -7,7 +7,7 @@
 #include	<stdbool.h>
 #include	<stdint.h>
 #include	<stdarg.h>
-#include <Tasks/Task_tempConvert.h>
+#include	<Tasks/Task_tempConvert.h>
 
 #include	"driverlib/sysctl.h"
 #include	"driverlib/pin_map.h"
@@ -17,6 +17,7 @@
 #include 	"queue.h"
 #include	"task.h"
 #include "utils/uartstdio.h"
+#include "Task_Buttons.h"
 
 extern QueueHandle_t queue2; /*!< Queue used for storing the dataPacket after temperature value is calcuated and set to dataPacket's member variable tempValue */
 
@@ -28,7 +29,7 @@ float	error; /*!< float representing the calculated error between the desired te
 float	derivative; /*!< float representing the calculated derivative of the error minus the previous error over time (dt) */
 float	output;
 float	dt=(250* configTICK_RATE_HZ)/1000; /*!< float representing the difference in time from last measurement to current measurement */
-float	desiredTemp=30; /*!< float representing constant, hardcoded value of the desired temperature in celcius */
+float	goalTemp=30; /*!< float representing constant, hardcoded value of the desired temperature in celcius */
 float	currentTemp; /*!< float representing the current, calculated temperature in celcius */
 //control variables
 float	kp=1;
@@ -41,12 +42,14 @@ float	kd=1;
  * \var timeStamp A uint32_t representing the time of when data was taken
  * \var ADC_Value A uint32_t representing the ADC_Value read in
  * \var tempValue A float representing the converted temperature in celcius
+ * \var desiredTemp A float representing the desired temperature in celcius
  * \var error A float representing the calculated error from the PID
  */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
 	float tempValue;
+	float desiredTemp;
 	float error;
 } dataPacket;
 
@@ -70,12 +73,13 @@ extern void Task_PID( void *pvParameters ) {
 			//xQueueReceive(queue2,&store,0);//update current temp from convertTemp task
 
 			//Calculations
-			error=desiredTemp-store.tempValue;
-			integral=integral+error/(dt);
-			derivative=(error-previous_error)/dt;
-			output= kp*error+ki*error+kd*error;
-			previous_error=error;
+			error = goalTemp - store.tempValue;
+			integral = integral + error/(dt);
+			derivative = (error - previous_error)/dt;
+			output = kp*error + ki*error + kd*error;
+			previous_error = error;
 			store.error = error;
+			store.desiredTemp = goalTemp;
 			//Output
 			xQueueSendToBack(queue3, &store, 0);//
 //			UARTprintf( ", %d\n", error);//

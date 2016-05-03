@@ -41,12 +41,14 @@ extern QueueHandle_t queue4;
  * \var timeStamp A uint32_t representing the time of when data was taken
  * \var ADC_Value A uint32_t representing the ADC_Value read in
  * \var tempValue A float representing the converted temperature in celcius
+ * \var desiredTemp A float representing the desired temperature in celcius
  * \var error A float representing the calculated error from the PID
  */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
 	float tempValue;
+	float desiredTemp;
 	float error;
 } dataPacket;
 
@@ -128,8 +130,6 @@ extern void Task_HeaterOn( void *pvParameters ) {
 void setDutyCycle()
 {
 	struct dataPacket store;
-	uint32_t OnTime_mS1 = 500;
-	uint32_t OffTime_mS1 = 500;
 	if(xQueueReceive(queue3, &store, 10))
 	{
 

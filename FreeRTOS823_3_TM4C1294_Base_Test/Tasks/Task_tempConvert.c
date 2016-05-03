@@ -24,14 +24,17 @@ extern QueueHandle_t queue1; /*!< Queue used for storing the dataPacket after AD
  * \var timeStamp A uint32_t representing the time of when data was taken
  * \var ADC_Value A uint32_t representing the ADC_Value read in
  * \var tempValue A float representing the converted temperature in celcius
+ * \var desiredTemp A float representing the desired temperature in celcius
  * \var error A float representing the calculated error from the PID
  */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
 	float tempValue;
+	float desiredTemp;
 	float error;
 } dataPacket;
+
 /**
  * \fn Task_TempConvert(void *pvParameters)
  * \brief Uses the ADC value from the queue ADC uses to store ADC values and converts it into a temperature in celcius

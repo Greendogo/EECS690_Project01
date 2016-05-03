@@ -12,13 +12,15 @@
 #include "driverlib/sysctl.h"
 #include "driverlib/gpio.h"
 #include "inc/hw_memmap.h"
+#include "Task_PID.h"
+#include	<stdio.h>
 
 //defines
 #define MINUS GPIO_PIN_0
 #define PLUS GPIO_PIN_1
 #define BUTTONS (MINUS|PLUS)
 
-extern unsigned char goalTemp;
+extern float goalTemp;
 extern void buttonControl(void *);
 
 #endif /* TASKS_TASK_BUTTONS_H_ */

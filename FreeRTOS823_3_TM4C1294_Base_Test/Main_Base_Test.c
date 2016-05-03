@@ -32,14 +32,25 @@ extern void Task_Simple_ADC0_Ch0( void *pvParameters );
 extern void Task_TempConvert(void *pvParameters);
 extern void Task_HeaterOn( void *pvParameters );
 extern void Task_PID( void *pvParameters );
+extern void buttonControl(void *);
 xQueueHandle queue1;
 xQueueHandle queue2;
 xQueueHandle queue3;
 
+/**
+ * \struct dataPacket
+ * \brief A structure to hold all data types used for each program decision involving a temperature read and printing information to UART
+ * \var timeStamp A uint32_t representing the time of when data was taken
+ * \var ADC_Value A uint32_t representing the ADC_Value read in
+ * \var tempValue A float representing the converted temperature in celcius
+ * \var desiredTemp A float representing the desired temperature in celcius
+ * \var error A float representing the calculated error from the PID
+ */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
 	float tempValue;
+	float desiredTemp;
 	float error;
 } dataPacket;
 
@@ -129,6 +140,12 @@ int main( void ) {
 	//	Create a task to report SysTickCount
 	//
 	xTaskCreate( Task_ReportTime, "ReportTime", 512, NULL, 1, NULL );
+
+	//
+	//	Create a task to capture Button presses
+	//
+	xTaskCreate( buttonControl, "buttonControl", 512, NULL, 1, NULL );
+
 //	puts  ("Hello, world!" );
 
 	//

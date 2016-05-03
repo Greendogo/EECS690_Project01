@@ -45,12 +45,14 @@ extern xQueueHandle queue1; /*!< Queue used for storing the dataPacket after ADC
  * \var timeStamp A uint32_t representing the time of when data was taken
  * \var ADC_Value A uint32_t representing the ADC_Value read in
  * \var tempValue A float representing the converted temperature in celcius
+ * \var desiredTemp A float representing the desired temperature in celcius
  * \var error A float representing the calculated error from the PID
  */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
 	float tempValue;
+	float desiredTemp;
 	float error;
 } dataPacket;
 
@@ -85,8 +87,8 @@ void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 
 	ADCSequenceEnable( ADC0_BASE, 0 );
 
-	UARTprintf( ">>>>ADC Initialized.\n");
-	UARTprintf( "Time Stamp,\tADC,\tTemp,\tError,\tHeater On\n\n");
+	UARTprintf( ">>>>ADC Initialized.");
+
 	while ( 1 ) {
 
 		//
