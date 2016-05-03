@@ -32,9 +32,17 @@
 #include	"stdio.h"
 #include	"queue.h"
 
-extern QueueHandle_t queue3;
+extern QueueHandle_t queue3; /*!< Queue used for storing the dataPacket after error is calculated and set to dataPacket's member variable error */
 extern QueueHandle_t queue4;
 
+/**
+ * \struct dataPacket
+ * \brief A structure to hold all data types used for each program decision involving a temperature read and printing information to UART
+ * \var timeStamp A uint32_t representing the time of when data was taken
+ * \var ADC_Value A uint32_t representing the ADC_Value read in
+ * \var tempValue A float representing the converted temperature in celcius
+ * \var error A float representing the calculated error from the PID
+ */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
@@ -43,22 +51,32 @@ struct dataPacket {
 } dataPacket;
 
 #define		TimeBase_mS		1000
-uint32_t OnTime_mS = 500; /*!< -description here */
-uint32_t OffTime_mS = 500; /*!< -description here */
+
+
+uint32_t OnTime_mS = 500; /*!< uint32_t representing the time in mS the heater will stay on for the duty cycle*/
+uint32_t OffTime_mS = 500; /*!< uint32_t representing the time in mS the heater will stay off for the duty cycle */
 
 
 /**
+ * 	\fn setDutyCycle()
  * 	\brief Sets next duty cycle based on dequeued dataPacket's error member.
  *	\pre There is a value stored in the queue
  *	\post Will adjust the duty cycle based on dataPacket's error member
+ *	This will set the duty cycle based on the dataPacket's error member, increasing to always on if the error is greater than 2, decreasing to always off if error is less than 1
+ *	or spliting on time and off time 50/50 if error is greater than zero and in between 1 and 2.
  */
 void setDutyCycle();
 
 
 
 /**
- *  \brief
+ * \fn Task_HeaterOn(void *pvParameters)
+ * \brief Turns the heater on and off for the specified OnTime_ms and OffTime_ms set according to the instructions set by setDutyCycle()
+ * \pre setDutyCycle() sets OnTime_ms and OffTime_ms appropriately
+ * \post Heater will be turned on and off according to the specified OnTime_ms and OffTime_ms
  *
+ * Turns the heater on and delays for OnTime_ms time set by setDutyCycle(), then turns heater off and delays for OffTime_ms, again set by setDutyCycle()
+ * and delays
  */
 extern void Task_HeaterOn( void *pvParameters ) {
 

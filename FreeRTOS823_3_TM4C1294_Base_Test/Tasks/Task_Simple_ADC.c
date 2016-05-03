@@ -37,8 +37,16 @@
 //
 //	Gloabal subroutines and variables
 //
-extern xQueueHandle queue1;
+extern xQueueHandle queue1; /*!< Queue used for storing the dataPacket after ADC value is read in and set to dataPacket's member variable ADC_value */
 
+/**
+ * \struct dataPacket
+ * \brief A structure to hold all data types used for each program decision involving a temperature read and printing information to UART
+ * \var timeStamp A uint32_t representing the time of when data was taken
+ * \var ADC_Value A uint32_t representing the ADC_Value read in
+ * \var tempValue A float representing the converted temperature in celcius
+ * \var error A float representing the calculated error from the PID
+ */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
@@ -46,6 +54,14 @@ struct dataPacket {
 	float error;
 } dataPacket;
 
+
+/**
+ * \fn Task_Simple_ADC0_Ch0(void *pvParameters)
+ * \brief Reads in a value from the ADC and puts the value in dataPacket's ADC_Value member variable, then stores the dataPacket on the queue
+ * \post dataPacket with most current ADC read is put on a queue
+ *
+ * Reads in a value from the ADC, sets dataPacket's ADC_Value member variable to the value read in, sends the dataPacket to to the back of the queue.
+ */
 void Task_Simple_ADC0_Ch0( void *pvParameters ) {
 
 	//

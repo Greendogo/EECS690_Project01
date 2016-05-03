@@ -18,23 +18,31 @@
 #include	"task.h"
 #include "utils/uartstdio.h"
 
-extern QueueHandle_t queue2;//
-extern QueueHandle_t queue3;//
+extern QueueHandle_t queue2; /*!< Queue used for storing the dataPacket after temperature value is calcuated and set to dataPacket's member variable tempValue */
 
-float	previous_error;
-float	integral;
-float	error;
-float	derivative;
+extern QueueHandle_t queue3; /*!< Queue used for storing the dataPacket after error is calculated and set to dataPacket's member variable error */
+
+float	previous_error; /*!< float representing the previously calculated error */
+float	integral; /*!< float representing the calculated integral of the previous integral plus the error over time, dt */
+float	error; /*!< float representing the calculated error between the desired temperature and the actual temperature */
+float	derivative; /*!< float representing the calculated derivative of the error minus the previous error over time (dt) */
 float	output;
-float	dt=(250* configTICK_RATE_HZ)/1000;
-float	desiredTemp=30;
-float	currentTemp;
+float	dt=(250* configTICK_RATE_HZ)/1000; /*!< float representing the difference in time from last measurement to current measurement */
+float	desiredTemp=30; /*!< float representing constant, hardcoded value of the desired temperature in celcius */
+float	currentTemp; /*!< float representing the current, calculated temperature in celcius */
 //control variables
 float	kp=1;
 float	ki=1;
 float	kd=1;
 
-
+/**
+ * \struct dataPacket
+ * \brief A structure to hold all data types used for each program decision involving a temperature read and printing information to UART
+ * \var timeStamp A uint32_t representing the time of when data was taken
+ * \var ADC_Value A uint32_t representing the ADC_Value read in
+ * \var tempValue A float representing the converted temperature in celcius
+ * \var error A float representing the calculated error from the PID
+ */
 struct dataPacket {
 	uint32_t timeStamp;
 	uint32_t ADC_Value;
@@ -42,8 +50,17 @@ struct dataPacket {
 	float error;
 } dataPacket;
 
-struct dataPacket store;
+struct dataPacket store; /*!< the dataPacket being referred to in the error calculations*/
 
+/**
+ * \fn Task_PID(void *pvParameters)
+ * \brief Calcuates the error between the desired temperature and the received temperature
+ * \pre There is a value on the queue
+ * \post Calculates the value of the error between the desired temperature and the current temperature and stores in the referred dataPacket's error member variable
+ *
+ * Receives the dataPacket queue used to store the calculated temperature value in celcius, finds the error of the dataPacket's temperature against the desired temperature, integral, and derivative of the error.
+ * Sets dataPacket's error member variable to the calculated error, and sends dataPacket onto the queue the report time task will be using to print.
+ */
 extern void Task_PID( void *pvParameters ) {
 
 	while(1){
