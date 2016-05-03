@@ -76,9 +76,9 @@ extern void Task_PID( void *pvParameters ) {
 			error = goalTemp - store.tempValue;
 			integral = integral + error/(dt);
 			derivative = (error - previous_error)/dt;
-			output = kp*error + ki*error + kd*error;
-			previous_error = error;
-			store.error = error;
+			output = kp*error + ki*integral + kd*derivative;
+			previous_error = output;
+			store.error = output;
 			store.desiredTemp = goalTemp;
 			//Output
 			xQueueSendToBack(queue3, &store, 0);//
