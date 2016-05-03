@@ -11,15 +11,6 @@ unsigned char PreviousState = BUTTONS;
 unsigned char buttonPushed = BUTTONS;
 extern unsigned char CurrentState = BUTTONS;
 
-void startScreen(void){
-	GPIOPinTypeGPIOInput(GPIO_PORTG_BASE, GPIO_PIN_7); 	// Set the select button signal PG7 as input
-	while(GPIOPinRead(GPIO_PORTG_BASE, GPIO_PIN_7)) // Wait until the signal changes (button pressed)
-	{
-		selectTimer++;	//Used to seed a random number generator in game.c
-	}
-	SysCtlPeripheralReset(SYSCTL_PERIPH_GPIOG);
-}
-
 void buttonControl(void *pvParameters){
 	SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOJ);
 	GPIOPinTypeGPIOInput(GPIO_PORTJ_BASE, BUTTONS);
@@ -40,19 +31,19 @@ void buttonControl(void *pvParameters){
 				if(!(PreviousState & MINUS)){
 					if(goalTemp > 15){
 						goalTemp--;
-						printf("Decreased Temperature to:\t%d\n", goalTemp);
+						printf("Decreased Temperature to:\t%d\n", (int) goalTemp);
 					} else{
 						goalTemp = 15;
-						printf("Minimum Temperature:\t%d\n", goalTemp);
+						printf("Minimum Temperature:\t%d\n", (int) goalTemp);
 					}
 				}
 				if(!(PreviousState & PLUS)){
 					if(goalTemp < 91){
 						goalTemp++;
-						printf("Increased Temperature to:\t%d\n", goalTemp);
+						printf("Increased Temperature to:\t%d\n", (int) goalTemp);
 					} else{
 						goalTemp = 91;
-						printf("Maximum Temperature:\t%d\n", goalTemp);
+						printf("Maximum Temperature:\t%d\n", (int) goalTemp);
 					}
 				}
 			}
